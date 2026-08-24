@@ -1,0 +1,16 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>全息 arXiv 每日推送</title><style>
+:root{color-scheme:light;--ink:#172033;--muted:#64748b;--accent:#3157d5;--card:#fff;--bg:#f4f7fb}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,"Segoe UI","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--ink)}
+header,main{max-width:1100px;margin:auto;padding:1.2rem}header h1{margin-bottom:.3rem}.muted{color:var(--muted)}
+nav{display:flex;gap:1rem;flex-wrap:wrap;margin:1rem 0}nav a{color:var(--accent)}.grid{display:grid;gap:1rem}
+.paper{background:var(--card);border:1px solid #dce4f1;border-radius:14px;padding:1.1rem;box-shadow:0 3px 15px #1831530a}
+.badge{display:inline-block;background:#e8eeff;color:#2948aa;border-radius:999px;padding:.2rem .55rem;margin:.1rem;font-size:.82rem}
+.filter{border:1px solid #b9c7e8;background:#fff;color:var(--accent);border-radius:999px;padding:.4rem .7rem;margin:.2rem;cursor:pointer}.paper[hidden]{display:none}
+a{color:var(--accent)}h2{margin-top:2rem}.abstract{line-height:1.65}.meta{font-size:.9rem;color:var(--muted)}
+@media(max-width:650px){header,main{padding:.8rem}.paper{padding:.85rem}h1{font-size:1.55rem}}
+</style></head><body><header><h1>全息 arXiv 每日推送</h1><p class="muted">理论物理全息论文中文索引</p>
+<nav><a href="#dates">按日期浏览</a><a href="#topics">按主题浏览</a><a href="#papers">每日完整论文</a></nav></header><main>
+<section id="dates"><h2>按日期浏览</h2><div><button class="filter" data-filter-kind="all" data-filter-value="">显示全部</button></div></section><section id="topics"><h2>按主题浏览</h2><div></div></section>
+<section id="papers"><h2>每日完整论文</h2><div class="grid"><p>暂无记录。</p></div></section></main>
+<script>document.querySelectorAll('.filter').forEach(function(button){button.addEventListener('click',function(){var kind=button.dataset.filterKind,value=button.dataset.filterValue;document.querySelectorAll('.paper').forEach(function(card){card.hidden=kind!=='all'&&card.dataset[kind]!==value;});document.getElementById('papers').scrollIntoView({behavior:'smooth'});});});</script></body></html>

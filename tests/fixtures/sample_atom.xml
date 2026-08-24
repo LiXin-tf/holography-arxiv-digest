@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>arXiv hep-th updates</title>
+  <entry>
+    <title>Holographic &lt;script&gt;alert(1)&lt;/script&gt; Superfluid</title>
+    <id>https://arxiv.org/abs/2608.01234v1</id>
+    <updated>2026-08-24T01:00:00Z</updated><published>2026-08-24T01:00:00Z</published>
+    <summary>We study a holographic superfluid and vortex dynamics.</summary>
+    <author><name>Alice A.</name></author><author><name>Bob B.</name></author>
+    <category term="hep-th"/><category term="cond-mat.supr-con"/>
+    <link href="https://arxiv.org/abs/2608.01234v1" rel="alternate"/>
+    <link href="https://arxiv.org/pdf/2608.01234v1" rel="related" type="application/pdf"/>
+  </entry>
+  <entry>
+    <title>Revised Gauge Gravity Paper</title>
+    <id>http://arxiv.org/abs/hep-th/9901001v3</id>
+    <updated>2026-08-24T02:00:00Z</updated><published>1999-01-01T00:00:00Z</published>
+    <summary>Revision on gauge gravity duality.</summary>
+    <author><name>Carol C.</name></author><category term="hep-th"/>
+  </entry>
+</feed>

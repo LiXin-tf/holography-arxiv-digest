@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <entry>
+  <id>oai:arXiv.org:2608.20452v1</id><title>Official RSS Entry</title>
+  <updated>2026-08-24T04:00:42+00:00</updated><published>2026-08-24T00:00:00-04:00</published>
+  <summary>arXiv:2608.20452v1 Announce Type: new
+Abstract: The actual abstract.</summary>
+  <category term="hep-th"/><arxiv:announce_type>new</arxiv:announce_type>
+  <dc:creator>Alice A., Bob B.</dc:creator>
+  <link href="https://arxiv.org/abs/2608.20452" rel="alternate" type="text/html"/>
+ </entry>
+</feed>
