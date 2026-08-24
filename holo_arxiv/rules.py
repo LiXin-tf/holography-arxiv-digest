@@ -9,6 +9,9 @@ INCLUDE_TERMS = (
     "bulk-boundary", "anti-de sitter", "ads2", "ads3", "ads4", "ads5",
     "janus", "double-trace", "multi-trace", "quasinormal mode", "qnm",
     "sakharov", "syk", "jackiw-teitelboim", "celestial holography",
+    "type iib", "d3-d7", "d3/d7", "d3 d7", "d3–d7", "d3-d5", "d3/d5", "d3 d5", "d3–d5",
+    "probe brane", "probe-brane", "flavor brane", "flavour brane",
+    "dirac-born-infeld", "dirac born infeld", "dbi holograph", "floquet holograph",
 )
 EXCLUDE_PATTERNS = (
     r"\b(optical|digital|computer[- ]generated|acoustic|microwave) holograph",

@@ -30,6 +30,7 @@ FOCUS_TAGS = (
     "相变与气泡成核",
     "QNM与非线性演化",
     "冷原子/双组分BEC/凝聚态实验启发",
+    "D3-D7/D3-D5探针膜与Floquet驱动",
 )
 REQUIRED = {
     "is_theoretical_holography", "confidence", "primary_topic", "secondary_topics",
@@ -89,6 +90,7 @@ primary_topic(下列之一), secondary_topics(数组), title_zh, abstract_zh, on
 importance(low|normal|high), relevance(low|medium|high), relevance_reason, focus_tags(数组)。
 主题：{json.dumps(TOPICS, ensure_ascii=False)}
 用户重点标签（不同研究支线必须分开，不要合并自造标签）：{json.dumps(FOCUS_TAGS, ensure_ascii=False)}
+独立重点支线说明：若论文涉及 Type IIB 中的 D3-D7 或 D3-D5 flavor/probe brane、DBI（Dirac-Born-Infeld）动力学、Floquet/周期驱动、非平衡稳态或金属-绝缘体相变，应使用“D3-D7/D3-D5探针膜与Floquet驱动”标签；可同时归入“全息凝聚态/超流超导/强关联”和“非平衡/热化/输运/混沌/QNM”，但不要与 HHH 超流支线合并。
 若摘要没有足够信息，应明确保守表述并降低置信度。"""
 
 

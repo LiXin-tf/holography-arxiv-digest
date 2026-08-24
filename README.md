@@ -93,7 +93,7 @@ python -m holo_arxiv
 ## 数据与安全说明
 
 - 模型只能依据题目和摘要输出；系统提示明确禁止杜撰，并使用严格字段、主题和用户重点标签校验。
-- 用户研究支线标签独立保存，不把 p 波、多分量、multi-trace、QNM、BEC 等混成自造标签。
+- 用户研究支线标签独立保存，不把 p 波、多分量、multi-trace、QNM、BEC、D3–D7/D3–D5 探针膜与 Floquet 驱动等方向混成自造标签。
 - `data/state.json` 适合 Git 跟踪；`docs/data.json` 供网页或后续工具读取。
 - `docs/data.json` 是独立 JSON 文件；静态 HTML 对题目、摘要、作者、模型文本和 URL 属性进行转义，降低 XSS 风险。
 - PushPlus 官方接口为异步：HTTP 接收成功不等于最终送达。设置 `PUSHPLUS_CALLBACK_URL` 可接收最终状态；未回调前状态明确记录为 `accepted_pending_verification`。

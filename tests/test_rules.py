@@ -15,6 +15,11 @@ def test_other_categories_use_broad_theory_holography_terms():
     assert is_candidate(paper("gr-qc", "Black holes", "AdS/CFT entanglement wedge reconstruction"))
 
 
+def test_other_categories_recall_probe_brane_and_floquet_holography():
+    assert is_candidate(paper("cond-mat.str-el", "Floquet metal-insulator transition", "A D3-D7 probe-brane DBI construction"))
+    assert is_candidate(paper("hep-ph", "Driven flavor matter", "Type IIB D3/D5 flavor brane holography"))
+
+
 def test_optical_and_digital_holography_are_excluded():
     assert not is_candidate(paper("quant-ph", "Digital holographic image reconstruction with a neural network"))
     assert not is_candidate(paper("cond-mat.str-el", "Optical holography", "A laser interference experiment"))

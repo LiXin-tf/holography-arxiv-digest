@@ -4,6 +4,8 @@ import pytest
 from holo_arxiv.classifier import (
     ClassificationError,
     DeepSeekClassifier,
+    FOCUS_TAGS,
+    SYSTEM_PROMPT,
     build_chat_url,
     parse_classification,
 )
@@ -54,6 +56,14 @@ def test_invalid_or_hallucinated_schema_is_rejected():
         parse_classification(json.dumps(valid_result(unexpected="不能接受额外字段"), ensure_ascii=False))
     with pytest.raises(ClassificationError):
         parse_classification(json.dumps(valid_result(keywords=[1, 2]), ensure_ascii=False))
+
+
+def test_d3_d7_d3_d5_floquet_is_an_independent_focus_branch():
+    tag = "D3-D7/D3-D5探针膜与Floquet驱动"
+    assert tag in FOCUS_TAGS
+    assert all(term in SYSTEM_PROMPT for term in ("Type IIB", "D3-D7", "D3-D5", "DBI", "Floquet", "金属-绝缘体相变"))
+    parsed = parse_classification(json.dumps(valid_result(focus_tags=[tag]), ensure_ascii=False))
+    assert parsed["focus_tags"] == [tag]
 
 
 def test_only_low_confidence_invalid_json_or_important_results_are_reviewed():
