@@ -2,8 +2,14 @@ name: 全息 arXiv 每日推送
 
 on:
   schedule:
-    - cron: '0 6 * * 1-5'
+    - cron: '45 5 * * 1-5'
   workflow_dispatch:
+    inputs:
+      deploy_only:
+        description: "只部署当前网站，不抓取论文、不调用 DeepSeek、不发送 PushPlus"
+        required: false
+        default: false
+        type: boolean
 
 concurrency:
   group: holo-arxiv-daily
@@ -38,12 +44,15 @@ jobs:
       - name: 运行测试
         run: python -m pytest -q
       - name: 抓取、分类、生成网页并推送
+        if: ${{ github.event_name == 'schedule' || inputs.deploy_only != true }}
         run: python -m holo_arxiv
+      - name: 检查归档与网站单文件大小
+        run: python -m holo_arxiv.size_guard data docs
       - name: 仅在内容变化时提交历史与网站
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs data/state.json
+          git add docs data
           git diff --cached --quiet || (git commit -m "chore: update daily arXiv digest" && git push)
       - uses: actions/upload-pages-artifact@v3
         with:

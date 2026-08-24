@@ -7,3 +7,5 @@ __pycache__/
 htmlcov/
 .dry-run/
 pushplus-preview.json
+/tools/create_topics_pdf.py
+/*.pdf

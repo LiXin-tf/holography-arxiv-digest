@@ -99,7 +99,8 @@ def run_pipeline(*, dry_run: bool = False, fixture: Path | None = None,
             paper.classification = classifier.classify(paper)
     holography = [p for p in candidates if p.classification.get("is_theoretical_holography")]
     store = StateStore(Path(state_path))
-    pushable = store.record(holography)
+    store.record(holography)
+    pushable = store.pending_v1()
     build_site(store.all_papers(), Path(docs_dir))
     site_url = os.environ.get("SITE_BASE_URL", "")
     sent = False

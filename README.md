@@ -2,25 +2,35 @@
 
 一个可在 GitHub Actions 上自动运行的 Python 项目：工作日抓取 arXiv 官方 Atom 源，用在线 OpenAI-compatible 模型筛选理论物理全息论文，生成中文静态网站，并通过 PushPlus 推送精简目录。
 
-> GitHub Actions 在云端执行，所以即使个人电脑关机，定时任务仍会运行。默认时间是每周一至周五 **UTC 06:00**（北京时间 14:00）；也可在 Actions 页面手动运行。
+> GitHub Actions 在云端执行，所以即使个人电脑关机，定时任务仍会运行。默认时间是每周一至周五 **UTC 05:45**（北京时间 13:45）；既给 arXiv 冬令时 Feed 更新留出缓冲，也避开 PushPlus 整点拥堵，并处于 DeepSeek 低峰价格时段。也可在 Actions 页面手动运行。
 
 ## 功能概览
 
 - 完整检查 `hep-th`；同时检查 `gr-qc`、`hep-ph`、`hep-lat`、`nucl-th`、`math-ph`、`quant-ph`、`cond-mat.str-el`、`cond-mat.supr-con`、`cond-mat.quant-gas`、`cond-mat.stat-mech`。
 - `hep-th` 全量进入在线模型分类；其他分类先用宽泛全息词表高召回，并排除光学/数字全息等同名主题。
-- 按无版本 arXiv ID 去重；v1 新论文可以推送，v2+ 修订保留在网站和状态中但不重复推送。
+- 按无版本 arXiv ID 去重；v1 新论文可以推送，v2+ 修订保留在网站和状态中但不重复推送。PushPlus 短暂失败或关闭时，未发送 v1 会在下次运行自动补发。
 - 主模型默认 `deepseek-v4-flash`；仅在低置信度、无效 JSON 或重点论文时使用 `deepseek-v4-pro` 复核。没有本地模型。
-- 生成浅色响应式 `docs/index.html` 和机器可读的 `docs/data.json`；所有论文和模型文本写入 HTML 前均转义。
+- 完整论文按 `YYYY-MM` 写入月度归档；`data/state.json` 只保留轻量去重索引和有限推送日志，不再嵌入论文全文。
+- 首页只加载最近 30 天；更早论文通过年份/月度归档页按需加载，避免手机浏览器和单个 JSON/HTML 文件随时间变慢。
+- 生成浅色响应式网站、`docs/data/latest.json` 与月度数据；所有论文和模型文本写入 HTML 前均转义。
+- 每次运行自动检查 `data/` 与 `docs/` 文件大小：20 MB 提醒，90 MB 直接阻止提交，早于 GitHub 100 MB 单文件硬限制。
 - PushPlus 默认只包含统计、主题目录和重点推荐，避免消息过长。同步 `code=200` 仅记为 `accepted_pending_verification`，同时保存 `shortCode`。可设置官方支持的回调地址获取异步结果。
 
 ## 目录
 
 ```text
 holo_arxiv/                 生产代码
+├── state.py                轻量索引、旧格式迁移、月度原始归档
+├── site.py                 最近30天首页与年份/月度归档页面
+└── size_guard.py           GitHub单文件大小预警与硬保护
 tests/                      pytest 测试与离线 Atom fixture
-data/state.json             稳定历史、版本与推送流水号
-docs/                       GitHub Pages 静态网站
-.github/workflows/daily.yml 定时、测试、提交与部署
+data/state.json             轻量去重索引和最近推送记录
+data/archive/YYYY-MM.json   按月保存的完整论文历史
+docs/index.html             最近30天首页
+docs/data/latest.json       最近30天机器可读数据
+docs/data/YYYY-MM.json      网站月度数据
+docs/archive/               年份/月度历史页面
+.github/workflows/daily.yml 定时、测试、迁移、大小监控、提交与部署
 ```
 
 ## 先做完全离线演练（推荐）
@@ -49,7 +59,7 @@ python -m holo_arxiv --dry-run --state .dry-run/state.json --docs .dry-run/docs 
 3. 进入 **Settings → Pages → Build and deployment**，Source 选择 **GitHub Actions**。
 4. 在 **Actions** 页选择“全息 arXiv 每日推送”，先点 **Run workflow** 手动验证。
 
-工作流先安装依赖和运行测试，再执行程序；异常不会被吞掉。只有 `docs/` 或 `data/state.json` 有变化时才提交，随后使用官方 Pages actions 部署。工作流不监听 `push`，因此机器人提交不会递归触发。
+工作流先安装依赖和运行测试，再执行程序；旧版单体状态会自动迁移为月度归档，然后运行单文件大小检查。只有 `docs/` 或 `data/` 有变化时才提交，随后使用官方 Pages actions 部署。工作流不监听 `push`，因此机器人提交不会递归触发。手动运行时可勾选 `deploy_only`，仅重新部署当前网站，不抓取论文、不调用 DeepSeek、也不发送 PushPlus。
 
 ## 本地在线运行（可选）
 
