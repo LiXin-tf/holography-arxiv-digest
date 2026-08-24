@@ -1,3 +1,311 @@
 {
-  "papers": []
+  "papers": [
+    {
+      "arxiv_id": "2608.20526",
+      "version": 1,
+      "title": "Thermodynamically Consistent Merging of Multidimensional QCD Equations of State",
+      "abstract": "We present a thermodynamically consistent framework for merging complementary models into a multidimensional QCD equation of state. An internal mixing variable is determined by minimizing a single grand potential at fixed temperature and baryon chemical potential, ensuring thermodynamic consistency and stability. Interactions between the components allow for a crossover, a critical endpoint, and a first-order transition. As a proof of principle, we merge a quantum van der Waals hadron-resonance-gas model with a holographic Einstein--Maxwell--Dilaton model. The resulting equation of state reproduces the appropriate description in each regime, agrees well with available lattice-QCD results, and is suitable for heavy-ion phenomenology over a broad range of temperature and baryon chemical potential.",
+      "authors": [
+        "Prachi Garella",
+        "Yumu Yang",
+        "Musa R. Khan",
+        "Tulio E. Restrepo",
+        "Joaquin Grefa",
+        "Johannes Jahan",
+        "Mauricio Hippert",
+        "Jorge Noronha",
+        "Claudia Ratti",
+        "Romulo Rougemont"
+      ],
+      "categories": [
+        "nucl-th"
+      ],
+      "updated": "2026-08-24T04:00:42.948851+00:00",
+      "published": "2026-08-24T00:00:00-04:00",
+      "source_category": "nucl-th",
+      "abs_url": "https://arxiv.org/abs/2608.20526v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.20526v1",
+      "classification": {
+        "is_theoretical_holography": true,
+        "confidence": 0.85,
+        "primary_topic": "全息 QCD/核物理",
+        "secondary_topics": [
+          "相变/气泡成核/引力热力学"
+        ],
+        "title_zh": "热力学一致的多维QCD状态方程合并",
+        "abstract_zh": "我们提出了一个热力学一致的框架，用于将互补模型合并为多维QCD状态方程。通过在固定温度和重子化学势下最小化单一巨势来确定内部混合变量，从而确保热力学一致性和稳定性。组分之间的相互作用允许实现crossover、临界终点和一阶相变。作为原理验证，我们将量子范德瓦尔斯强子共振气体模型与全息Einstein-Maxwell-Dilaton模型合并。所得状态方程在各区域再现了适当的描述，与现有晶格QCD结果吻合良好，并适用于宽温度和重子化学势范围内的重离子唯象学。",
+        "one_liner": "提出通过最小化单一巨势的热力学一致框架，将强子共振气体与全息Einstein-Maxwell-Dilaton模型合并为可描述crossover、临界终点和一阶相变的QCD状态方程。",
+        "keywords": [
+          "QCD equation of state",
+          "holographic model",
+          "thermodynamic consistency",
+          "critical endpoint",
+          "first-order transition",
+          "heavy-ion phenomenology"
+        ],
+        "importance": "normal",
+        "relevance": "medium",
+        "relevance_reason": "摘要涉及全息QCD状态方程及QCD相变（crossover、临界终点、一阶相变），与用户重点标签“相变与气泡成核”部分相关，但未涉及气泡成核，且主要属于全息QCD/核物理。",
+        "focus_tags": [
+          "相变与气泡成核"
+        ]
+      }
+    },
+    {
+      "arxiv_id": "2608.20529",
+      "version": 1,
+      "title": "Supersymmetric Virasoro Minimal Strings: Unified Perturbative and Non-Perturbative Treatment",
+      "abstract": "There are four known ${N}{=}1$ supersymmetric Virasoro minimal string theories, naturally coming in two pairs and labeled as 0A$^\\pm$ and 0B$^\\pm$. We observe here that all four are naturally described in terms of solutions of an ordinary differential equation that describes certain random matrix models with positive spectra. Two new additional 0A$^-$ theories, which are unorientable, are naturally described by the framework. The formulation allows for simple computation of all perturbative amplitudes, and provides complete non-perturbative information as well. Our approach makes it clear why type 0A$^-$ can be deformed to include a gas of Ramond vertex insertions, which we fully describe, while type 0A$^+$ cannot. While it is known that the $c\\rightarrow\\infty$ limit reduces the 0A$^-$ and 0B$^-$ models to the familiar 0A and 0B JT supergravities of Stanford and Witten, the same limit for the plus pair reduces to non-perturbative completions of ordinary JT gravity, one of which is known. Large families of ${N}{=}2$ and ${N}{=}4$ supersymmetric analogues of the Virasoro minimal strings are also proposed and explored in detail, using the same approach.",
+      "authors": [
+        "Clifford V. Johnson"
+      ],
+      "categories": [
+        "hep-th"
+      ],
+      "updated": "2026-08-24T04:00:42.855087+00:00",
+      "published": "2026-08-24T00:00:00-04:00",
+      "source_category": "hep-th",
+      "abs_url": "https://arxiv.org/abs/2608.20529v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.20529v1",
+      "classification": {
+        "is_theoretical_holography": true,
+        "confidence": 0.95,
+        "primary_topic": "JT/SYK/AdS2/矩阵模型",
+        "secondary_topics": [
+          "黑洞/量子引力/信息"
+        ],
+        "title_zh": "超对称Virasoro最小弦：微扰与非微扰的统一处理",
+        "abstract_zh": "已知有四种N=1超对称Virasoro最小弦理论，自然成对出现并标记为0A±和0B±。我们观察到，这四个理论都可以自然地用某个描述具有正谱的随机矩阵模型的常微分方程的解来描述。该框架还自然描述了两种新的附加0A−理论，它们是不可定向的。该表述允许简单计算所有微扰振幅，并提供完整的非微扰信息。我们的方法明确了为什么0A−类型可以变形为包含拉蒙德顶点插入气体（我们对此进行了完整描述），而0A+类型则不能。虽然已知c→∞极限将0A−和0B−模型约化为Stanford和Witten的熟悉0A和0B JT超引力，但正号对的同一极限则约化为普通JT引力的非微扰完成，其中之一是已知的。我们还使用相同方法提出并详细探讨了N=2和N=4超对称Virasoro最小弦的大类类比。",
+        "one_liner": "通过随机矩阵模型统一描述N=1超对称Virasoro最小弦，并连接JT超引力与普通JT引力的非微扰完成。",
+        "keywords": [
+          "supersymmetric Virasoro minimal strings",
+          "random matrix models",
+          "JT supergravity",
+          "non-perturbative completions",
+          "0A/0B minimal strings",
+          "Ramond vertex insertions",
+          "N=2 and N=4 supersymmetry"
+        ],
+        "importance": "high",
+        "relevance": "low",
+        "relevance_reason": "文章属于弦论/矩阵模型/JT引力方向，与用户重点关注的凝聚态全息、超流超导、畴壁/孤子、相变气泡、冷原子等方向无直接关联。",
+        "focus_tags": []
+      }
+    },
+    {
+      "arxiv_id": "2608.20599",
+      "version": 1,
+      "title": "From Gross-Manes to Alday-Maldacena",
+      "abstract": "Minimal surfaces govern the classical limit of several important observables in string theory. Two basic examples are the Gross--Manes saddle for high-energy string scattering in flat space and the Alday--Maldacena surface for gluon scattering at strong coupling in ${\\cal N}=4$ SYM. In this paper we study a family of null polygonal minimal surfaces in AdS interpolating between these two regimes by moving the cusps from a small region deep in the bulk to the AdS boundary. We do this both numerically and -- in interesting simplifying limits -- analytically. In particular, we derive the leading AdS-radius correction around flat space and show that the resulting classical amplitude agrees with the recent prediction of Alday, Armanini, H\\\"aring, and Zhiboedov, supporting an underlying worldsheet description of their bootstrap construction.",
+      "authors": [
+        "Leonardo Pipolo de Gioia",
+        "Sabrina Pasterski",
+        "Pedro Vieira"
+      ],
+      "categories": [
+        "hep-th"
+      ],
+      "updated": "2026-08-24T04:00:42.855004+00:00",
+      "published": "2026-08-24T00:00:00-04:00",
+      "source_category": "hep-th",
+      "abs_url": "https://arxiv.org/abs/2608.20599v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.20599v1",
+      "classification": {
+        "is_theoretical_holography": true,
+        "confidence": 0.95,
+        "primary_topic": "AdS/CFT 基础与字典",
+        "secondary_topics": [
+          "高自旋/非相对论/hyperscaling"
+        ],
+        "title_zh": "从Gross-Manes到Alday-Maldacena",
+        "abstract_zh": "极小曲面支配了弦论中几个重要观测量的经典极限。两个基本例子是平直空间中高能弦散射的Gross--Manes鞍点，以及${\\cal N}=4$ SYM中强耦合胶子散射的Alday--Maldacena曲面。在本文中，我们研究了AdS中一族零多边形极小曲面，通过将尖点从深处体区域移动到AdS边界，在这两种机制之间进行插值。我们做了数值研究，并在有趣的简化极限中做了解析研究。特别地，我们推导了平直空间周围的AdS半径前导修正，并表明所得经典振幅与Alday、Armanini、H\\\"aring和Zhiboedov最近的预言一致，支持了其自举构造的底层世界面描述。",
+        "one_liner": "研究AdS中零多边形极小曲面族，从Gross-Manes到Alday-Maldacena插值，并推导AdS半径修正。",
+        "keywords": [
+          "极小曲面",
+          "AdS/CFT",
+          "Gross-Manes",
+          "Alday-Maldacena",
+          "胶子散射",
+          "世界面",
+          "弦散射"
+        ],
+        "importance": "normal",
+        "relevance": "low",
+        "relevance_reason": "摘要内容与用户重点标签（全息超流超导、QNM等）无直接关联，属于AdS/CFT形式理论中的散射振幅与极小曲面研究。",
+        "focus_tags": []
+      }
+    },
+    {
+      "arxiv_id": "2608.21178",
+      "version": 1,
+      "title": "Quantum Horizon Tadpole and Emergence of a de Sitter Interior",
+      "abstract": "In a recent paper \\cite{Chu:2026dhx}, the quantum stability of the fuzzy sphere was established at large but finite $N$. In addition, a tadpole was identified for the scaling fluctuation mode of the matrix geometry. In this paper, we show that the tadpole generates a positive surface tension and tends to contract the sphere if the horizon is left isolated. However, when the horizon is coupled to gravity, the tadpole requires the bulk geometry to adjust according to the junction condition of general relativity. Assuming a static, spherically symmetric and non-singular vacuum interior, pure de Sitter space is selected. The matching also fixes an intriguing large-$N$ soldering relation between the de Sitter time inside and the Schwarzschild time outside. Potential cosmological implications are discussed.",
+      "authors": [
+        "Chong-Sun Chu"
+      ],
+      "categories": [
+        "hep-th",
+        "gr-qc",
+        "hep-ph"
+      ],
+      "updated": "2026-08-24T04:00:42.854687+00:00",
+      "published": "2026-08-24T00:00:00-04:00",
+      "source_category": "hep-th",
+      "abs_url": "https://arxiv.org/abs/2608.21178v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.21178v1",
+      "classification": {
+        "is_theoretical_holography": true,
+        "confidence": 0.65,
+        "primary_topic": "黑洞/量子引力/信息",
+        "secondary_topics": [
+          "dS/天球/平直时空/BMS-Carroll",
+          "JT/SYK/AdS2/矩阵模型"
+        ],
+        "title_zh": "量子视界Tadpole与de Sitter内部的涌现",
+        "abstract_zh": "在最近的一篇论文中，模糊球在大而有限的N下的量子稳定性已被确立，同时识别出矩阵几何缩放涨落模式的一个tadpole。本文表明，若视界孤立，该tadpole产生正表面张力并倾向于使球收缩；然而，当视界与引力耦合时，tadpole要求体几何根据广义相对论的连接条件进行调整。在假设静态、球对称、无奇性真空内部的情况下，选择了纯de Sitter空间。匹配还确定了内部de Sitter时间与外部Schwarzschild时间之间的一个有趣的大N焊接关系。文中讨论了潜在的宇宙学意义。",
+        "one_liner": "视界的量子tadpole在引力耦合时使内部几何成为纯de Sitter空间。",
+        "keywords": [
+          "quantum horizon",
+          "tadpole",
+          "fuzzy sphere",
+          "matrix geometry",
+          "de Sitter interior",
+          "junction condition",
+          "large N"
+        ],
+        "importance": "normal",
+        "relevance": "low",
+        "relevance_reason": "摘要内容围绕量子引力中的视界、矩阵几何和de Sitter内部，不涉及全息凝聚态、相变、QNM等用户重点方向。",
+        "focus_tags": []
+      }
+    },
+    {
+      "arxiv_id": "2604.11896",
+      "version": 2,
+      "title": "Strong coupling dynamics of defect RG flows in ABJM",
+      "abstract": "Wilson loop operators in ABJM theory provide a rich arena for studying defect conformal field theories (dCFTs) and the renormalization group (RG) flows connecting them. While these are well understood at weak coupling, a complete strong-coupling picture remains an open problem. In this paper, we present a systematic strong-coupling analysis of the fixed points and operator spectrum underlying defect RG flows in ABJM, via holography. By examining fluctuations of fundamental strings in the AdS$_4 \\times \\mathbb{CP}^3$ background around classical AdS$_2$ solutions, we map worldsheet excitations to the operators in the dual dCFT which are responsible for the flows and determine their scaling dimensions, including subleading corrections from one-loop worldsheet effects. We show how different boundary conditions on string coordinates correspond to distinct operators and provide a geometric realization of the RG flows through interpolating boundary conditions. We apply this framework to fermionic 1/2 BPS, bosonic 1/6 BPS, and non-supersymmetric Wilson loops, establishing a coherent strong-coupling picture in which the 1/2 BPS loop is IR stable, the 1/6 BPS loop acts as a saddle point, and the non-supersymmetric configuration emerges as a natural UV fixed point. We also advance a proposal for the holographic dual of a second non-supersymmetric loop, in terms of averaging over Dirichlet boundary conditions.",
+      "authors": [
+        "Marco S. Bianchi",
+        "Luigi Castiglioni",
+        "Silvia Penati",
+        "Marcia Tenser",
+        "Diego Trancanelli"
+      ],
+      "categories": [
+        "hep-th"
+      ],
+      "updated": "2026-08-24T04:00:42.853441+00:00",
+      "published": "2026-08-24T00:00:00-04:00",
+      "source_category": "hep-th",
+      "abs_url": "https://arxiv.org/abs/2604.11896v2",
+      "pdf_url": "https://arxiv.org/pdf/2604.11896v2",
+      "classification": {
+        "is_theoretical_holography": true,
+        "confidence": 0.95,
+        "primary_topic": "AdS/CFT 基础与字典",
+        "secondary_topics": [],
+        "title_zh": "ABJM 中缺陷 RG 流的强耦合动力学",
+        "abstract_zh": "ABJM 理论中的 Wilson 圈算符为研究缺陷共形场论（dCFT）及其之间的重整化群（RG）流提供了丰富的舞台。虽然这些在弱耦合下已被很好理解，但其完整的强耦合图像仍是一个开放问题。在本文中，我们通过全息方法，对 ABJM 中缺陷 RG 流背后的不动点和算子谱进行了系统的强耦合分析。通过考察 AdS_4 × CP^3 背景中围绕经典 AdS_2 解的基本弦涨落，我们将世界sheet激发映射到驱动这些流的对偶 dCFT 中的算子，并确定其标度维度，包括来自单圈世界sheet效应的次领头阶修正。我们展示了弦坐标上的不同边界条件如何对应不同的算子，并通过插值边界条件给出了 RG 流的几何实现。我们将此框架应用于费米子 1/2 BPS、玻色子 1/6 BPS 以及非超对称 Wilson 圈，建立了一个自洽的强耦合图像：其中 1/2 BPS 圈是红外稳定的，1/6 BPS 圈充当鞍点，而非超对称构型则作为自然的紫外不动点出现。我们还提出了第二个非超对称圈的全息对偶建议，即对 Dirichlet 边界条件取平均。",
+        "one_liner": "通过弦世界sheet涨落分析，建立了 ABJM 缺陷 RG 流的强耦合图像，确定了 Wilson 圈不动点的稳定性与层级。",
+        "keywords": [
+          "ABJM",
+          "Wilson loop",
+          "defect CFT",
+          "RG flow",
+          "holography",
+          "AdS2",
+          "worldsheet fluctuations",
+          "strong coupling"
+        ],
+        "importance": "high",
+        "relevance": "low",
+        "relevance_reason": "论文聚焦 ABJM 缺陷 CFT 的 RG 流及其全息描述，与用户指定的超流/超导、p波、非均匀态等研究支线无直接关联。",
+        "focus_tags": []
+      }
+    },
+    {
+      "arxiv_id": "2604.26038",
+      "version": 2,
+      "title": "The Super Virasoro Minimal String from 3d Supergravity",
+      "abstract": "The super Virasoro minimal string is defined by coupling spacelike and timelike super Liouville theories on the worldsheet. There are four different theories 0A$^\\pm$ and 0B$^\\pm$ depending on discrete choices on the worldsheet. We show that these theories arise naturally from quantization of 3d supergravity, and the amplitudes compute the dimension ($+$) or superdimension ($-$) of the space of $\\mathcal{N}=1$ superconformal blocks modulo crossing symmetry. Both 0A$^+$ and 0B$^+$ are perturbatively dual to the same matrix integral as the bosonic Virasoro minimal string, while 0B$^-$ is dual to a matrix integral with an inverse square root singularity. We show that all non-trivial perturbative amplitudes of the 0A$^-$ theory vanish.",
+      "authors": [
+        "Lorenz Eberhardt"
+      ],
+      "categories": [
+        "hep-th",
+        "math-ph",
+        "math.AG",
+        "math.MP"
+      ],
+      "updated": "2026-08-24T04:00:42.853213+00:00",
+      "published": "2026-08-24T00:00:00-04:00",
+      "source_category": "hep-th",
+      "abs_url": "https://arxiv.org/abs/2604.26038v2",
+      "pdf_url": "https://arxiv.org/pdf/2604.26038v2",
+      "classification": {
+        "is_theoretical_holography": true,
+        "confidence": 0.85,
+        "primary_topic": "JT/SYK/AdS2/矩阵模型",
+        "secondary_topics": [
+          "AdS/CFT 基础与字典"
+        ],
+        "title_zh": "来自三维超引力的超 Virasoro 极小弦",
+        "abstract_zh": "超 Virasoro 极小弦由世界面上类空与类时超 Liouville 理论的耦合定义。根据世界面上的分立选择，存在四种不同理论 0A^± 和 0B^±。我们证明这些理论自然地来自三维超引力的量子化，其振幅计算 N=1 超共形块模掉交叉对称性的空间的维数（+）或超维数（−）。0A^+ 和 0B^+ 在微扰论中与玻色 Virasoro 极小弦的同一个矩阵积分对偶，而 0B^− 对偶到具有平方根倒数奇异性的矩阵积分。我们证明 0A^− 理论的所有非平凡微扰振幅都为零。",
+        "one_liner": "该文从三维超引力量子化导出超 Virasoro 极小弦，将四种世界面理论对偶到矩阵积分并联系到 N=1 超共形块模交叉对称性的维度。",
+        "keywords": [
+          "super Virasoro minimal string",
+          "3d supergravity",
+          "super Liouville theory",
+          "matrix integral",
+          "conformal blocks",
+          "crossing symmetry",
+          "N=1 superconformal blocks"
+        ],
+        "importance": "normal",
+        "relevance": "low",
+        "relevance_reason": "该文涉及超 Virasoro 极小弦、三维超引力和矩阵积分，与用户重点的全息超流超导、p波序参量、畴壁/孤子、相变气泡成核、QNM/非线性演化以及冷原子/BEC 等研究支线没有直接重叠。",
+        "focus_tags": []
+      }
+    },
+    {
+      "arxiv_id": "2608.07919",
+      "version": 2,
+      "title": "The gravity side of the $p$-adic AdS$_2$/CFT$_1$",
+      "abstract": "By means of a higher-dimensional embedding approach, together with the study of distance, measure, and curvature, we construct a gravitational theory on the two-dimensional space over $p$-adic numbers. Before constructing this gravitational theory, we provide supplementary calculations based on existing literature and justify the validity of the gravitational theory by comparison with the real-number case, for instance, the curvatures of de Sitter(dS), anti-de Sitter(AdS), and Euclidean space should be positive, negative, and zero, respectively. Finally, as an example on the gravity side of the $p$-adic AdS$_2$/CFT$_1$, we present the action for a scalar field coupled to gravity.",
+      "authors": [
+        "Feng Qu"
+      ],
+      "categories": [
+        "hep-th"
+      ],
+      "updated": "2026-08-24T04:00:42.853049+00:00",
+      "published": "2026-08-24T00:00:00-04:00",
+      "source_category": "hep-th",
+      "abs_url": "https://arxiv.org/abs/2608.07919v2",
+      "pdf_url": "https://arxiv.org/pdf/2608.07919v2",
+      "classification": {
+        "is_theoretical_holography": true,
+        "confidence": 0.9,
+        "primary_topic": "AdS/CFT 基础与字典",
+        "secondary_topics": [
+          "JT/SYK/AdS2/矩阵模型"
+        ],
+        "title_zh": "p进AdS_2/CFT_1的引力侧",
+        "abstract_zh": "通过高维嵌入方法，并结合距离、测度与曲率的研究，我们在p进数上的二维空间上构造了一个引力理论。在构造该引力理论之前，论文基于现有文献提供了补充计算，并通过与实数情形的对比论证了该引力理论的有效性，例如de Sitter(dS)、反de Sitter(AdS)和欧几里得空间的曲率应分别为正、负和零。最后，作为p进AdS_2/CFT_1引力侧的一个例子，我们给出了与引力耦合的标量场的作用量。",
+        "one_liner": "通过高维嵌入、距离、测度与曲率构造p进数上二维时空的引力理论，并以与实数情形的曲率符号对比验证其合理性，最后给出引力耦合标量场作用量作为p进AdS_2/CFT_1引力侧的例子。",
+        "keywords": [
+          "p-adic AdS/CFT",
+          "AdS2/CFT1",
+          "p-adic gravity",
+          "higher-dimensional embedding",
+          "curvature",
+          "scalar field action"
+        ],
+        "importance": "normal",
+        "relevance": "low",
+        "relevance_reason": "摘要内容为p进AdS/CFT引力侧的理论构造，未涉及用户重点关注的全息超流超导、p波与多分量序参量、畴壁/孤子/涡旋、相变、QNM等凝聚态或动力学方向。",
+        "focus_tags": []
+      }
+    }
+  ]
 }
