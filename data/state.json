@@ -78,6 +78,204 @@
       "version_months": {
         "1": "2026-08"
       }
+    },
+    "2608.21518": {
+      "latest_version": 1,
+      "versions": [
+        1
+      ],
+      "sent_versions": [
+        1
+      ],
+      "version_months": {
+        "1": "2026-08"
+      }
+    },
+    "2608.22013": {
+      "latest_version": 1,
+      "versions": [
+        1
+      ],
+      "sent_versions": [
+        1
+      ],
+      "version_months": {
+        "1": "2026-08"
+      }
+    },
+    "2608.22609": {
+      "latest_version": 1,
+      "versions": [
+        1
+      ],
+      "sent_versions": [
+        1
+      ],
+      "version_months": {
+        "1": "2026-08"
+      }
+    },
+    "2608.22625": {
+      "latest_version": 1,
+      "versions": [
+        1
+      ],
+      "sent_versions": [
+        1
+      ],
+      "version_months": {
+        "1": "2026-08"
+      }
+    },
+    "2608.22855": {
+      "latest_version": 1,
+      "versions": [
+        1
+      ],
+      "sent_versions": [
+        1
+      ],
+      "version_months": {
+        "1": "2026-08"
+      }
+    },
+    "2608.22952": {
+      "latest_version": 1,
+      "versions": [
+        1
+      ],
+      "sent_versions": [
+        1
+      ],
+      "version_months": {
+        "1": "2026-08"
+      }
+    },
+    "2608.23111": {
+      "latest_version": 1,
+      "versions": [
+        1
+      ],
+      "sent_versions": [
+        1
+      ],
+      "version_months": {
+        "1": "2026-08"
+      }
+    },
+    "2608.23298": {
+      "latest_version": 1,
+      "versions": [
+        1
+      ],
+      "sent_versions": [
+        1
+      ],
+      "version_months": {
+        "1": "2026-08"
+      }
+    },
+    "2608.23378": {
+      "latest_version": 1,
+      "versions": [
+        1
+      ],
+      "sent_versions": [
+        1
+      ],
+      "version_months": {
+        "1": "2026-08"
+      }
+    },
+    "1904.06930": {
+      "latest_version": 2,
+      "versions": [
+        2
+      ],
+      "sent_versions": [],
+      "version_months": {
+        "2": "2026-08"
+      }
+    },
+    "2511.10430": {
+      "latest_version": 4,
+      "versions": [
+        4
+      ],
+      "sent_versions": [],
+      "version_months": {
+        "4": "2026-08"
+      }
+    },
+    "2511.10557": {
+      "latest_version": 2,
+      "versions": [
+        2
+      ],
+      "sent_versions": [],
+      "version_months": {
+        "2": "2026-08"
+      }
+    },
+    "2602.18924": {
+      "latest_version": 3,
+      "versions": [
+        3
+      ],
+      "sent_versions": [],
+      "version_months": {
+        "3": "2026-08"
+      }
+    },
+    "2604.14492": {
+      "latest_version": 2,
+      "versions": [
+        2
+      ],
+      "sent_versions": [],
+      "version_months": {
+        "2": "2026-08"
+      }
+    },
+    "2605.26829": {
+      "latest_version": 2,
+      "versions": [
+        2
+      ],
+      "sent_versions": [],
+      "version_months": {
+        "2": "2026-08"
+      }
+    },
+    "2607.27327": {
+      "latest_version": 3,
+      "versions": [
+        3
+      ],
+      "sent_versions": [],
+      "version_months": {
+        "3": "2026-08"
+      }
+    },
+    "2608.01349": {
+      "latest_version": 2,
+      "versions": [
+        2
+      ],
+      "sent_versions": [],
+      "version_months": {
+        "2": "2026-08"
+      }
+    },
+    "2608.10348": {
+      "latest_version": 2,
+      "versions": [
+        2
+      ],
+      "sent_versions": [],
+      "version_months": {
+        "2": "2026-08"
+      }
     }
   },
   "pushes": [
@@ -90,6 +288,22 @@
         "2608.20599v1",
         "2608.21178v1",
         "2608.20526v1"
+      ]
+    },
+    {
+      "at": "2026-08-25T07:01:38.246527+00:00",
+      "status": "accepted_pending_verification",
+      "shortCode": "2284f624e97b4dbabc166b623a90ec84",
+      "paper_ids": [
+        "2608.21518v1",
+        "2608.22013v1",
+        "2608.22609v1",
+        "2608.22625v1",
+        "2608.22855v1",
+        "2608.22952v1",
+        "2608.23111v1",
+        "2608.23298v1",
+        "2608.23378v1"
       ]
     }
   ]
