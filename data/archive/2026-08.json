@@ -1091,6 +1091,751 @@
         "relevance_reason": "论文属于AdS/BCFT中全息复杂度与边界熵的理论研究，与用户重点关注的全息超导、相变成核、QNM、探针膜等具体支线没有直接交集，但对全息字典和量子信息方向有参考价值。",
         "focus_tags": []
       }
+    },
+    "2608.23686v1": {
+      "arxiv_id": "2608.23686",
+      "version": 1,
+      "title": "Color-Kinematics Duality and the Double Copy in Curved Spacetimes",
+      "abstract": "The double copy relates gravitational data to gauge-theory data, most sharply through color-kinematics duality for flat-space scattering amplitudes. This review surveys the extent to which this idea can be formulated beyond asymptotically flat backgrounds. After recalling the flat-space ingredients needed for comparison, we describe curved-space constructions for boundary correlators and scattering observables in AdS, dS, and other non-trivial backgrounds. We then review classical and field-level maps, including Kerr--Schild, Weyl, Cotton, twistor, and convolutional double copies. A separate part is devoted to self-dual sectors. Throughout, we emphasize both the common structures that survive from flat space and the obstructions introduced by curvature.",
+      "authors": [
+        "Mariana Carrillo Gonz\\'alez"
+      ],
+      "categories": [
+        "hep-th",
+        "astro-ph.CO",
+        "gr-qc"
+      ],
+      "updated": "2026-08-26T04:00:52.400402+00:00",
+      "published": "2026-08-26T00:00:00-04:00",
+      "source_category": "hep-th",
+      "abs_url": "https://arxiv.org/abs/2608.23686v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.23686v1",
+      "classification": {
+        "is_theoretical_holography": true,
+        "confidence": 0.7,
+        "primary_topic": "AdS/CFT 基础与字典",
+        "secondary_topics": [
+          "dS/天球/平直时空/BMS-Carroll",
+          "黑洞/量子引力/信息"
+        ],
+        "title_zh": "色-动学对偶与弯曲时空中的双拷贝",
+        "abstract_zh": "双拷贝将引力数据与规范理论数据联系起来，最直接地体现在平直时空散射振幅的色-动学对偶中。本综述考察了这一思想在渐近平坦背景之外可推广到何种程度。在回顾了用于比较的平直时空基本要素后，我们描述了AdS、dS及其他非平凡背景中边界关联子与散射观测量的弯曲时空构造。接着回顾了经典和场级映射，包括Kerr-Schild、Weyl、Cotton、twistor和卷积双拷贝。另一部分专门讨论自对偶扇区。我们始终强调平直时空中幸存的结构以及曲率引入的障碍。",
+        "one_liner": "综述了双拷贝在弯曲时空（包括AdS和dS）中的推广，涵盖边界关联子、经典映射及自对偶扇区。",
+        "keywords": [
+          "double copy",
+          "color-kinematics duality",
+          "AdS",
+          "dS",
+          "boundary correlators",
+          "Kerr-Schild",
+          "Weyl",
+          "twistor"
+        ],
+        "importance": "normal",
+        "relevance": "low",
+        "relevance_reason": "本文聚焦弯曲时空中的双拷贝与色-动学对偶，不涉及全息超流、相变或凝聚态等用户重点方向。",
+        "focus_tags": []
+      }
+    },
+    "2608.23689v1": {
+      "arxiv_id": "2608.23689",
+      "version": 1,
+      "title": "A semiclassical Hilbert space for random matrix theory",
+      "abstract": "We study the one-sided time evolution of thermofield double (TFD) states in random matrix theory, where the Hamiltonian is taken to be a $D\\times D$ random matrix drawn from a unitarily invariant emsemble of Hermitian matrices. We argue that the Krylov basis with the maximally entangled state taken as the initial vector gives a semiclassical Hilbert space description of these TFD states in random matrix theory at any $O(1)$ temperature and time in the $D\\to \\infty$ limit, very analogous to the ``chord Hilbert space'' construction in the double-scaled SYK (DSSYK) model. We study this semiclassical description in detail for ensembles where the spectral density in the $D\\to \\infty$ limit is even, compactly supported on an interval and has square root edges. With a few more conditions on the analytic structure of the spectral density, we observe that the semiclassical Hamiltonian has the same asymptotic behavior at large Krylov depth as that of DSSYK, with the corresponding parameter $\\mathfrak{q}=e^{-\\lambda}$ being related to the location of the nearest zero of the spectral density away from the spectral cut. Furthermore, in a large class of models corresponding to ultraviolet deformations of the DSSYK spectral density, i.e., where the spectrum in the UV is modified while leaving the near-edge behavior unchanged, we show that the semiclassical effective Hamiltonian in the Krylov basis reduces to the Liouville Hamiltonian of JT gravity in a low-energy, continuum limit. This suggests that our semiclassical Hilbert space should be interpreted as the bulk Hilbert space of a dual gravity description.",
+      "authors": [
+        "Abhirup Bhattacharya",
+        "Onkar Parrikar",
+        "Vivek Singh"
+      ],
+      "categories": [
+        "hep-th",
+        "math-ph",
+        "math.MP"
+      ],
+      "updated": "2026-08-26T04:00:52.400338+00:00",
+      "published": "2026-08-26T00:00:00-04:00",
+      "source_category": "hep-th",
+      "abs_url": "https://arxiv.org/abs/2608.23689v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.23689v1",
+      "classification": {
+        "is_theoretical_holography": true,
+        "confidence": 0.95,
+        "primary_topic": "JT/SYK/AdS2/矩阵模型",
+        "secondary_topics": [
+          "AdS/CFT 基础与字典",
+          "黑洞/量子引力/信息"
+        ],
+        "title_zh": "随机矩阵理论的半经典希尔伯特空间",
+        "abstract_zh": "我们研究了随机矩阵理论中热场双态（TFD）的单侧时间演化，其中哈密顿量取自由酉不变厄米矩阵系综抽取的 D×D 随机矩阵。我们论证，在 D→∞ 极限下，以最大纠缠态为初始矢量的 Krylov 基在任意 O(1) 温度和时间内为随机矩阵理论中的这些 TFD 态提供了半经典希尔伯特空间描述，这与双尺度 SYK（DSSYK）模型中的“弦希尔伯特空间”构造非常类似。我们详细研究了谱密度在 D→∞ 极限下为偶函数、紧支撑于一个区间且具有平方根边缘的系综。在对谱密度解析结构的若干额外条件下，我们观察到半经典哈密顿量在较大 Krylov 深度处具有与 DSSYK 相同的渐近行为，相应参数 q=e^{-λ} 与谱密度在谱割之外最近零点的位置相关。此外，在一大类对应于 DSSYK 谱密度紫外（UV）变形的模型中，即在 UV 区修改谱而保持近边缘行为不变的模型中，我们证明 Krylov 基中的半经典有效哈密顿量在低能连续极限下约化为 JT 引力的 Liouville 哈密顿量。这表明我们的半经典希尔伯特空间应被解释为对偶引力描述的体（bulk）希尔伯特空间。",
+        "one_liner": "通过 Krylov 基为随机矩阵理论中的 TFD 态构造半经典希尔伯特空间，揭示其与 DSSYK 弦希尔伯特空间及低能极限下 JT 引力 Liouville 哈密顿量的联系，暗示对偶引力体描述。",
+        "keywords": [
+          "random matrix theory",
+          "Krylov basis",
+          "thermofield double",
+          "DSSYK",
+          "JT gravity",
+          "chord Hilbert space",
+          "semiclassical Hilbert space",
+          "spectral density"
+        ],
+        "importance": "high",
+        "relevance": "low",
+        "relevance_reason": "本文属于 JT/SYK/AdS2 与随机矩阵理论，未涉及用户关注的任何具体研究支线（全息超流超导、p波、畴壁/孤子、multi-trace、相变/气泡成核、QNM、冷原子、D3-D7/D3-D5探针膜与Floquet驱动）。",
+        "focus_tags": []
+      }
+    },
+    "2608.23697v1": {
+      "arxiv_id": "2608.23697",
+      "version": 1,
+      "title": "Bremsstrahlung function from Goldstone bosons in AdS$_2$",
+      "abstract": "We study quantum field theory on the AdS$_2$ worldsheet of the fundamental string dual to the half-BPS Wilson line of $\\mathcal{N}=4$ super Yang-Mills. We consider a recently proposed gauge-fixed string fluctuation Lagrangian around the AdS$_2$ minimal surface, and focus on the nonlinearly realized $SO(6)/SO(5)$ symmetry. The boundary two-point function of the associated tilt operators, whose normalization coefficient is proportional the Bremsstrahlung function, can be related to the bulk two-point function of the broken-symmetry Noether current through the boundary operator expansion. We evaluate the one-loop diagrams contributing to the current correlator, discussing the role of dimensional regularization and recovering the known strong-coupling correction to the Bremsstrahlung function directly from AdS$_2$ worldsheet quantum field theory.",
+      "authors": [
+        "Federico Castellani",
+        "Lorenzo Di Pietro",
+        "Valentina Forini",
+        "Roman Stemplowski"
+      ],
+      "categories": [
+        "hep-th"
+      ],
+      "updated": "2026-08-26T04:00:52.400211+00:00",
+      "published": "2026-08-26T00:00:00-04:00",
+      "source_category": "hep-th",
+      "abs_url": "https://arxiv.org/abs/2608.23697v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.23697v1",
+      "classification": {
+        "is_theoretical_holography": true,
+        "confidence": 0.95,
+        "primary_topic": "AdS/CFT 基础与字典",
+        "secondary_topics": [],
+        "title_zh": "来自 AdS$_2$ 中 Goldstone 玻色子的轫致辐射函数",
+        "abstract_zh": "我们研究由 N=4 超 Yang-Mills 中半 BPS Wilson 线所对偶的基本弦的 AdS$_2$ 世界面上的量子场论。我们考虑最近提出的围绕 AdS$_2$ 极小曲面的规范固定弦涨落拉格朗日量，并关注非线性实现的 SO(6)/SO(5) 对称性。相关倾斜算符的边界两点函数（其归一化系数正比于轫致辐射函数）可以通过边界算符展开与破缺对称 Noether 流的体两点函数联系起来。我们计算了对流关联函数有贡献的单圈图，讨论了维度正则化的作用，并直接从 AdS$_2$ 世界面量子场论恢复了已知的轫致辐射函数的强耦合修正。",
+        "one_liner": "利用 AdS$_2$ 世界面量子场论和 Goldstone 玻色子方法，从破缺对称 Noether 流相关函数计算中恢复了 Wilson 线轫致辐射函数的已知强耦合修正。",
+        "keywords": [
+          "Bremsstrahlung function",
+          "Goldstone bosons",
+          "AdS2 worldsheet",
+          "Wilson line",
+          "SO(6)/SO(5) nonlinear sigma model",
+          "boundary operator expansion",
+          "Noether current",
+          "N=4 super Yang-Mills"
+        ],
+        "importance": "normal",
+        "relevance": "medium",
+        "relevance_reason": "论文涉及全息 Wilson 线对应、AdS2 世界面量子场论与对称性破缺，属于 AdS/CFT 字典和强耦合计算方向，但与用户给出的冷凝态、非平衡、D-brane 驱动等重点标签无直接重叠，因此相关性中等。",
+        "focus_tags": []
+      }
+    },
+    "2608.23709v1": {
+      "arxiv_id": "2608.23709",
+      "version": 1,
+      "title": "Holographic Spread Complexity at Fixed Charge: Routhians, Branes and Strings",
+      "abstract": "Holographic spread (Krylov) complexity relates the growth of a boundary state's complexity to the proper radial momentum of a probe falling into the bulk. Unitary evolution makes spread complexity an even function of time. We show that this requirement fails whenever a probe carries a conserved Noether charge and is described by its unreduced Lagrangian. The cure is simple and universal: passing to the Routhian of the fixed-charge sector restores the correct short-time behaviour of the complexity. We establish this prescription from first principles and test it across an extensive family of probes: charged particles, non-BPS D-branes with detuned tension and charge, branes excited along internal isometries, worldvolume gauge fields, a fluctuating D0-brane in AdS$_4\\times \\mathbb{CP}^3$ and fundamental strings combining winding with rotation in AdS$_5\\times \\mathrm{S}^5$ complemented by further examples in AdS$_3\\times \\mathrm{S}^3\\times T^4$, ABJM, and the charged Anabal\\'on-Ross background. We then translate these results into Krylov-chain data, extracting Lanczos coefficients and Krylov-number correlators, and propose that complexity for charged, extended probes organises naturally into collective, fluctuation, charge and mixed contributions. This decomposition opens a concrete path toward a genuinely field-theoretic, multi-seed construction of holographic complexity.",
+      "authors": [
+        "Dimitrios Chatzis",
+        "Madison Hammond",
+        "Carlos Nunez",
+        "Alfonso V. Ramallo",
+        "Ricardo T. Santamaria"
+      ],
+      "categories": [
+        "hep-th"
+      ],
+      "updated": "2026-08-26T04:00:52.400154+00:00",
+      "published": "2026-08-26T00:00:00-04:00",
+      "source_category": "hep-th",
+      "abs_url": "https://arxiv.org/abs/2608.23709v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.23709v1",
+      "classification": {
+        "is_theoretical_holography": true,
+        "confidence": 0.96,
+        "primary_topic": "纠缠/复杂度/量子信息",
+        "secondary_topics": [
+          "AdS/CFT 基础与字典"
+        ],
+        "title_zh": "固定荷下的全息扩展复杂度：Routhian、膜与弦",
+        "abstract_zh": "全息扩展（Krylov）复杂度将边界态复杂度的增长与落入体态的探针的径向动量联系起来。幺正演化使扩展复杂度成为时间的偶函数。我们证明，当探针携带守恒的 Noether 荷并由未约化的拉格朗日量描述时，这一要求会失效。解决办法简单而普遍：转入固定荷扇区的 Routhian，即可恢复复杂度在短时间行为的正确形式。我们从第一性原理确立了这一处理方式，并在大量探针族中加以检验：带电粒子、张力和电荷失谐的非 BPS D-膜、沿内部等距方向激发的膜、世界体积规范场、AdS4×CP3 中的涨落 D0-膜，以及 AdS5×S5 中绕转与转动结合的基本弦；此外还补充了 AdS3×S3×T4、ABJM 和带电荷的 Anabalón-Ross 背景等例子。我们将这些结果转化为 Krylov 链数据，提取 Lanczos 系数和 Krylov 数关联子，并提出带荷、延展探针的复杂度自然地组织为集体贡献、涨落贡献、电荷贡献和混合贡献。这种分解为构建真正场论化、多种子全息复杂度开辟了一条具体路径。",
+        "one_liner": "带守恒荷的全息扩展复杂度需用固定荷扇区 Routhian 恢复偶时间行为，并在多种膜/弦探针中验证和映射到 Krylov 链数据。",
+        "keywords": [
+          "全息复杂度",
+          "Krylov复杂度",
+          "Routhian",
+          "固定荷",
+          "D-膜",
+          "基本弦",
+          "AdS/CFT",
+          "Lanczos系数"
+        ],
+        "importance": "high",
+        "relevance": "low",
+        "relevance_reason": "论文属于全息复杂度与 AdS/CFT 量子信息方向，与用户指定的重点标签（全息超流超导、QNM、相变、D3-D7 探针膜等）无直接重叠，因此相关性低。",
+        "focus_tags": []
+      }
+    },
+    "2608.24706v1": {
+      "arxiv_id": "2608.24706",
+      "version": 1,
+      "title": "Hagedorn temperature from holography: rotating and charged systems",
+      "abstract": "Using the string/field theory correspondence as a tool, we study the dependence of the Hagedorn temperature of strongly coupled, planar gauge theories on angular velocities and chemical potentials for $U(1)$ global currents. Our results are obtained from an interplay of world-sheet semiclassical quantization methods and target space low energy effective ones. The Hagedorn temperature is given as an expansion in the inverse (large) 't Hooft coupling limit. Working to quadratic order in the fluctuations, the world-sheet analysis provides the leading, the next-to-leading and part of the next-to-next-to leading order terms. In particular, it captures the NNLO $\\log 2$ terms which are due to the contributions of non-zero modes to the zero-point energy. These modes are not accounted for by the effective approach, within which they have to be included by hand using suitable educated guesses. On the other hand, the effective methods allow to compute in a relatively easy way the missing NNLO pieces (and even further subleading corrections), which could be accounted for from the world-sheet approach only working at quartic (or higher) order in the fluctuations. We present general results and several examples in various dimensions, including both confining models and conformal field theories on spheres (such as $\\mathcal N=4$ SYM and ABJM) dual to string theories on global $AdS$ spaces.",
+      "authors": [
+        "Francesco Bigazzi",
+        "Tommaso Canneti",
+        "Federico Castellani",
+        "Aldo L. Cotrone"
+      ],
+      "categories": [
+        "hep-th"
+      ],
+      "updated": "2026-08-26T04:00:52.399246+00:00",
+      "published": "2026-08-26T00:00:00-04:00",
+      "source_category": "hep-th",
+      "abs_url": "https://arxiv.org/abs/2608.24706v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.24706v1",
+      "classification": {
+        "is_theoretical_holography": true,
+        "confidence": 0.95,
+        "primary_topic": "AdS/CFT 基础与字典",
+        "secondary_topics": [],
+        "title_zh": "全息得到的Hagedorn温度：旋转和带点系统",
+        "abstract_zh": "利用弦论/场论对应作为工具，我们研究了强耦合平面规范理论的Hagedorn温度对角速度和U(1)整体流化学势的依赖。我们的结果来源于世界面半经典量子化方法与靶空间低能有效方法的相互作用。Hagedorn温度以逆（大）'t Hooft耦合极限的展开形式给出。在涨落的二次阶近似下，世界面分析提供了领头阶、次领头阶以及部分次次领头阶项。特别地，它捕获了由于非零模式对零点能的贡献而产生的NNLO log2项。这些模式不被有效方法所考虑，在有效方法中必须通过适当的经验猜测手动加入。另一方面，有效方法允许相对容易地计算缺失的NNLO部分（甚至进一步的次领头修正），这些修正只有通过在世界面方法中处理涨落的四次（或更高）阶才能得到。我们给出了普遍结果以及不同维度下的几个例子，包括限制模型和球面上的共形场论（如N=4 SYM和ABJM），它们对偶于全局AdS空间上的弦论。",
+        "one_liner": "通过全息对应研究旋转和带电荷的强耦合规范理论的Hagedorn温度，结合世界面与有效方法给出高阶修正。",
+        "keywords": [
+          "Hagedorn temperature",
+          "holography",
+          "rotation",
+          "chemical potential",
+          "gauge theory",
+          "world-sheet quantization",
+          "effective action"
+        ],
+        "importance": "normal",
+        "relevance": "high",
+        "relevance_reason": "论文直接使用全息对应（弦论/场论对应）研究强耦合规范理论的Hagedorn温度，属于AdS/CFT基础字典范畴。",
+        "focus_tags": []
+      }
+    },
+    "2601.08809v4": {
+      "arxiv_id": "2601.08809",
+      "version": 4,
+      "title": "Strong coupling expansion of $1\\over 2$ BPS Wilson loop in SYM theory and 2-loop Green-Schwarz string in AdS$_5 \\times $S$^5$",
+      "abstract": "The exact localization result for the expectation value of the $1\\over 2$ BPS circular Wilson loop in ${\\cal N}=4$ SYM theory is given in the planar limit by the famous Bessel function expression: $\\langle W\\rangle = {2N\\over \\sqrt \\lambda } I_1 ( \\sqrt \\lambda)$. Expanded in large $\\lambda$ and expressed in terms of the AdS$_5 \\times $S$^5$ string tension $T= {\\sqrt \\lambda \\over 2\\pi}$ this gives $\\langle W\\rangle = {\\sqrt T\\over 2\\pi g_s} e^{2\\pi T} (1- {3\\over 16 \\pi} T^{-1} + ...)$.The exponential is matched by the value of the action of the string with the AdS$_2$ world volume while the prefactor comes from the 1-loop GS string correction. Here we address the question of how the subleading $T^{-1}$ term could be reproduced by the 2-loop correction in the corresponding partition function of the AdS$_5 \\times $S$^5$ GS string expanded near the AdS$_2$ minimal surface. We find that the string correction contains a non-zero UV logarithmic divergence implying that comparison with the SYM result requires a particular subtraction prescription. We discuss implications of this conclusion for checking the AdS/CFT duality at strong coupling.",
+      "authors": [
+        "Matteo Beccaria",
+        "Stefan A. Kurlyand",
+        "Arkady A. Tseytlin"
+      ],
+      "categories": [
+        "hep-th"
+      ],
+      "updated": "2026-08-26T04:00:52.397260+00:00",
+      "published": "2026-08-26T00:00:00-04:00",
+      "source_category": "hep-th",
+      "abs_url": "https://arxiv.org/abs/2601.08809v4",
+      "pdf_url": "https://arxiv.org/pdf/2601.08809v4",
+      "classification": {
+        "is_theoretical_holography": true,
+        "confidence": 0.95,
+        "primary_topic": "AdS/CFT 基础与字典",
+        "secondary_topics": [],
+        "title_zh": "SYM 理论中 1/2 BPS 威尔逊圈的强耦合展开与 AdS$_5\\times$S$^5$ 中 2 圈 Green-Schwarz 弦",
+        "abstract_zh": "在平面极限下，${\\cal N}=4$ SYM 理论中 $1\\over 2$ BPS 圆形威尔逊圈期望值的精确局域化结果由著名的贝塞尔函数表达式给出：$\\langle W\\rangle = {2N\\over \\sqrt \\lambda } I_1 ( \\sqrt \\lambda)$。按大 $\\lambda$ 展开并用 AdS$_5 \\times$S$^5$ 弦张力 $T= {\\sqrt \\lambda \\over 2\\pi}$ 表示，可得 $\\langle W\\rangle = {\\sqrt T\\over 2\\pi g_s} e^{2\\pi T} (1- {3\\over 16 \\pi} T^{-1} + ...)$。指数部分由 AdS$_2$ 世界体积弦的作用量匹配，而前因子来自 1 圈 GS 弦修正。本文探讨如何由在 AdS$_2$ 极值曲面附近展开的 AdS$_5 \\times$S$^5$ GS 弦配分函数的 2 圈修正来重现次领头 $T^{-1}$ 项。我们发现弦修正包含非零紫外对数发散，这意味着与 SYM 结果的比较需要特定减除方案。我们讨论了这一结论对在强耦合下检验 AdS/CFT 对偶的含义。",
+        "one_liner": "研究 1/2 BPS 威尔逊圈强耦合展开中 T^{-1} 项的 2 圈弦修正，发现紫外对数发散并讨论减除方案。",
+        "keywords": [
+          "1/2 BPS Wilson loop",
+          "N=4 SYM",
+          "Green-Schwarz string",
+          "AdS5 x S5",
+          "strong coupling expansion",
+          "localization",
+          "2-loop string correction",
+          "UV divergence",
+          "AdS/CFT"
+        ],
+        "importance": "normal",
+        "relevance": "high",
+        "relevance_reason": "论文直接检验 AdS/CFT 强耦合下的 Wilson loop 对应，属于全息字典与弦 sigma 模型微扰计算。",
+        "focus_tags": []
+      }
+    },
+    "2602.05750v3": {
+      "arxiv_id": "2602.05750",
+      "version": 3,
+      "title": "The 2-Dimensional Dual of $\\phi^4$ in AdS$_3$",
+      "abstract": "We study the correlation functions of a conformally coupled $\\phi^4$-interacting theory in AdS$_3$ and its dual CFT$_2$. The one-loop diagram is not expressible in terms of known transcendental functions, but is shown to be expressible as an infinite sum of previously well-studied tree-level diagrams, and we compute this sum using several number-theoretic conjectures. This enables us to extract recursively, the analytic expressions of anomalous dimensions of all dual double-trace operators. In the $s$-channel various consistency checks were performed against established bootstrap method, while our results in the $t$- and $u$-channel are not available in any previous literature to our knowledge.",
+      "authors": [
+        "Weichen Xiao",
+        "Ivo Sachs"
+      ],
+      "categories": [
+        "hep-th"
+      ],
+      "updated": "2026-08-26T04:00:52.397202+00:00",
+      "published": "2026-08-26T00:00:00-04:00",
+      "source_category": "hep-th",
+      "abs_url": "https://arxiv.org/abs/2602.05750v3",
+      "pdf_url": "https://arxiv.org/pdf/2602.05750v3",
+      "classification": {
+        "is_theoretical_holography": true,
+        "confidence": 0.96,
+        "primary_topic": "AdS/CFT 基础与字典",
+        "secondary_topics": [],
+        "title_zh": "AdS₃ 中 φ⁴ 理论的二维对偶",
+        "abstract_zh": "我们研究了 AdS₃ 中共形耦合的 φ⁴ 相互作用理论及其对偶 CFT₂ 的关联函数。单圈图不能用已知超越函数表示，但可表示为先前已充分研究的树级图的无穷和，我们利用若干数论猜想计算了该和。这使我们能够递归地提取所有对偶双迹算符反常维数的解析表达式。在 s 通道中，我们与既有的 bootstrap 方法进行了一致性检验，而 t 通道和 u 通道的结果据我们所知在以往文献中尚未出现。",
+        "one_liner": "通过将单圈图展开为树级图无穷和，计算 AdS₃ 中 φ⁴ 理论对偶 CFT₂ 中双迹算符的反常维数。",
+        "keywords": [
+          "AdS/CFT",
+          "φ⁴ theory",
+          "correlation functions",
+          "double-trace operators",
+          "anomalous dimensions",
+          "conformal bootstrap"
+        ],
+        "importance": "high",
+        "relevance": "high",
+        "relevance_reason": "论文直接计算 AdS₃/CFT₂ 对偶中双迹算符的反常维数，属于 multi-trace 算子与全息字典的核心内容，与用户的 multi-trace 支线高度相关。",
+        "focus_tags": [
+          "multi-trace"
+        ]
+      }
+    },
+    "2603.18138v3": {
+      "arxiv_id": "2603.18138",
+      "version": 3,
+      "title": "The Resolved Elliptic Genus and the D1-D5 CFT",
+      "abstract": "This paper is a follow-up to the short paper arXiv:2509.19425, greatly expanding the discussion with examples and providing derivations and justifications of results presented there. We introduce a new supersymmetry index for the D1-D5 CFT on $T^4$, which we call the resolved elliptic genus (REG). It is a one-parameter generalisation of the standard supersymmetry index, the modified elliptic genus (MEG), and arises naturally in the free symmetric orbifold description of the theory within a new formalism, based on Schur-Weyl duality, that we develop. In this formalism, the Hilbert space of the symmetric orbifold CFT is decomposed into symmetry sectors in which the structure of the states contributing to the MEG is transparent. By examining the action of the supercharge deformed by an exactly marginal operator on the relevant symmetry algebra, we propose a superselection rule governing the lifting process of BPS states, and use it to construct the REG by summing only over those symmetry sectors that can mix according to this rule. The REG exhibits detailed agreement between the CFT and supergravity below the black-hole threshold, a regime in which the MEG is essentially trivial. Above the threshold, the REG is dominated by black-hole microstates, which are now distributed amongst distinct sectors that are invisible to the MEG. We expect both the new formalism and the REG to provide useful new tools for studying the structure of black-hole microstates. In particular, we comment on their possible relevance to the fortuity program for understanding black-hole microstates within CFT.",
+      "authors": [
+        "Marcel R. R. Hughes",
+        "Masaki Shigemori"
+      ],
+      "categories": [
+        "hep-th"
+      ],
+      "updated": "2026-08-26T04:00:52.397026+00:00",
+      "published": "2026-08-26T00:00:00-04:00",
+      "source_category": "hep-th",
+      "abs_url": "https://arxiv.org/abs/2603.18138v3",
+      "pdf_url": "https://arxiv.org/pdf/2603.18138v3",
+      "classification": {
+        "is_theoretical_holography": true,
+        "confidence": 0.9,
+        "primary_topic": "黑洞/量子引力/信息",
+        "secondary_topics": [
+          "AdS/CFT 基础与字典"
+        ],
+        "title_zh": "解析椭圆亏格与D1-D5 CFT",
+        "abstract_zh": "本文是对短文arXiv:2509.19425的后续，大幅扩展了讨论并提供了结果推导与验证。我们为T^4上的D1-D5 CFT引入了一个新的超对称指标，称之为解析椭圆亏格（REG）。它是标准超对称指标——修正椭圆亏格（MEG）的单参数推广，并在我们基于Schur-Weyl对偶发展的新形式论中自然出现于自由对称轨道描述。在该形式论中，对称轨道CFT的希尔伯特空间被分解为对称性扇区，其中对MEG有贡献的态结构清晰可见。通过考察由恰好边缘算子形变的超荷在相关对称代数上的作用，我们提出了一个控制BPS态提升过程的超选择规则，并据此仅对那些根据此规则可以混合的对称性扇区求和来构造REG。REG在黑洞阈值以下表现出CFT与超引力之间的细致一致性，而在此区间MEG基本平凡。在阈值以上，REG由黑洞微观态主导，这些微观态分布在MEG不可见的多个不同扇区中。我们预期新形式论和REG能为研究黑洞微观结构提供有用的新工具。特别地，我们评论了它们与理解CFT内黑洞微观态的fortuity项目的可能关联。",
+        "one_liner": "提出D1-D5 CFT的新型超对称指标“解析椭圆亏格”，用于区分黑洞微观态。",
+        "keywords": [
+          "resolved elliptic genus",
+          "D1-D5 CFT",
+          "supersymmetry index",
+          "black hole microstates",
+          "symmetric orbifold"
+        ],
+        "importance": "normal",
+        "relevance": "low",
+        "relevance_reason": "论文聚焦于D1-D5 CFT中的超对称指标与黑洞微观态，属于量子引力/AdS/CFT基础方向，与用户指定的全息凝聚态、超流超导等专题无直接交集。",
+        "focus_tags": []
+      }
+    },
+    "2604.16109v2": {
+      "arxiv_id": "2604.16109",
+      "version": 2,
+      "title": "Constrained Pad\\'e Ensembles for Thermal $\\mathcal{N}{=}4$ SYM with the Exact $\\mathcal O(\\lambda^{5/2})$ Coefficient",
+      "abstract": "We revisit the constrained log-subtracted two-point Pad\\'e (LSTP) ensemble for thermal $\\mathcal{N}=4$ supersymmetric Yang-Mills (SYM) thermodynamics in four spacetime dimensions after upgrading the weak-coupling truncation from $\\mathcal{O}(\\lambda^2)$ to the exact $\\mathcal{O}(\\lambda^{5/2})$ coefficient. We keep the LSTP interpolation ansatz unchanged and shift the weak-side matching points to the regime where the new term is numerically significant. Within the same parameter scan the admissible set collapses from $9$ nominal survivors ($3$ distinct curves) to a single distinct curve, the crossover range shrinks to a unique value, and the pointwise band width drops to zero within numerical resolution. The Hermite-Pad\\'e (HP) central curve does not coincide with the unique LSTP survivor, so the updated weak-side matching removes the LSTP scan uncertainty but not the difference between the two routes. The minimal HP extension that also carries the exact coefficient is uniquely determined and develops a spurious pole-zero pair at small coupling. Away from that pair the HP and LSTP curves still differ, so this difference persists at the same weak-coupling order.",
+      "authors": [
+        "Ubaid Tantary",
+        "Qianqian Du"
+      ],
+      "categories": [
+        "hep-th"
+      ],
+      "updated": "2026-08-26T04:00:52.396904+00:00",
+      "published": "2026-08-26T00:00:00-04:00",
+      "source_category": "hep-th",
+      "abs_url": "https://arxiv.org/abs/2604.16109v2",
+      "pdf_url": "https://arxiv.org/pdf/2604.16109v2",
+      "classification": {
+        "is_theoretical_holography": true,
+        "confidence": 0.8,
+        "primary_topic": "AdS/CFT 基础与字典",
+        "secondary_topics": [],
+        "title_zh": "带精确 O(λ^{5/2}) 系数的热 N=4 SYM 约束 Padé 系综",
+        "abstract_zh": "我们在将弱耦合截断从 O(λ²) 升级到精确的 O(λ^{5/2}) 系数后，重新考察了四维热 N=4 超对称杨-米尔斯(SYM)热力学的约束对数扣除两点 Padé(LSTP)系综。我们保持 LSTP 插值 ansatz 不变，并将弱侧匹配点移动到新项数值显著的区间。在同一参数扫描下，可容许集合从 9 个名义幸存者（3 条不同曲线）缩减为单一不同曲线，交叉区间缩为唯一值，逐点带宽在数值精度内降至零。Hermite-Padé(HP)中心曲线与唯一 LSTP 幸存者不一致，因此更新后的弱侧匹配消除了 LSTP 扫描不确定性，但并未消除两条路径之间的差异。带有精确系数的最小 HP 扩展是唯一确定的，并在小耦合处出现一个假极点-零点对。在该对之外，HP 与 LSTP 曲线仍然不同，因此该差异在相同的弱耦合阶数下持续存在。",
+        "one_liner": "利用精确的 O(λ^{5/2}) 弱耦合系数更新约束两点 Padé 系综，使 N=4 SYM 热力学插值的扫描不确定性消失，并比较了 LSTP 与 Hermite-Padé 两条途径。",
+        "keywords": [
+          "N=4 SYM",
+          "thermal thermodynamics",
+          "Padé approximation",
+          "LSTP ensemble",
+          "Hermite-Padé",
+          "lambda^{5/2} coefficient"
+        ],
+        "importance": "normal",
+        "relevance": "low",
+        "relevance_reason": "摘要涉及热 N=4 SYM 的 Padé 插值方法研究，属于 AdS/CFT 热力学字典范畴；与用户关注的全息超流超导、相变与气泡成核、QNM、探针膜等具体支线没有直接交叉。",
+        "focus_tags": []
+      }
+    },
+    "2605.20294v2": {
+      "arxiv_id": "2605.20294",
+      "version": 2,
+      "title": "Topology sums, sectorwise holography, and horizon normalcy",
+      "abstract": "The ``holography of information'' (HoI) principle argues that gravity can encode information redundantly in asymptotic observables. Although HoI is ultimately a nonperturbative claim, its standard motivation uses semiclassical gravitational constraints, the boundary nature of the Hamiltonian, and vacuum-sector cyclicity. We ask what happens when the same semiclassical path-integral reasoning allows topology sums that generate baby-universe or $\\alpha$-sector data. Our analysis is conditional: such sectors need not survive in every unitary completion, and the Baby Universe Hypothesis of McNamara and Vafa instead suggests $\\dim\\mathcal H_{\\rm BU}=1$ in consistent $d>3$ quantum gravity. If $\\mathcal H_{\\rm BU}$ is nontrivial, as in the Marolf--Maxfield formulation and in ensemble-like examples such as JT gravity, then HoI is naturally refined to an $\\alpha$-sectorwise statement, $\\overline{\\mathcal A_\\infty^{(\\alpha)}|0_\\alpha\\rangle}=\\mathcal H_\\alpha$, rather than completeness on the full topology-summed Hilbert space. In a fixed $\\alpha$-sector, HoI may obstruct AMPS factorization and allow a smooth horizon; in an unconditioned topology-summed state, the sector-independent obstruction is not automatic. A Bell-pair diagnostic shows that a sector-independent smooth interior requires aligned interior reconstructions, or access to the sector label. Thus the HoI-based absence of firewalls becomes conditional on global sector data, in tension with the generally covariant expectation emphasized by Bousso that horizon normalcy should be determined by local semiclassical geometry. If the exact theory collapses $\\mathcal H_{\\rm BU}$ to one dimension, the obstruction discussed here is absent.",
+      "authors": [
+        "Naman Kumar"
+      ],
+      "categories": [
+        "hep-th"
+      ],
+      "updated": "2026-08-26T04:00:52.396834+00:00",
+      "published": "2026-08-26T00:00:00-04:00",
+      "source_category": "hep-th",
+      "abs_url": "https://arxiv.org/abs/2605.20294v2",
+      "pdf_url": "https://arxiv.org/pdf/2605.20294v2",
+      "classification": {
+        "is_theoretical_holography": true,
+        "confidence": 0.95,
+        "primary_topic": "黑洞/量子引力/信息",
+        "secondary_topics": [
+          "AdS/CFT 基础与字典",
+          "JT/SYK/AdS2/矩阵模型"
+        ],
+        "title_zh": "拓扑求和、扇区化全息与视界正常性",
+        "abstract_zh": "“信息全息性”（HoI）原理认为引力可以在渐近观测量中冗余编码信息。尽管 HoI 最终是非微扰主张，其标准动机使用半经典引力约束、哈密顿量的边界性质以及真空扇区的循环性。我们考虑当相同的半经典路径积分论证允许产生婴宇宙或 α-扇区数据的拓扑求和时会发生什么。我们的分析是有条件的：这些扇区不一定在每个幺正完备化中都存在，而 McNamara 和 Vafa 的婴宇宙假设反而表明在一致的 d>3 量子引力中 dim H_BU=1。如果 H_BU 非平凡，如 Marolf–Maxfield 构造和 JT 引力等系综示例，那么 HoI 自然被精炼为 α-扇区级陈述，\\overline{\\mathcal A_\\infty^{(\\alpha)}|0_\\alpha\\rangle}=\\mathcal H_\\alpha，而不是整个拓扑求和希尔伯特空间上的完备性。在固定 α-扇区中，HoI 可能阻碍 AMPS 分解并允许光滑视界；在无条件拓扑求和态中，扇区无关的阻碍并非自动成立。Bell 对诊断表明，扇区无关的光滑内部需要内部重构对齐，或获得扇区标签。因此，基于 HoI 的无火墙论点变得依赖于全局扇区数据，这与 Bousso 强调的一般协变期望（视界正常性应由局域半经典几何决定）存在张力。如果精确理论将 H_BU 坍缩为一维，这里讨论的阻碍不存在。",
+        "one_liner": "探讨信息全息原理在拓扑求和和婴宇宙 α-扇区下的修正，指出光滑视界依赖于全局扇区数据，与局域半经典协变期望存在张力。",
+        "keywords": [
+          "holography of information",
+          "baby universe",
+          "alpha sectors",
+          "topology sum",
+          "horizon normalcy",
+          "firewall",
+          "JT gravity",
+          "Marolf-Maxfield",
+          "AMPS",
+          "quantum gravity"
+        ],
+        "importance": "high",
+        "relevance": "low",
+        "relevance_reason": "论文关注信息全息性、拓扑求和、婴宇宙、α-扇区与视界火墙等量子引力基础问题，不涉及全息超流超导、p波序、非均匀态、multi-trace、相变成核、QNM、冷原子或探针膜 Floquet 驱动等用户重点研究支线。",
+        "focus_tags": []
+      }
+    },
+    "2606.00488v2": {
+      "arxiv_id": "2606.00488",
+      "version": 2,
+      "title": "Massless Islands in Wedge Holography",
+      "abstract": "Entanglement islands are most easily realized in doubly holographic models with massive gravitons or non-gravitating baths. In wedge holography, however, Neumann boundary conditions on both branes give a normalizable massless graviton, while the island saddle of the purely geometric Ryu--Takayanagi (RT) problem collapses to the horizon. Negative Dvali--Gabadadze--Porrati (DGP) terms can restore nontrivial islands by modifying the endpoint condition, but this branch contains a massive ghost. We propose a different semiclassical mechanism. We keep the wedge gravitational action free of DGP terms and couple the healthy Neumann wedge sector to a unitary defect CFT localized at the codimension-two corner. This sector is distinct from the standard corner CFT dual to the undeformed wedge, so its entropy enters as the ordinary matter-entropy term in the quantum extremal surface (QES) prescription without double counting the wedge RT area. If the defect theory is holographic, this entropy can be evaluated by an auxiliary RT surface. We show that when the wedge endpoint determines the defect entangling region, the auxiliary area can vary in the opposite way to the wedge area while all couplings and central charges remain positive. A local endpoint model gives an isolated stable saddle that dominates over the Hartman--Maldacena (HM) surface at late times. The QES condition then replaces the pure orthogonality condition and permits a non-horizon island saddle in a long-range, massless, ghost-free gravitational theory. Thus, the obstruction to massless islands in minimal wedge holography is not masslessness itself, but the absence of a healthy matter-entropy contribution capable of balancing the horizon-minimizing area variation.",
+      "authors": [
+        "Naman Kumar"
+      ],
+      "categories": [
+        "hep-th",
+        "gr-qc"
+      ],
+      "updated": "2026-08-26T04:00:52.396746+00:00",
+      "published": "2026-08-26T00:00:00-04:00",
+      "source_category": "hep-th",
+      "abs_url": "https://arxiv.org/abs/2606.00488v2",
+      "pdf_url": "https://arxiv.org/pdf/2606.00488v2",
+      "classification": {
+        "is_theoretical_holography": true,
+        "confidence": 0.95,
+        "primary_topic": "黑洞/量子引力/信息",
+        "secondary_topics": [
+          "AdS/CFT 基础与字典"
+        ],
+        "title_zh": "楔形全息中的无质量岛",
+        "abstract_zh": "纠缠岛最容易在具有有质量引力子或非引力化浴槽的双重全息模型中实现。然而在楔形全息中，两个膜上的 Neumann 边界条件给出一个可归一化的无质量引力子，而纯几何 Ryu–Takayanagi (RT) 问题的岛鞍点塌缩到视界。负 Dvali–Gabadadze–Porrati (DGP) 项可以通过修改端点条件恢复非平凡岛，但该分支包含一个有质量鬼场。我们提出一种不同的半经典机制。我们保持楔形引力作用量不含 DGP 项，并将健康的 Neumann 楔形扇区与位于余二维角落处的幺正缺陷 CFT 耦合。该扇区不同于未变形楔形对应的标准角 CFT，因此其熵作为量子极值面 (QES) 处方中的普通物质熵项进入，而不会与楔形 RT 面积重复计算。如果缺陷理论是全息的，则这个熵可以由一个辅助 RT 面来评估。我们证明，当楔形端点决定缺陷纠缠区域时，辅助面积可以与楔形面积相反的方式变化，同时所有耦合和中心荷保持为正。一个局域端点模型给出一个孤立的稳定鞍点，在晚期超过哈特曼–马尔达塞纳 (HM) 面。QES 条件从而取代纯正交条件，并允许在一个长程、无质量、无鬼场的引力理论中出现非视界岛鞍点。因此，最小楔形全息中无质量岛的障碍并不是无质量本身，而是缺少能够平衡视界最小化面积变化的健康物质熵贡献。",
+        "one_liner": "提出在楔形全息中通过余二维角落缺陷 CFT 恢复无质量、无鬼场的非平凡纠缠岛，指出障碍在于缺少可平衡面积变化的物质熵贡献。",
+        "keywords": [
+          "wedge holography",
+          "entanglement islands",
+          "quantum extremal surface",
+          "massless graviton",
+          "DGP terms",
+          "defect CFT",
+          "Hartman-Maldacena surface",
+          "holographic entanglement entropy"
+        ],
+        "importance": "normal",
+        "relevance": "high",
+        "relevance_reason": "论文直接研究楔形全息中的纠缠岛、量子极值面与无质量引力子的关系，属于全息量子引力与纠缠信息交叉的核心方向，与用户关注的全息理论基本结构高度相关。",
+        "focus_tags": []
+      }
+    },
+    "2606.31724v2": {
+      "arxiv_id": "2606.31724",
+      "version": 2,
+      "title": "Holographic Krylov Complexity with Lifshitz Scaling and Hyperscaling Violation",
+      "abstract": "Following the holographic proposal that identifies the growth rate of Krylov complexity with the proper radial momentum of an infalling massive probe, we study Krylov complexity in Lifshitz and hyperscaling-violating backgrounds. For pure Lifshitz geometries, we find quadratic complexity growth for all values of the dynamical exponent. For hyperscaling-violating backgrounds, we show that the hyperscaling-violating exponent directly controls the late-time growth exponent, with a special limiting case exhibiting oscillatory behavior with a logarithmic envelope. We also extend our analysis to top-down string constructions, confirming the robustness of the scaling behaviors obtained in the bottom-up approach. Our analysis establishes that the momentum-Krylov correspondence extends naturally to non-relativistic holographic settings and remains well-defined despite the causal pathologies of Lifshitz spacetimes.",
+      "authors": [
+        "Kazem Bitaghsir Fadafan",
+        "M. Reza Mohammadi Mozaffar"
+      ],
+      "categories": [
+        "hep-th",
+        "quant-ph"
+      ],
+      "updated": "2026-08-26T04:00:52.396621+00:00",
+      "published": "2026-08-26T00:00:00-04:00",
+      "source_category": "hep-th",
+      "abs_url": "https://arxiv.org/abs/2606.31724v2",
+      "pdf_url": "https://arxiv.org/pdf/2606.31724v2",
+      "classification": {
+        "is_theoretical_holography": true,
+        "confidence": 0.85,
+        "primary_topic": "纠缠/复杂度/量子信息",
+        "secondary_topics": [
+          "高自旋/非相对论/hyperscaling",
+          "AdS/CFT 基础与字典"
+        ],
+        "title_zh": "具有Lifshitz标度和超尺度破坏的全息Krylov复杂度",
+        "abstract_zh": "遵循将Krylov复杂度的增长率与下落的巨大探针的径向动量等同的全息提议，我们在Lifshitz和超尺度破坏背景下研究Krylov复杂度。对于纯Lifshitz几何，我们发现所有动力学指数值下复杂度均呈二次增长。对于超尺度破坏背景，我们证明超尺度破坏指数直接控制晚期时间增长指数，其中一种特殊极限情形表现出带对数包络的振荡行为。我们还将分析扩展到自上而下的弦论构造，证实了自下而上方法中获得的标度行为的稳健性。我们的分析表明，动量-克雷洛夫对应关系自然地推广到非相对论全息环境，并且尽管Lifshitz时空具有因果病态，该对应关系仍然定义良好。",
+        "one_liner": "研究Lifshitz和超尺度破坏背景下的全息Krylov复杂度，发现纯Lifshitz情形二次增长，超尺度破坏指数控制晚期增长。",
+        "keywords": [
+          "Krylov complexity",
+          "holography",
+          "Lifshitz scaling",
+          "hyperscaling violation",
+          "momentum-Krylov correspondence",
+          "non-relativistic holography"
+        ],
+        "importance": "normal",
+        "relevance": "low",
+        "relevance_reason": "摘要涉及全息Krylov复杂度与非相对论标度背景，不直接涉及用户重点标签中的全息超流超导、p波与多分量序参量、畴壁/孤子/涡旋/非均匀、multi-trace、相变与气泡成核、QNM与非线性演化、冷原子/双组分BEC、或D3-D7/D3-D5探针膜与Floquet驱动等方向。",
+        "focus_tags": []
+      }
+    },
+    "2607.03800v4": {
+      "arxiv_id": "2607.03800",
+      "version": 4,
+      "title": "A Horizon-to-Boundary Dictionary Linking Smooth Horizon Continuation, Pole-Skipping, and \\(SL(2,\\mathbb R)\\) Lowest-Weight Structure",
+      "abstract": "We study pole-skipping for a scalar field in the JT/AdS$_2$ black-hole background. Previous work established the local mechanism: at a pole-skipping point, a near-horizon recurrence relation becomes degenerate and an additional regular expansion coefficient is left undetermined. We take this local degeneracy as the starting point and track two independent solutions normalized at the AdS boundary, denoted by $R_1$ and $R_2$ for the source and response branches, respectively. Let $\\widehat A$ and $\\widehat B$ denote the source and response coefficients after their common singular factor is removed, and let $\\chi_\\mu$ denote the universal ingoing horizon factor. We find \\[ \\widehat A=0 \\Longleftrightarrow \\frac{R_2}{\\chi_\\mu}\\in C^\\infty, \\qquad \\widehat B=0 \\Longleftrightarrow \\frac{R_1}{\\chi_\\mu}\\in C^\\infty . \\] Thus the source and response zeros correspond separately to horizon smoothness of the two boundary-normalized solutions after the ingoing factor is removed. At integer resonance the local regular solution contains an additional coefficient $a_N$. In the JT/AdS$_2$ model, continuation of the nonresonant ingoing solution fixes $a_N=0$ and thereby selects a unique retarded value at resonance, although unrestricted approaches in parameter space remain path dependent. At the endpoint of the pole-skipping lattice, the response branch is a lowest-weight state of the background $SL(2,\\mathbb R)$ symmetry. A static holographic-superconductor example further shows that simultaneous horizon smoothness is insufficient if the two boundary branches are linearly dependent. A two-branch pole-zero intersection therefore requires \\[ W[R_1,R_2]\\neq0. \\] These results distinguish the known local horizon degeneracy from the global relation between boundary branches and the resonant horizon solution space.",
+      "authors": [
+        "Yoon-Seok Choun",
+        "Ki-Seok Kim"
+      ],
+      "categories": [
+        "hep-th"
+      ],
+      "updated": "2026-08-26T04:00:52.396561+00:00",
+      "published": "2026-08-26T00:00:00-04:00",
+      "source_category": "hep-th",
+      "abs_url": "https://arxiv.org/abs/2607.03800v4",
+      "pdf_url": "https://arxiv.org/pdf/2607.03800v4",
+      "classification": {
+        "is_theoretical_holography": true,
+        "confidence": 0.95,
+        "primary_topic": "JT/SYK/AdS2/矩阵模型",
+        "secondary_topics": [
+          "非平衡/热化/输运/混沌/QNM",
+          "全息凝聚态/超流超导/强关联"
+        ],
+        "title_zh": "连接光滑视界延拓、极点跳跃与SL(2,R)最低权结构的视界-边界字典",
+        "abstract_zh": "我们研究JT/AdS2黑洞背景中标量场的pole-skipping。此前工作确立了局域机制：在pole-skipping点，近视界递推关系变得退化，留下一个额外的正则展开系数未定。我们以这一局域退化作为出发点，追踪在AdS边界归一化的两个独立解，分别记为源分支与响应分支的R1和R2。令\\widehat A和\\widehat B表示去除共同奇异因子后的源与响应系数，\\chi_\\mu表示普适的内行视界因子。我们发现：\\widehat A=0当且仅当R2/\\chi_\\mu属于C^\\infty；\\widehat B=0当且仅当R1/\\chi_\\mu属于C^\\infty。因此源与响应零点分别对应两个边界归一化解在去除内行因子后的视界光滑性。在整数共振处，局域正则解包含额外系数a_N。在JT/AdS2模型中，非共振内行解的延拓固定a_N=0，从而在共振处选出唯一的滞后值，尽管参数空间中的无限制途径仍存在路径依赖。在pole-skipping格点端点，响应分支是背景SL(2,R)对称性的最低权态。一个静态全息超导例子进一步表明，若两个边界分支线性相关，则同时视界光滑并不充分。因此双分支极点-零点相交要求W[R1,R2]不等于0。这些结果区分了已知的局域视界退化与边界分支和共振视界解空间之间的全局关系。",
+        "one_liner": "在JT/AdS2背景下建立视界光滑延拓与极点跳跃源/响应零点的等价字典，并用全息超导例子说明双分支线性独立性的必要。",
+        "keywords": [
+          "pole-skipping",
+          "JT/AdS2",
+          "视界光滑性",
+          "边界条件",
+          "SL(2,R)最低权",
+          "Wronskian",
+          "全息超导",
+          "准正规模"
+        ],
+        "importance": "normal",
+        "relevance": "high",
+        "relevance_reason": "论文直接研究AdS/CFT框架下JT/AdS2黑洞背景中的pole-skipping、边界条件与视界光滑性的关系，并以全息超导为例验证判据，与全息QNM和全息凝聚态强相关。",
+        "focus_tags": [
+          "QNM与非线性演化",
+          "全息超流超导"
+        ]
+      }
+    },
+    "2608.12850v2": {
+      "arxiv_id": "2608.12850",
+      "version": 2,
+      "title": "D4-branes wrapped on topological disks from matter-coupled F(4) gauged supergravity",
+      "abstract": "We study a number of supersymmetric $AdS_4\\times \\Sigma$ solutions with $\\Sigma$ being a topological disk with non-trivial $U(1)$ holonomy on the boundary or a ``half-spindle'' from matter-coupled $F(4)$ gauged supergravity. The gauged supergravity is coupled to three vector multiplets with $SO(3)\\times SO(3)$ gauge group. The resulting solutions preserve eight supercharges and $SO(2)\\times SO(2)$ or $SO(2)_{\\text{diag}}$ symmetries and are expected to be dual to $N=2$ SCFTs in three dimensions arising from compactifications of five-dimensional $N=2$ SCFT on a half-spindle. All of the solutions lie within the $U(1)\\times U(1)$ subsector of the matter-coupled $F(4)$ gauged supergravity that can be embedded in massive type IIA theory. After uplifted to ten dimensions, the solutions can be interpreted as a system of D4-D8-branes wrapped on $\\Sigma$. Some of the solutions are asymptotic to a locally $AdS_6$ geometry and can be identified as codimension-2 conformal defects within the $N=2$ SCFT in five dimensions. For these solutions, the circle inside $\\Sigma$ decompactifies in the $AdS_6$ limit rendering the holographic free energy infinite. There also exist solutions with finite free energy in the dual three-dimensional SCFTs. In addition, we show that the results both extend the previously known solutions and provide a novel class of solutions.",
+      "authors": [
+        "Patharadanai Nuchino",
+        "Parinya Karndumri"
+      ],
+      "categories": [
+        "hep-th"
+      ],
+      "updated": "2026-08-26T04:00:52.396236+00:00",
+      "published": "2026-08-26T00:00:00-04:00",
+      "source_category": "hep-th",
+      "abs_url": "https://arxiv.org/abs/2608.12850v2",
+      "pdf_url": "https://arxiv.org/pdf/2608.12850v2",
+      "classification": {
+        "is_theoretical_holography": true,
+        "confidence": 0.97,
+        "primary_topic": "AdS/CFT 基础与字典",
+        "secondary_topics": [],
+        "title_zh": "物质耦合 F(4) 规范超引力中缠绕在拓扑圆盘上的 D4-膜",
+        "abstract_zh": "我们研究了物质耦合 F(4) 规范超引力中的若干超对称 AdS4×Sigma 解，其中 Sigma 是边界上具有非平凡 U(1) 和乐（holonomy）的拓扑圆盘或“半纺锤体”（half-spindle）。该规范超引力耦合了三个矢量多重态，规范群为 SO(3)×SO(3)。所得解保持八个超荷，并具有 SO(2)×SO(2) 或 SO(2)_diag 对称性，预期对偶于由五维 N=2 SCFT 在半纺锤体上紧致化得到的三维 N=2 SCFT。所有这些解都位于物质耦合 F(4) 规范超引力的 U(1)×U(1) 子扇区中，并可嵌入 massive type IIA 超引力。提升到十维后，这些解可解释为 D4-D8 膜系统缠绕在 Sigma 上。其中一些解渐近于局部 AdS6 几何，可视为五维 N=2 SCFT 内的余维-2 共形缺陷。对这些解，Sigma 内的圆在 AdS6 极限下退紧致化，导致全息自由能发散。也存在在三维 SCFT 中具有有限自由能的解。此外，我们表明这些结果既推广了先前已知的解，也提供了一类新解。",
+        "one_liner": "构造了 F(4) 规范超引力中 AdS4×拓扑圆盘/半纺锤体的超对称解，对应 D4-D8 膜缠绕系统，并论证其全息对偶为三维 N=2 SCFT 或五维 SCFT 中的共形缺陷。",
+        "keywords": [
+          "F(4) gauged supergravity",
+          "D4-D8 branes",
+          "topological disk",
+          "half-spindle",
+          "AdS4/CFT3",
+          "conformal defects",
+          "massive type IIA",
+          "N=2 SCFT",
+          "holography"
+        ],
+        "importance": "normal",
+        "relevance": "low",
+        "relevance_reason": "文章聚焦于 F(4) 规范超引力中的 AdS4×Sigma 超对称解与 D4-D8 膜缠绕构造，属于 AdS/CFT 基础，但未涉及用户列出的全息超流、p波、多分量序参量、QNM、冷原子或 D3-D7/D3-D5 Floquet 等具体支线，因此相关性较低。",
+        "focus_tags": []
+      }
+    },
+    "2608.16982v2": {
+      "arxiv_id": "2608.16982",
+      "version": 2,
+      "title": "A geodesic distance interpretation of Lanczos coefficients",
+      "abstract": "We study the spread complexity of the infinite-temperature thermofield double state in large-$N$ random matrix theory and investigate the physical meaning of its Lanczos coefficients $b_n$. The leading density of states defines a family of orthogonal polynomials whose recursion coefficients coincide with the Lanczos coefficients of the associated Krylov dynamics. Starting from the Coulomb-gas equation, we derive a pair of nonlinear relations for these coefficients, which we call the Lanczos equations. Since the Lanczos coefficients approach constants at large Krylov index, the spread complexity grows linearly at late times. We further show that the Lanczos coefficients can be interpreted as generating functions for planar maps. For an even potential, the difference $b_{n+1}^2-b_n^2$ generates maps with two legs whose marked legs are separated by the exact geodesic distance $n$. Consequently, the spread complexity acceleration operator equals twice the geodesic generating operator. We illustrate these results in the quartic matrix model, where the expansion in the quartic coupling counts tetravalent planar maps, and in the double-scaled Sachdev--Ye--Kitaev model, where the auxiliary Hilbert space can be identified with the physical chord Hilbert space.",
+      "authors": [
+        "Le-Chen Qu"
+      ],
+      "categories": [
+        "hep-th",
+        "cond-mat.stat-mech",
+        "math-ph",
+        "math.MP"
+      ],
+      "updated": "2026-08-26T04:00:52.396165+00:00",
+      "published": "2026-08-26T00:00:00-04:00",
+      "source_category": "hep-th",
+      "abs_url": "https://arxiv.org/abs/2608.16982v2",
+      "pdf_url": "https://arxiv.org/pdf/2608.16982v2",
+      "classification": {
+        "is_theoretical_holography": true,
+        "confidence": 0.8,
+        "primary_topic": "纠缠/复杂度/量子信息",
+        "secondary_topics": [
+          "JT/SYK/AdS2/矩阵模型",
+          "黑洞/量子引力/信息"
+        ],
+        "title_zh": "Lanczos 系数的测地线距离诠释",
+        "abstract_zh": "我们研究大 N 随机矩阵理论中无限温度热场双态（TFD）的展开复杂度，并探讨其 Lanczos 系数 b_n 的物理意义。态密度的领头阶定义了一族正交多项式，其递推系数与相应 Krylov 动力学的 Lanczos 系数一致。从库仑气体方程出发，我们导出一组关于这些系数的非线性关系，称为 Lanczos 方程。由于 Lanczos 系数在大 Krylov 指标处趋于常数，展开复杂度在晚期线性增长。进一步表明，Lanczos 系数可解释为平面地图的生成函数。对偶势，差值 b_{n+1}^2 - b_n^2 生成带有两条腿的地图，标记腿之间相隔精确的测地距离 n。因此，展开复杂度加速算符等于测地生成算符的两倍。我们在四次矩阵模型中说明了这些结果，其中按四次耦合展开计数四价平面地图；在双标度 Sachdev-Ye-Kitaev 模型中，辅助希尔伯特空间可与物理弦希尔伯特空间等同。",
+        "one_liner": "将 Lanczos 系数解释为平面地图的生成函数，揭示展开复杂度与随机矩阵/SYK 中测地距离的联系。",
+        "keywords": [
+          "spread complexity",
+          "Lanczos coefficients",
+          "random matrix theory",
+          "SYK model",
+          "Krylov dynamics",
+          "planar maps",
+          "geodesic distance",
+          "thermofield double state"
+        ],
+        "importance": "normal",
+        "relevance": "low",
+        "relevance_reason": "论文属于随机矩阵/SYK 与量子信息中的 Krylov 复杂度，不涉及用户重点的全息超流、相变、探针膜、Floquet 驱动或 QNM 等具体支线；与用户部分全息引力兴趣相邻但直接关联较低。",
+        "focus_tags": []
+      }
+    },
+    "2608.19310v2": {
+      "arxiv_id": "2608.19310",
+      "version": 2,
+      "title": "Dissipation-enhanced scrambling in the SYK model coupled to a lossy cavity",
+      "abstract": "We study the Yukawa-Sachdev-Ye-Kitaev model, a disordered model of $N$ Majorana fermions and $R=\\gamma N$ bosons in which the bosons are linearly coupled to independent realizations of SYK $p$-body interactions, in the presence of dissipation, modeled by a Lindblad master equation. Motivated by recent proposals for implementing SYK models in quantum simulators, we focus on bosonic leakage at rate $\\kappa$. Initializing the system in the steady state, we analyze the late-time fermionic relaxation rate and the Lyapunov exponent, solving the large-$N$ theory both numerically and for $p$ large, finding a rich landscape of dynamical behaviors. Most notably, the Lyapunov exponent remains positive for every value of $\\kappa$ and, for $p>2$, can even grow as $\\kappa$ increases. The QED case $p=2$, which lies between the fully chaotic regime $p>2$ and the integrable case $p=1$, exhibits special features. We also identify a critical value of the boson-to-fermion ratio $\\gamma_c \\approx 2/p^2$ separating distinct dynamical regimes.",
+      "authors": [
+        "Pietro Pelliconi",
+        "Bastien Lapierre",
+        "Shinsei Ryu"
+      ],
+      "categories": [
+        "quant-ph",
+        "cond-mat.str-el",
+        "hep-th"
+      ],
+      "updated": "2026-08-26T04:00:52.385656+00:00",
+      "published": "2026-08-26T00:00:00-04:00",
+      "source_category": "hep-th",
+      "abs_url": "https://arxiv.org/abs/2608.19310v2",
+      "pdf_url": "https://arxiv.org/pdf/2608.19310v2",
+      "classification": {
+        "is_theoretical_holography": true,
+        "confidence": 0.75,
+        "primary_topic": "JT/SYK/AdS2/矩阵模型",
+        "secondary_topics": [
+          "非平衡/热化/输运/混沌/QNM"
+        ],
+        "title_zh": "耦合到耗散腔的SYK模型中的耗散增强量子置乱",
+        "abstract_zh": "我们研究 Yukawa-Sachdev-Ye-Kitaev 模型，这是一个包含 $N$ 个马约拉纳费米子和 $R=\\gamma N$ 个玻色子的无序模型，其中玻色子线性耦合到 SYK $p$ 体相互作用的独立实现，并存在由 Lindblad 主方程描述的耗散。受近期在量子模拟器中实现 SYK 模型的提案启发，我们关注玻色子泄漏（速率 $\\kappa$）。将系统初始化在稳态，我们分析晚时间费米子弛豫率和 Lyapunov 指数，通过数值和大 $p$ 近似求解大-$N$ 理论，发现丰富的动力学行为景观。最值得注意的是，Lyapunov 指数对每个 $\\kappa$ 值保持为正，并且对于 $p>2$，甚至可随 $\\kappa$ 增大而增长。QED 情形 $p=2$ 位于完全混沌区域 $p>2$ 与可积情形 $p=1$ 之间，表现出特殊性质。我们还确定了玻色子-费米子比的一个临界值 $\\gamma_c \\approx 2/p^2$，它区分了不同的动力学区域。",
+        "one_liner": "该文在带耗散腔的 Yukawa-SYK 模型中发现耗散可增强 Lyapunov 指数，并揭示出关键的玻色子-费米子比。",
+        "keywords": [
+          "Yukawa-SYK model",
+          "Lindblad master equation",
+          "Lyapunov exponent",
+          "scrambling",
+          "dissipation",
+          "large-N theory",
+          "quantum chaos"
+        ],
+        "importance": "normal",
+        "relevance": "medium",
+        "relevance_reason": "论文基于SYK模型，属于全息AdS2/JT引力模型的范畴，但摘要未直接涉及AdS/CFT字典或具体引力构造，而是聚焦于开放量子系统的混沌与耗散行为。",
+        "focus_tags": []
+      }
+    },
+    "2601.04467v3": {
+      "arxiv_id": "2601.04467",
+      "version": 3,
+      "title": "Holographic codes seen through ZX-calculus",
+      "abstract": "We re-visit the pentagon holographic quantum error correcting code from a ZX-calculus perspective. By expressing the underlying tensors as ZX-diagrams, we study the stabiliser structure of the code via Pauli webs. In addition, we obtain a diagrammatic understanding of its logical operators, encoding isometries, R\\'enyi entropy and toy models of black holes/wormholes. Then, motivated by the pentagon holographic code's ZX-diagram, we introduce a family of codes constructed from ZX-diagrams on its dual hyperbolic tessellations and study their logical error rates using belief propagation decoders. Finally, we show how to construct spacetime ZX-diagrams that realise a fault-tolerant quantum channel in which every internal edge is a protected fault location.",
+      "authors": [
+        "Kwok Ho Wan",
+        "H. C. W. Price",
+        "Qing Yao",
+        "Zhenghao Zhong",
+        "Ainhoa Zapirain"
+      ],
+      "categories": [
+        "quant-ph"
+      ],
+      "updated": "2026-08-26T04:00:26.987785+00:00",
+      "published": "2026-08-26T00:00:00-04:00",
+      "source_category": "quant-ph",
+      "abs_url": "https://arxiv.org/abs/2601.04467v3",
+      "pdf_url": "https://arxiv.org/pdf/2601.04467v3",
+      "classification": {
+        "is_theoretical_holography": true,
+        "confidence": 0.82,
+        "primary_topic": "纠缠/复杂度/量子信息",
+        "secondary_topics": [
+          "黑洞/量子引力/信息"
+        ],
+        "title_zh": "通过 ZX-演算审视全息码",
+        "abstract_zh": "我们重新从 ZX-演算的视角考察五边形全息量子纠错码。通过将底层张量表达为 ZX 图，我们借助 Pauli web 研究该码的稳定子结构。此外，我们还获得了对其逻辑算符、编码等距、Rényi 熵以及黑洞/蠕虫洞玩具模型的图式化理解。接着，受五边形全息码的 ZX 图启发，我们引入了一类由其对偶双曲镶嵌上的 ZX 图构造的码族，并使用置信传播解码器研究其逻辑错误率。最后，我们展示了如何构造可实现容错量子通道的时空 ZX 图，其中每条内部边都是一个受保护的故障位置。",
+        "one_liner": "用 ZX-演算重新理解五边形全息码，并构造双曲镶嵌上的新码族及容错时空结构。",
+        "keywords": [
+          "holographic codes",
+          "ZX-calculus",
+          "quantum error correction",
+          "stabilizer codes",
+          "Pauli webs",
+          "tensor networks",
+          "hyperbolic tessellations",
+          "belief propagation decoder",
+          "fault-tolerant quantum channel",
+          "black hole toy models"
+        ],
+        "importance": "normal",
+        "relevance": "high",
+        "relevance_reason": "论文直接研究全息量子纠错码及其图式化表示，属于全息量子信息方向，与理论全息相关。",
+        "focus_tags": []
+      }
     }
   }
 }
