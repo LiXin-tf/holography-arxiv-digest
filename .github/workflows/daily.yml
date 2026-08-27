@@ -29,6 +29,7 @@ jobs:
       DEEPSEEK_MODEL: ${{ vars.DEEPSEEK_MODEL || 'deepseek-v4-flash' }}
       DEEPSEEK_REVIEW_MODEL: ${{ vars.DEEPSEEK_REVIEW_MODEL || 'deepseek-v4-pro' }}
       PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
+      PUSHPLUS_ACCESS_KEY: ${{ secrets.PUSHPLUS_ACCESS_KEY }}
       PUSHPLUS_ENABLED: ${{ vars.PUSHPLUS_ENABLED || 'false' }}
       PUSHPLUS_TOPIC: ${{ vars.PUSHPLUS_TOPIC }}
       PUSHPLUS_CALLBACK_URL: ${{ vars.PUSHPLUS_CALLBACK_URL }}

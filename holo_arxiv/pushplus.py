@@ -34,9 +34,10 @@ def build_payload(papers: list[Paper], token: str, topic: str = "", site_base_ur
         content = content[:11800] + "<p>内容已截断，请访问网站查看完整目录。</p>"
     payload = {
         "token": token,
-        "title": f"全息 arXiv 每日推送（{len(papers)} 篇）",
+        "title": f"全息与经典引力 arXiv 每日推送（{len(papers)} 篇）",
         "content": content,
         "template": "html",
+        "channel": "wechat",
     }
     if topic:
         payload["topic"] = topic
@@ -55,3 +56,28 @@ def send_push(payload: dict, post: Callable | None = None, timeout: int = 30) ->
     if data.get("code") != 200:
         raise RuntimeError(f"PushPlus 拒绝请求: {data.get('msg', 'unknown error')}")
     return {"status": "accepted_pending_verification", "shortCode": data.get("data")}
+
+
+def query_send_result(short_code: str, access_key: str, get: Callable | None = None,
+                     timeout: int = 30) -> dict:
+    """Query PushPlus asynchronous delivery status using a short-lived AccessKey."""
+    if not short_code:
+        raise ValueError("缺少 PushPlus shortCode")
+    if not access_key:
+        raise ValueError("查询最终状态需要 PUSHPLUS_ACCESS_KEY")
+    if get is None:
+        get = requests.get
+    url = f"https://www.pushplus.plus/api/open/message/sendMessageResult?shortCode={short_code}"
+    response = get(url, headers={"access-key": access_key}, timeout=timeout)
+    if hasattr(response, "raise_for_status"):
+        response.raise_for_status()
+        data = response.json()
+    else:
+        data = response
+    if data.get("code") != 200:
+        raise RuntimeError(f"PushPlus 状态查询失败: {data.get('msg', 'unknown error')}")
+    result = data.get("data") or {}
+    return {
+        "status": result.get("status"),
+        "errorMessage": result.get("errorMessage", ""),
+    }

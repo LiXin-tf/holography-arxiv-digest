@@ -42,7 +42,7 @@ def test_dry_run_is_offline_end_to_end_and_writes_preview_site_state(tmp_path):
         network_get=forbidden_network,
         network_post=forbidden_network,
     )
-    assert result == {"fetched": 2, "candidates": 2, "holography": 2, "pushable_v1": 1, "sent": False}
+    assert result == {"fetched": 2, "candidates": 2, "in_scope": 2, "pushable_v1": 1, "sent": False}
     assert (tmp_path / "docs" / "index.html").exists()
     assert (tmp_path / "docs" / "data.json").exists()
     state = json.loads((tmp_path / "data" / "state.json").read_text(encoding="utf-8"))

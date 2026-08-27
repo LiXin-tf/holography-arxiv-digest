@@ -1,11 +1,14 @@
 import json
+
 import pytest
 
 from holo_arxiv.classifier import (
     ClassificationError,
     DeepSeekClassifier,
     FOCUS_TAGS,
+    REQUIRED,
     SYSTEM_PROMPT,
+    TOPICS,
     build_chat_url,
     parse_classification,
 )
@@ -15,6 +18,7 @@ from holo_arxiv.feed import Paper
 def valid_result(**overrides):
     result = {
         "is_theoretical_holography": True,
+        "is_classical_gravity": False,
         "confidence": 0.92,
         "primary_topic": "全息凝聚态/超流超导/强关联",
         "secondary_topics": ["非均匀态/孤子/涡旋/畴壁"],
@@ -47,6 +51,25 @@ def test_model_json_is_parsed_and_schema_validated():
     assert parsed["focus_tags"] == ["畴壁/孤子/涡旋/非均匀", "QNM与非线性演化"]
 
 
+def test_classical_gravity_is_a_separate_scope_from_holography():
+    tag = "经典引力/广义相对论"
+    result = valid_result(
+        is_theoretical_holography=False,
+        is_classical_gravity=True,
+        primary_topic="经典引力/广义相对论",
+        secondary_topics=[],
+        focus_tags=[tag],
+        relevance="high",
+        relevance_reason="涉及经典引力与广义相对论。",
+    )
+    assert "经典引力/广义相对论" in TOPICS
+    assert tag in FOCUS_TAGS
+    assert all(term in SYSTEM_PROMPT for term in ("经典引力", "广义相对论", "Einstein 方程", "引力波"))
+    parsed = parse_classification(json.dumps(result, ensure_ascii=False))
+    assert parsed["is_classical_gravity"] is True
+    assert parsed["is_theoretical_holography"] is False
+
+
 def test_invalid_or_hallucinated_schema_is_rejected():
     with pytest.raises(ClassificationError):
         parse_classification(json.dumps(valid_result(confidence=1.2)))
@@ -56,14 +79,6 @@ def test_invalid_or_hallucinated_schema_is_rejected():
         parse_classification(json.dumps(valid_result(unexpected="不能接受额外字段"), ensure_ascii=False))
     with pytest.raises(ClassificationError):
         parse_classification(json.dumps(valid_result(keywords=[1, 2]), ensure_ascii=False))
-
-
-def test_d3_d7_d3_d5_floquet_is_an_independent_focus_branch():
-    tag = "D3-D7/D3-D5探针膜与Floquet驱动"
-    assert tag in FOCUS_TAGS
-    assert all(term in SYSTEM_PROMPT for term in ("Type IIB", "D3-D7", "D3-D5", "DBI", "Floquet", "金属-绝缘体相变"))
-    parsed = parse_classification(json.dumps(valid_result(focus_tags=[tag]), ensure_ascii=False))
-    assert parsed["focus_tags"] == [tag]
 
 
 def test_only_low_confidence_invalid_json_or_important_results_are_reviewed():

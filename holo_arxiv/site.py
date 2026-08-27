@@ -156,7 +156,7 @@ def build_site(
 <section id="papers"><h2>最近 {recent_days} 天论文</h2><div class="grid">{_paper_cards(recent)}</div></section>
 <script>document.querySelectorAll('.filter').forEach(function(button){{button.addEventListener('click',function(){{var kind=button.dataset.filterKind,value=button.dataset.filterValue;document.querySelectorAll('.paper').forEach(function(card){{card.hidden=kind!=='all'&&card.dataset[kind]!==value;}});document.getElementById('papers').scrollIntoView({{behavior:'smooth'}});}});}});</script>"""
     (docs_dir / "index.html").write_text(
-        _html_shell("全息 arXiv 每日推送", "理论物理全息论文中文索引", home_body),
+        _html_shell("全息与经典引力 arXiv 每日推送", "理论物理全息论文中文索引", home_body),
         encoding="utf-8",
     )
 
@@ -167,7 +167,7 @@ def build_site(
         year = month[:4]
         years[year].append(month)
         page = _listing_page(
-            f"{month} 全息 arXiv 归档",
+            f"{month} 全息与经典引力 arXiv 归档",
             f"本月共 {len(month_papers)} 条版本记录",
             month_papers,
             root_prefix="../",
@@ -182,7 +182,7 @@ def build_site(
         )
         year_body = f'<section><h2>{escape(year)} 年</h2><ul>{links}</ul></section>'
         (archive_dir / f"{year}.html").write_text(
-            _html_shell(f"{year} 年全息 arXiv 归档", "按月份查看", year_body, root_prefix="../"),
+            _html_shell(f"{year} 年全息与经典引力 arXiv 归档", "按月份查看", year_body, root_prefix="../"),
             encoding="utf-8",
         )
         year_cards.append(

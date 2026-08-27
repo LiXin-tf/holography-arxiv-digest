@@ -10,6 +10,7 @@ from .feed import Paper
 
 TOPICS = (
     "AdS/CFT 基础与字典",
+    "经典引力/广义相对论",
     "黑洞/量子引力/信息",
     "纠缠/复杂度/量子信息",
     "全息凝聚态/超流超导/强关联",
@@ -31,9 +32,10 @@ FOCUS_TAGS = (
     "QNM与非线性演化",
     "冷原子/双组分BEC/凝聚态实验启发",
     "D3-D7/D3-D5探针膜与Floquet驱动",
+    "经典引力/广义相对论",
 )
 REQUIRED = {
-    "is_theoretical_holography", "confidence", "primary_topic", "secondary_topics",
+    "is_theoretical_holography", "is_classical_gravity", "confidence", "primary_topic", "secondary_topics",
     "title_zh", "abstract_zh", "one_liner", "keywords", "importance",
     "relevance", "relevance_reason", "focus_tags",
 }
@@ -62,6 +64,8 @@ def parse_classification(content: str) -> dict:
         raise ClassificationError("模型 JSON 字段必须与模式完全一致")
     if not isinstance(result["is_theoretical_holography"], bool):
         raise ClassificationError("is_theoretical_holography 必须是布尔值")
+    if not isinstance(result["is_classical_gravity"], bool):
+        raise ClassificationError("is_classical_gravity 必须是布尔值")
     confidence = result["confidence"]
     if isinstance(confidence, bool) or not isinstance(confidence, (int, float)) or not 0 <= confidence <= 1:
         raise ClassificationError("confidence 必须在 0 到 1 之间")
@@ -85,12 +89,12 @@ def parse_classification(content: str) -> dict:
 
 
 SYSTEM_PROMPT = f"""你是理论物理 arXiv 摘要分类器。只可依据提供的题目和摘要，不得杜撰摘要之外的方法、结论或重要性。
-输出单个 JSON 对象，不要 markdown。字段严格为：is_theoretical_holography(bool), confidence(0..1),
+输出单个 JSON 对象，不要 markdown。字段严格为：is_theoretical_holography(bool), is_classical_gravity(bool), confidence(0..1),
 primary_topic(下列之一), secondary_topics(数组), title_zh, abstract_zh, one_liner, keywords(数组),
 importance(low|normal|high), relevance(low|medium|high), relevance_reason, focus_tags(数组)。
 主题：{json.dumps(TOPICS, ensure_ascii=False)}
 用户重点标签（不同研究支线必须分开，不要合并自造标签）：{json.dumps(FOCUS_TAGS, ensure_ascii=False)}
-独立重点支线说明：若论文涉及 Type IIB 中的 D3-D7 或 D3-D5 flavor/probe brane、DBI（Dirac-Born-Infeld）动力学、Floquet/周期驱动、非平衡稳态或金属-绝缘体相变，应使用“D3-D7/D3-D5探针膜与Floquet驱动”标签；可同时归入“全息凝聚态/超流超导/强关联”和“非平衡/热化/输运/混沌/QNM”，但不要与 HHH 超流支线合并。
+经典引力支线说明：若论文主要研究广义相对论、Einstein 方程、经典引力、引力波、黑洞/中子星等经典时空与引力现象，而不是量子引力或全息，应将 is_classical_gravity 设为 true，并可使用“经典引力/广义相对论”主主题和重点标签。若同时属于全息研究，is_theoretical_holography 与 is_classical_gravity 可以同时为 true。
 若摘要没有足够信息，应明确保守表述并降低置信度。"""
 
 

@@ -81,8 +81,9 @@ python -m holo_arxiv
 | `DEEPSEEK_API_KEY` | 无 | 在线分类必需 |
 | `DEEPSEEK_BASE_URL` | `https://api.deepseek.com` | 自动规范为唯一 `/v1/chat/completions`，不会重复 `/v1` |
 | `DEEPSEEK_MODEL` | `deepseek-v4-flash` | 主分类模型 |
-| `DEEPSEEK_REVIEW_MODEL` | `deepseek-v4-pro` | 条件复核模型 |
+- `DEEPSEEK_REVIEW_MODEL` | `deepseek-v4-pro` | 条件复核模型 |
 | `PUSHPLUS_TOKEN` | 无 | 有新 v1 且启用推送时必需 |
+| `PUSHPLUS_ACCESS_KEY` | 空 | 可选；配置后查询 PushPlus 异步最终投递状态。需在 PushPlus 开发设置中配置并注意其有效期/安全 IP |
 | `PUSHPLUS_ENABLED` | `false` | 安全开关；只有显式设为 `true` 才真实发送 |
 | `PUSHPLUS_TOPIC` | 空 | 可选群组编码 |
 | `PUSHPLUS_CALLBACK_URL` | 空 | 可选异步结果回调 |

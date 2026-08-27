@@ -8,7 +8,7 @@ from .pipeline import run_pipeline
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="全息 arXiv 每日推送")
+    parser = argparse.ArgumentParser(description="全息与经典引力 arXiv 每日推送")
     parser.add_argument("--dry-run", action="store_true", help="完全离线演练，不访问网络或读取密钥")
     parser.add_argument("--fixture", type=Path, default=Path("tests/fixtures/sample_atom.xml"))
     parser.add_argument("--state", type=Path, default=Path("data/state.json"))

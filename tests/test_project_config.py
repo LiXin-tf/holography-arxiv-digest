@@ -28,6 +28,7 @@ def test_example_env_documents_models_urls_and_no_real_secrets():
     assert "DEEPSEEK_REVIEW_MODEL=deepseek-v4-pro" in env
     assert "DEEPSEEK_BASE_URL=https://api.deepseek.com" in env
     assert "PUSHPLUS_TOKEN=" in env
+    assert "PUSHPLUS_ACCESS_KEY=" in env
     assert "PUSHPLUS_ENABLED=false" in env
     assert "SITE_BASE_URL=" in env
 

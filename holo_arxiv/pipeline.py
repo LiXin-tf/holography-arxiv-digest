@@ -10,7 +10,7 @@ import requests
 
 from .classifier import DeepSeekClassifier
 from .feed import Paper, parse_atom
-from .pushplus import build_payload, send_push
+from .pushplus import build_payload, query_send_result, send_push
 from .rules import is_candidate
 from .site import build_site
 from .state import StateStore, dedupe_papers
@@ -45,6 +45,7 @@ def _fake_classification(paper: Paper) -> dict:
         focus.append("畴壁/孤子/涡旋/非均匀")
     return {
         "is_theoretical_holography": True,
+        "is_classical_gravity": False,
         "confidence": 0.90,
         "primary_topic": "全息凝聚态/超流超导/强关联" if superfluid else "AdS/CFT 基础与字典",
         "secondary_topics": ["非均匀态/孤子/涡旋/畴壁"] if nonuniform else [],
@@ -97,9 +98,13 @@ def run_pipeline(*, dry_run: bool = False, fixture: Path | None = None,
         )
         for paper in candidates:
             paper.classification = classifier.classify(paper)
-    holography = [p for p in candidates if p.classification.get("is_theoretical_holography")]
+    in_scope = [
+        p for p in candidates
+        if p.classification.get("is_theoretical_holography")
+        or p.classification.get("is_classical_gravity")
+    ]
     store = StateStore(Path(state_path))
-    store.record(holography)
+    store.record(in_scope)
     pushable = store.pending_v1()
     build_site(store.all_papers(), Path(docs_dir))
     site_url = os.environ.get("SITE_BASE_URL", "")
@@ -118,9 +123,21 @@ def run_pipeline(*, dry_run: bool = False, fixture: Path | None = None,
             os.environ.get("PUSHPLUS_CALLBACK_URL", ""),
         )
         result = send_push(payload, post=network_post)
-        store.mark_sent(pushable, result["shortCode"], result["status"])
+        short_code = result["shortCode"]
+        access_key = os.environ.get("PUSHPLUS_ACCESS_KEY", "")
+        if access_key:
+            delivery = query_send_result(short_code, access_key)
+            print(f"PushPlus 最终投递状态: {json.dumps(delivery, ensure_ascii=False)}")
+            if delivery["status"] == 3:
+                raise RuntimeError(f"PushPlus 最终投递失败: {delivery.get('errorMessage', '')}")
+            if delivery["status"] != 2:
+                raise RuntimeError(f"PushPlus 最终投递尚未完成: status={delivery['status']}")
+            result["status"] = "sent"
+        else:
+            print(f"PushPlus 已接单但未验证最终投递，shortCode={short_code}")
+        store.mark_sent(pushable, short_code, result["status"])
         sent = True
     return {
-        "fetched": len(papers), "candidates": len(candidates), "holography": len(holography),
+        "fetched": len(papers), "candidates": len(candidates), "in_scope": len(in_scope),
         "pushable_v1": len(pushable), "sent": sent,
     }

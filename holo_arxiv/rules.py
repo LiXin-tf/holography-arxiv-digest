@@ -12,6 +12,10 @@ INCLUDE_TERMS = (
     "type iib", "d3-d7", "d3/d7", "d3 d7", "d3–d7", "d3-d5", "d3/d5", "d3 d5", "d3–d5",
     "probe brane", "probe-brane", "flavor brane", "flavour brane",
     "dirac-born-infeld", "dirac born infeld", "dbi holograph", "floquet holograph",
+    "general relativity", "classical gravity", "einstein equation", "einstein equations",
+    "gravitational wave", "gravitational-wave", "numerical relativity", "relativistic star",
+    "neutron star", "compact object", "gravitational lensing", "black hole perturbation",
+    "geodesic", "spacetime geometry", "cosmological perturbation",
 )
 EXCLUDE_PATTERNS = (
     r"\b(optical|digital|computer[- ]generated|acoustic|microwave) holograph",
