@@ -2,7 +2,7 @@ name: 全息 arXiv 每日推送
 
 on:
   schedule:
-    - cron: '45 5-11 * * 1-5'
+    - cron: '45 6-11 * * 1-5'
   workflow_dispatch:
     inputs:
       deploy_only:
