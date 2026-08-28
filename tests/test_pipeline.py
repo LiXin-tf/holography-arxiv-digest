@@ -29,6 +29,34 @@ def test_pushplus_requires_explicit_true_switch():
     assert pushplus_is_enabled({"PUSHPLUS_ENABLED": "TRUE"}) is True
 
 
+def test_dry_run_skips_already_recorded_versions_before_model_calls(tmp_path):
+    def forbidden_network(*args, **kwargs):
+        raise AssertionError("dry-run 不得访问网络")
+
+    first = run_pipeline(
+        dry_run=True,
+        fixture=FIXTURE,
+        state_path=tmp_path / "data" / "state.json",
+        docs_dir=tmp_path / "docs",
+        preview_path=tmp_path / "first-preview.json",
+        network_get=forbidden_network,
+        network_post=forbidden_network,
+    )
+    second = run_pipeline(
+        dry_run=True,
+        fixture=FIXTURE,
+        state_path=tmp_path / "data" / "state.json",
+        docs_dir=tmp_path / "docs",
+        preview_path=tmp_path / "second-preview.json",
+        network_get=forbidden_network,
+        network_post=forbidden_network,
+    )
+    assert first["candidates"] == 2
+    assert second["candidates"] == 0
+    assert second["in_scope"] == 0
+    assert second["pushable_v1"] == 1
+
+
 def test_dry_run_is_offline_end_to_end_and_writes_preview_site_state(tmp_path):
     def forbidden_network(*args, **kwargs):
         raise AssertionError("dry-run 不得访问网络")

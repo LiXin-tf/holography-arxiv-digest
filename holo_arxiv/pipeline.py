@@ -84,7 +84,8 @@ def run_pipeline(*, dry_run: bool = False, fixture: Path | None = None,
             fetched = parse_atom(_response_bytes(response), category)
             papers.extend(filter_announcements(fetched, target_date))
     papers = dedupe_papers(papers)
-    candidates = [paper for paper in papers if is_candidate(paper)]
+    store = StateStore(Path(state_path))
+    candidates = [paper for paper in papers if is_candidate(paper) and not store.is_known(paper)]
     if dry_run:
         for paper in candidates:
             paper.classification = _fake_classification(paper)
@@ -103,7 +104,6 @@ def run_pipeline(*, dry_run: bool = False, fixture: Path | None = None,
         if p.classification.get("is_theoretical_holography")
         or p.classification.get("is_classical_gravity")
     ]
-    store = StateStore(Path(state_path))
     store.record(in_scope)
     pushable = store.pending_v1()
     build_site(store.all_papers(), Path(docs_dir))

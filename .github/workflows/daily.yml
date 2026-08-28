@@ -2,7 +2,7 @@ name: 全息 arXiv 每日推送
 
 on:
   schedule:
-    - cron: '45 5 * * 1-5'
+    - cron: '45 5-11 * * 1-5'
   workflow_dispatch:
     inputs:
       deploy_only:
@@ -42,10 +42,14 @@ jobs:
           cache: pip
       - name: 安装依赖
         run: python -m pip install -r requirements.txt
+      - name: 检查北京时间推送窗口
+        id: time_gate
+        if: ${{ github.event_name == 'schedule' }}
+        run: python -m holo_arxiv.time_gate
       - name: 运行测试
         run: python -m pytest -q
       - name: 抓取、分类、生成网页并推送
-        if: ${{ github.event_name == 'schedule' || inputs.deploy_only != true }}
+        if: ${{ (github.event_name != 'schedule' && inputs.deploy_only != true) || steps.time_gate.outputs.allowed == 'true' }}
         run: python -m holo_arxiv
       - name: 检查归档与网站单文件大小
         run: python -m holo_arxiv.size_guard data docs

@@ -146,6 +146,10 @@ class StateStore:
             encoding="utf-8",
         )
 
+    def is_known(self, paper: Paper) -> bool:
+        record = self.data.get("papers", {}).get(paper.arxiv_id)
+        return bool(record and paper.version in record.get("versions", []))
+
     def record(self, papers: list[Paper]) -> list[Paper]:
         pushable: list[Paper] = []
         dirty_archives: dict[str, dict] = {}
