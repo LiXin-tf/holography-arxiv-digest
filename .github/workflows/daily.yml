@@ -2,7 +2,10 @@ name: 全息 arXiv 每日推送
 
 on:
   schedule:
-    - cron: '45 6-11 * * 1-5'
+    # 工作日北京时间 14:45–19:45 每小时尝试一次。
+    # 使用 GitHub 的 IANA 时区，避免 UTC 换算和夏令时歧义。
+    - cron: '45 14-19 * * 1-5'
+      timezone: 'Asia/Shanghai'
   workflow_dispatch:
     inputs:
       deploy_only:
@@ -21,6 +24,7 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 90
     permissions:
       contents: write
     env:
@@ -42,14 +46,15 @@ jobs:
           cache: pip
       - name: 安装依赖
         run: python -m pip install -r requirements.txt
-      - name: 检查北京时间推送窗口
-        id: time_gate
-        if: ${{ github.event_name == 'schedule' }}
-        run: python -m holo_arxiv.time_gate
+      - name: 记录触发来源
+        run: |
+          echo "触发事件: ${{ github.event_name }}"
+          echo "schedule: ${{ github.event.schedule || 'manual' }}"
+          date -u '+UTC 时间: %Y-%m-%d %H:%M:%S'
       - name: 运行测试
         run: python -m pytest -q
       - name: 抓取、分类、生成网页并推送
-        if: ${{ (github.event_name != 'schedule' && inputs.deploy_only != true) || steps.time_gate.outputs.allowed == 'true' }}
+        if: ${{ github.event_name != 'workflow_dispatch' || inputs.deploy_only != true }}
         run: python -m holo_arxiv
       - name: 检查归档与网站单文件大小
         run: python -m holo_arxiv.size_guard data docs
