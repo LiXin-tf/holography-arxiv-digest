@@ -3,16 +3,17 @@ from pathlib import Path
 ROOT = Path(__file__).parents[1]
 
 
-def test_actions_has_weekday_utc_schedule_manual_dispatch_tests_commit_and_pages():
+def test_actions_has_weekday_shanghai_schedule_manual_dispatch_tests_commit_and_pages():
     workflow = (ROOT / ".github/workflows/daily.yml").read_text(encoding="utf-8")
-    assert "45 6-11 * * 1-5" in workflow
+    assert "45 14-19 * * 1-5" in workflow
+    assert "timezone: 'Asia/Shanghai'" in workflow
     assert "workflow_dispatch:" in workflow
     assert "deploy_only:" in workflow
     assert "inputs.deploy_only != true" in workflow
     assert "python -m pytest" in workflow
     assert "python -m holo_arxiv" in workflow
-    assert "python -m holo_arxiv.time_gate" in workflow
-    assert "steps.time_gate.outputs.allowed == 'true'" in workflow
+    assert "记录触发来源" in workflow
+    assert "timeout-minutes: 90" in workflow
     assert "python -m holo_arxiv.size_guard" in workflow
     assert "git diff --cached --quiet" in workflow
     assert "actions/configure-pages@v5" in workflow
