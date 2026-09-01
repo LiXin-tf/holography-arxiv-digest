@@ -1,6 +1,7 @@
 import json
 
 import pytest
+import requests
 
 from holo_arxiv.classifier import (
     ClassificationError,
@@ -79,6 +80,44 @@ def test_invalid_or_hallucinated_schema_is_rejected():
         parse_classification(json.dumps(valid_result(unexpected="不能接受额外字段"), ensure_ascii=False))
     with pytest.raises(ClassificationError):
         parse_classification(json.dumps(valid_result(keywords=[1, 2]), ensure_ascii=False))
+    with pytest.raises(ClassificationError):
+        parse_classification(json.dumps(valid_result(focus_tags=["模型自造标签"]), ensure_ascii=False))
+
+
+def test_classifier_drops_unknown_focus_tags_from_model_response():
+    calls = []
+
+    def post(url, **kwargs):
+        calls.append(kwargs["json"]["model"])
+        return {"choices": [{"message": {"content": json.dumps(
+            valid_result(focus_tags=["模型自造标签"], importance="normal"), ensure_ascii=False
+        )}}]}
+
+    classifier = DeepSeekClassifier("secret", "https://api.deepseek.com", "main", "review", post=post)
+    result = classifier.classify(sample_paper())
+    assert result["focus_tags"] == []
+    assert calls == ["main"]
+
+
+def test_review_timeout_keeps_valid_main_result():
+    calls = []
+
+    def post(url, **kwargs):
+        model = kwargs["json"]["model"]
+        calls.append(model)
+        if model == "review":
+            raise requests.Timeout("review timed out")
+        return {"choices": [{"message": {"content": json.dumps(
+            valid_result(importance="high"), ensure_ascii=False
+        )}}]}
+
+    classifier = DeepSeekClassifier(
+        "secret", "https://api.deepseek.com", "main", "review",
+        post=post, request_retries=0, retry_delay=0,
+    )
+    result = classifier.classify(sample_paper())
+    assert result["one_liner"] == "关注涡旋的非线性演化。"
+    assert calls == ["main", "review"]
 
 
 def test_only_low_confidence_invalid_json_or_important_results_are_reviewed():
