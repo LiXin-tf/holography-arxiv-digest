@@ -503,6 +503,48 @@
       }
     },
     {
+      "arxiv_id": "2608.29295",
+      "version": 1,
+      "title": "Automated identification and subtraction of gravitational-wave glitches using boundary refinement",
+      "abstract": "Transient noise artifacts, or glitches, in gravitational wave strain data elevate the false alarm rate of astrophysical searches and degrade parameter estimation when overlapping a signal. No method previously identified a glitch's time boundary: existing detection and classification tools flag and label glitches without resolving their extent, forcing subtraction to run over padded windows that cost time and erase signal beyond the glitch itself. We present three boundary identification methods, AMPS (Amplitude-based Multi-glitch Pulse Segmenter), FLARE (Fitness-based Localization And Refinement Extractor), and CRISP (connected-region identification via spectrogram power), paired with three subtraction techniques, adaptive spline fitting, wavelet shrinkage, and their combination, across five glitches from the GravitySpy database spanning Advanced LIGO's first three observing runs. AMPS sets a boundary from a robust amplitude threshold, FLARE from the best fitness of a segmented spline fit, and CRISP from spectrogram power. Injecting a chirp signal on four broadband glitches, the combined technique recovers 95 to 97 percent of the injected signal-to-noise ratio, against roughly 64 percent for wavelet shrinkage alone. CRISP gives the most uniform boundary width across glitches; AMPS and CRISP both identify a boundary in a fraction of a second, two to three orders of magnitude faster than FLARE. For the glitch overlapping GW170817, a low-frequency residual persists under the default boundary, a deliberate tradeoff against removing signal power. Scattered light glitches remain untested and are the primary direction for future work.",
+      "authors": [
+        "Mohammad Abu Thaher Chowdhury",
+        "Soumya D Mohanty"
+      ],
+      "categories": [
+        "gr-qc",
+        "astro-ph.IM"
+      ],
+      "updated": "2026-09-01T04:00:50.266815+00:00",
+      "published": "2026-09-01T00:00:00-04:00",
+      "source_category": "gr-qc",
+      "abs_url": "https://arxiv.org/abs/2608.29295v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.29295v1",
+      "classification": {
+        "is_theoretical_holography": false,
+        "is_classical_gravity": true,
+        "confidence": 0.95,
+        "primary_topic": "经典引力/广义相对论",
+        "secondary_topics": [],
+        "title_zh": "使用边界细化自动识别和扣除引力波毛刺",
+        "abstract_zh": "引力波应变数据中的瞬态噪声伪影（即毛刺）会提高天体物理搜索的误报率，并在与信号重叠时降低参数估计质量。目前没有方法能够识别毛刺的时间边界：现有的检测和分类工具仅标记毛刺而不解析其范围，迫使扣除程序在填充窗口上运行，这既耗费时间又抹除了毛刺本身之外的信号。我们提出了三种边界识别方法——AMPS（基于幅度的多毛刺脉冲分割器）、FLARE（基于适应度的定位与细化提取器）和CRISP（基于频谱图功率的连通区域识别），并配以三种扣除技术：自适应样条拟合、小波收缩及其组合。这些方法应用于来自GravitySpy数据库的五个毛刺，覆盖Advanced LIGO前三次观测运行。AMPS通过鲁棒幅度阈值确定边界，FLARE通过分段样条拟合的最佳适应度确定边界，CRISP通过频谱图功率确定边界。在四个宽带毛刺上注入啁啾信号，组合技术恢复了注入信噪比的95%至97%，而单独使用小波收缩仅恢复约64%。CRISP在不同毛刺间给出了最均匀的边界宽度；AMPS和CRISP都能在不到一秒内确定边界，比FLARE快两到三个数量级。对于与GW170817重叠的毛刺，在默认边界下残留低频余量，这是避免移除信号功率的刻意权衡。散落光毛刺尚未测试，是未来工作的主要方向。",
+        "one_liner": "提出三种毛刺边界识别方法和三种扣除技术，以提高引力波观测中重叠信号的信噪比恢复。",
+        "keywords": [
+          "引力波",
+          "毛刺",
+          "噪声扣除",
+          "边界细化",
+          "LIGO"
+        ],
+        "importance": "normal",
+        "relevance": "low",
+        "relevance_reason": "论文专注于引力波数据中的噪声伪影识别与扣除，属于经典引力实验数据处理，不涉及全息或量子引力理论。",
+        "focus_tags": [
+          "经典引力/广义相对论"
+        ]
+      }
+    },
+    {
       "arxiv_id": "2608.29466",
       "version": 1,
       "title": "How much of the black hole ringdown is sourced within the light ring?",
@@ -2430,6 +2472,50 @@
       }
     },
     {
+      "arxiv_id": "2604.25569",
+      "version": 3,
+      "title": "Curvature-Assisted Dynamical Compactification in a Pre-Inflationary Higher-Dimensional Universe",
+      "abstract": "We investigate a pre-inflationary dynamical compactification scenario in which a higher-dimensional expanding universe evolves into an effectively four-dimensional one through curvature-assisted modulus trapping. To obtain a calculable semiclassical realization, we consider a simple five-dimensional $S^1$ compactification in a time-dependent open FRW background. Bulk quantum fields generate both the late-time Casimir contribution that stabilizes the radion and the early-time Kaluza-Klein thermal contributions relevant for the cosmological evolution. We show that negative curvature can sustain tracker-like radion evolution, allowing the radion to be trapped in a compactified vacuum before a subsequent four-dimensional inflationary phase dilutes the curvature remnant. While our analysis is performed in a 5D toy model, it illustrates a broader mechanism by which dynamical compactification can arise in a pre-inflationary higher-dimensional cosmology.",
+      "authors": [
+        "Yusuke Yamada"
+      ],
+      "categories": [
+        "hep-th"
+      ],
+      "updated": "2026-09-01T04:00:49.942102+00:00",
+      "published": "2026-09-01T00:00:00-04:00",
+      "source_category": "hep-th",
+      "abs_url": "https://arxiv.org/abs/2604.25569v3",
+      "pdf_url": "https://arxiv.org/pdf/2604.25569v3",
+      "classification": {
+        "is_theoretical_holography": false,
+        "is_classical_gravity": true,
+        "confidence": 0.75,
+        "primary_topic": "宇宙学/膜世界/其他",
+        "secondary_topics": [
+          "经典引力/广义相对论"
+        ],
+        "title_zh": "曲率辅助的暴涨前高维宇宙动力学紧致化",
+        "abstract_zh": "我们研究了一种暴涨前的动力学紧致化场景，其中高维膨胀宇宙通过曲率辅助的模场俘获演化为有效四维宇宙。为实现可计算的半经典实现，我们考虑了在时间依赖的开放FRW背景下的简单五维S^1紧致化。体量子场既产生稳定radion的晚期Casimir贡献，也产生与宇宙学演化相关的早期Kaluza-Klein热贡献。我们表明，负曲率可以维持类似跟踪解的radion演化，使radion在随后的四维暴涨阶段稀释曲率残余之前被俘获在紧致真空中。虽然分析是在5D玩具模型中进行的，但它展示了一种更广泛的机制，即动力学紧致化可以在暴涨前的高维宇宙学中出现。",
+        "one_liner": "提出曲率辅助的动力学紧致化机制，展示5D玩具模型中radion如何通过负曲率和量子效应被俘获。",
+        "keywords": [
+          "dynamical compactification",
+          "radion",
+          "Casimir energy",
+          "Kaluza-Klein thermal contributions",
+          "pre-inflationary cosmology",
+          "open FRW",
+          "modulus trapping"
+        ],
+        "importance": "normal",
+        "relevance": "low",
+        "relevance_reason": "本文属于高维宇宙学紧致化，与用户的全息超流、QNM、凝聚态等核心重点标签交集很少，仅与经典引力/广义相对论支线有边缘关联。",
+        "focus_tags": [
+          "经典引力/广义相对论"
+        ]
+      }
+    },
+    {
       "arxiv_id": "2604.27449",
       "version": 4,
       "title": "Extended Hamiltonian thermodynamics and Carroll contractions of AdS black holes",
@@ -2697,6 +2783,56 @@
       }
     },
     {
+      "arxiv_id": "2504.02462",
+      "version": 3,
+      "title": "Gravitational Wave with Domain Wall Dominance",
+      "abstract": "Domain walls (DWs) can be produced when a discrete symmetry is spontaneously broken, and long-lived DWs can dominate the energy density of the universe. In this work, we explore the possibility that a \"domain wall dominant (DWD)\" phase existed in the early universe and ended with DW decay. During the DWD phase, the universe undergoes a power-law accelerated expansion of the scale factor and exhibits temporal superhorizon evolution of the relevant frequency modes. We show that this can lead to distinct features imprinted on the stochastic gravitational wave (GW) background including the independence of its amplitude from the wall tension. Our findings provide a comprehensive framework for evaluating GW emission associated with DWD, leading to distinguishable long-lived DW-induced GWs from other cosmological sources, with significant implications for future GW observatories.",
+      "authors": [
+        "Sungwoo Hong",
+        "Sung Mook Lee",
+        "Qiuyue Liang"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "gr-qc",
+        "hep-ph",
+        "hep-th"
+      ],
+      "updated": "2026-09-01T04:00:49.941075+00:00",
+      "published": "2026-09-01T00:00:00-04:00",
+      "source_category": "hep-th",
+      "abs_url": "https://arxiv.org/abs/2504.02462v3",
+      "pdf_url": "https://arxiv.org/pdf/2504.02462v3",
+      "classification": {
+        "is_theoretical_holography": false,
+        "is_classical_gravity": true,
+        "confidence": 0.9,
+        "primary_topic": "宇宙学/膜世界/其他",
+        "secondary_topics": [
+          "经典引力/广义相对论",
+          "非均匀态/孤子/涡旋/畴壁"
+        ],
+        "title_zh": "畴壁主导时期的引力波",
+        "abstract_zh": "当离散对称性自发破缺时会产生畴壁，长寿命的畴壁可以主导宇宙的能量密度。我们探讨了早期宇宙中存在“畴壁主导”阶段并以畴壁衰变结束的可能性。在畴壁主导阶段，宇宙经历尺度因子的幂律加速膨胀，并表现出相关频率模式的超视界时间演化。我们证明这会在随机引力波背景上留下独特印记，包括其振幅与壁张力无关。我们的发现为评估与畴壁主导相关的引力波发射提供了全面框架，使长寿命畴壁产生的引力波与其他宇宙学来源可区分，对未来引力波观测台具有重要意义。",
+        "one_liner": "早期宇宙畴壁主导阶段会在随机引力波背景上留下独特印记，其振幅与壁张力无关，为未来引力波观测提供可区分的信号。",
+        "keywords": [
+          "引力波",
+          "畴壁",
+          "宇宙学",
+          "随机引力波背景",
+          "离散对称性破缺",
+          "早期宇宙"
+        ],
+        "importance": "high",
+        "relevance": "medium",
+        "relevance_reason": "论文研究畴壁主导时期的引力波，属于宇宙学与经典引力，与用户重点标签中的“畴壁/孤子/涡旋/非均匀”相关，但不涉及全息或凝聚态方向。",
+        "focus_tags": [
+          "畴壁/孤子/涡旋/非均匀",
+          "经典引力/广义相对论"
+        ]
+      }
+    },
+    {
       "arxiv_id": "2506.00265",
       "version": 5,
       "title": "Einstein's equation as a geometric encoding of correlations with quantum reference frames",
@@ -2921,6 +3057,54 @@
         "importance": "normal",
         "relevance": "high",
         "relevance_reason": "论文主要研究de Sitter时空中的经典引力波及其截断，属于经典引力/广义相对论研究支线。",
+        "focus_tags": [
+          "经典引力/广义相对论"
+        ]
+      }
+    },
+    {
+      "arxiv_id": "2603.06995",
+      "version": 2,
+      "title": "Constraint Analysis and Quantization of Anomalous 2-D Thomas-Whitehead Gravity",
+      "abstract": "The two-dimensional effective Polyakov action is often realized as the anomalous contributions of string theories and fermions coupled to gravity in two dimensions. However, as a result of the reparametrization invariance, one finds that the effective action produces vanishing Hamiltonians as constraints even in disparate gauges such as the dynamical light-cone and the Arnowitt-Deser-Misner (ADM) formalism of the metric. On the other hand, two-dimensional gravitational theories naturally arise as geometric actions on the coadjoint orbits of the Virasoro algebra. The Thomas-Whitehead gravity formalism extends the effective Polyakov action in such a way that the defining coadjoint element for the orbit becomes a dynamical field, viz. the diffeomorphism field. In this work, we examine the role the diffeomorphism field plays through the well-understood quantization of the two-dimensional anomalous contributions to gravity. This is first done in the dynamical light-cone and then with the ADM formalism of the metric. To examine a dynamical diffeomorphism field, the constraint analysis is then repeated in a Minkowski background, where the dynamics of the diffeomorphism field arise from the Thomas-Whitehead action. Adding dynamics to the diffeomorphism field appears to remove the vanishing Hamiltonians; however, expressing the diffeomorphism in terms of the P-tensor recovers the Hamiltonian constraint. One can compare this investigation to that of a gauge Wess-Zumino-Witten action where the gauge field has become dynamical through the inclusion of a Yang-Mills term.",
+      "authors": [
+        "Eric Biedke",
+        "Salvatore Quaid",
+        "Vincent Rodgers"
+      ],
+      "categories": [
+        "gr-qc",
+        "hep-th"
+      ],
+      "updated": "2026-09-01T04:00:49.940361+00:00",
+      "published": "2026-09-01T00:00:00-04:00",
+      "source_category": "hep-th",
+      "abs_url": "https://arxiv.org/abs/2603.06995v2",
+      "pdf_url": "https://arxiv.org/pdf/2603.06995v2",
+      "classification": {
+        "is_theoretical_holography": false,
+        "is_classical_gravity": true,
+        "confidence": 0.75,
+        "primary_topic": "经典引力/广义相对论",
+        "secondary_topics": [
+          "JT/SYK/AdS2/矩阵模型",
+          "黑洞/量子引力/信息"
+        ],
+        "title_zh": "反常二维Thomas-Whitehead引力的约束分析与量子化",
+        "abstract_zh": "二维有效Polyakov作用量通常表现为弦理论和费米子耦合二维引力的反常贡献。然而，由于重新参数化不变性，即使在动态光锥和度规的ADM形式等不同规范下，有效作用量也会产生消失的哈密顿量作为约束。另一方面，二维引力理论自然地作为Virasoro代数余伴随轨道上的几何作用量出现。Thomas-Whitehead引力形式扩展了有效Polyakov作用量，使得定义轨道的余伴随元素成为一个动力学场，即微分同胚场。本文通过充分理解的二维引力反常贡献的量子化，考察微分同胚场的作用。首先在动态光锥中完成，然后采用度规的ADM形式。为了研究动态微分同胚场，我们在闵可夫斯基背景下重复约束分析，其中微分同胚场的动力学源于Thomas-Whitehead作用量。给微分同胚场添加动力学似乎消除了消失的哈密顿量；然而，用P张量表示微分同胚场恢复了哈密顿约束。可以将此研究与规范Wess-Zumino-Witten作用量进行类比，其中规范场通过加入杨-米尔斯项而变得动力学。",
+        "one_liner": "本文分析了二维Thomas-Whitehead引力中动态微分同胚场的约束结构，发现其动力学可消除消失哈密顿量但通过P张量恢复约束，并对比了WZW模型。",
+        "keywords": [
+          "Thomas-Whitehead引力",
+          "约束分析",
+          "量子化",
+          "Polyakov作用量",
+          "Virasoro代数",
+          "ADM形式",
+          "微分同胚场"
+        ],
+        "importance": "normal",
+        "relevance": "low",
+        "relevance_reason": "论文聚焦于二维反常引力的约束分析与量子化，而非全息原理、AdS/CFT或用户指定的凝聚态/QCD/热化等方向，仅与经典引力理论有一定关联。",
         "focus_tags": [
           "经典引力/广义相对论"
         ]

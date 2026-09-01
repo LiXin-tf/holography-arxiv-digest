@@ -2444,6 +2444,48 @@
       "version_months": {
         "3": "2026-09"
       }
+    },
+    "2604.25569": {
+      "latest_version": 3,
+      "versions": [
+        3
+      ],
+      "sent_versions": [],
+      "version_months": {
+        "3": "2026-09"
+      }
+    },
+    "2504.02462": {
+      "latest_version": 3,
+      "versions": [
+        3
+      ],
+      "sent_versions": [],
+      "version_months": {
+        "3": "2026-09"
+      }
+    },
+    "2603.06995": {
+      "latest_version": 2,
+      "versions": [
+        2
+      ],
+      "sent_versions": [],
+      "version_months": {
+        "2": "2026-09"
+      }
+    },
+    "2608.29295": {
+      "latest_version": 1,
+      "versions": [
+        1
+      ],
+      "sent_versions": [
+        1
+      ],
+      "version_months": {
+        "1": "2026-09"
+      }
     }
   },
   "pushes": [
@@ -2610,6 +2652,14 @@
         "2608.30930v1",
         "2608.29059v1",
         "2608.30573v1"
+      ]
+    },
+    {
+      "at": "2026-09-01T15:01:12.880319+00:00",
+      "status": "accepted_pending_verification",
+      "shortCode": "a572c36541294b979659519cf49a7f78",
+      "paper_ids": [
+        "2608.29295v1"
       ]
     }
   ]
