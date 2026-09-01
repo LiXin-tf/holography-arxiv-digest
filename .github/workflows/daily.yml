@@ -2,10 +2,9 @@ name: 全息 arXiv 每日推送
 
 on:
   schedule:
-    # 工作日北京时间 14:45–19:45 每小时尝试一次。
-    # 使用 GitHub 的 IANA 时区，避免 UTC 换算和夏令时歧义。
-    - cron: '45 14-19 * * 1-5'
-      timezone: 'Asia/Shanghai'
+    # GitHub Actions 使用 UTC：工作日北京时间 14:45–19:45。
+    # 使用本仓库已实际运行过的纯 UTC 写法，避免时区字段导致调度注册异常。
+    - cron: '45 6-11 * * 1-5'
   workflow_dispatch:
     inputs:
       deploy_only:
