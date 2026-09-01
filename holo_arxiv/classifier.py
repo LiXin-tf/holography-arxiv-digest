@@ -54,7 +54,7 @@ def build_chat_url(base_url: str) -> str:
     return f"{base}/v1/chat/completions"
 
 
-def parse_classification(content: str) -> dict:
+def parse_classification(content: str, *, tolerate_unknown_focus_tags: bool = False) -> dict:
     cleaned = re.sub(r"^\s*```(?:json)?\s*|\s*```\s*$", "", content, flags=re.I)
     try:
         result = json.loads(cleaned)
@@ -80,8 +80,13 @@ def parse_classification(content: str) -> dict:
     for key in ("keywords", "focus_tags"):
         if not isinstance(result[key], list) or any(not isinstance(item, str) or not item.strip() for item in result[key]):
             raise ClassificationError(f"{key} 必须是非空文本数组")
-    if any(x not in FOCUS_TAGS for x in result["focus_tags"]):
+    unknown_focus_tags = [x for x in result["focus_tags"] if x not in FOCUS_TAGS]
+    if unknown_focus_tags and not tolerate_unknown_focus_tags:
         raise ClassificationError("focus_tags 不在用户重点标签内")
+    if unknown_focus_tags:
+        # 重点标签只影响展示，不影响是否纳入全息/经典引力范围；
+        # 丢弃模型偶尔自造的标签，避免一次复核失败拖垮整批任务。
+        result["focus_tags"] = [x for x in result["focus_tags"] if x in FOCUS_TAGS]
     for key in ("title_zh", "abstract_zh", "one_liner", "relevance_reason"):
         if not isinstance(result[key], str) or not result[key].strip():
             raise ClassificationError(f"{key} 必须是非空文本")
@@ -100,7 +105,8 @@ importance(low|normal|high), relevance(low|medium|high), relevance_reason, focus
 
 class DeepSeekClassifier:
     def __init__(self, api_key: str, base_url: str, model: str, review_model: str,
-                 post: Callable | None = None, timeout: int = 60):
+                 post: Callable | None = None, timeout: int = 60,
+                 request_retries: int = 2, retry_delay: float = 2):
         if not api_key:
             raise ValueError("缺少 DEEPSEEK_API_KEY")
         self.api_key = api_key
@@ -108,12 +114,26 @@ class DeepSeekClassifier:
         self.model = model
         self.review_model = review_model
         self.timeout = timeout
+        self.request_retries = max(0, request_retries)
+        self.retry_delay = max(0, retry_delay)
         self.post = post or self._requests_post
 
     def _requests_post(self, url: str, **kwargs) -> dict:
         response = requests.post(url, timeout=self.timeout, **kwargs)
         response.raise_for_status()
         return response.json()
+
+    def _post_with_retry(self, url: str, **kwargs) -> dict:
+        for attempt in range(self.request_retries + 1):
+            try:
+                return self.post(url, **kwargs)
+            except requests.exceptions.RequestException:
+                if attempt >= self.request_retries:
+                    raise
+                if self.retry_delay:
+                    import time
+                    time.sleep(self.retry_delay * (attempt + 1))
+        raise AssertionError("unreachable")
 
     def _call(self, paper: Paper, model: str, review_context: str = "") -> dict:
         user = f"arXiv: {paper.versioned_id}\n题目: {paper.title}\n摘要: {paper.abstract}"
@@ -125,12 +145,16 @@ class DeepSeekClassifier:
             "response_format": {"type": "json_object"},
             "messages": [{"role": "system", "content": SYSTEM_PROMPT}, {"role": "user", "content": user}],
         }
-        data = self.post(self.url, headers={"Authorization": f"Bearer {self.api_key}", "Content-Type": "application/json"}, json=payload)
+        data = self._post_with_retry(
+            self.url,
+            headers={"Authorization": f"Bearer {self.api_key}", "Content-Type": "application/json"},
+            json=payload,
+        )
         try:
             content = data["choices"][0]["message"]["content"]
         except (KeyError, IndexError, TypeError) as exc:
             raise ClassificationError("API 响应格式无效") from exc
-        return parse_classification(content)
+        return parse_classification(content, tolerate_unknown_focus_tags=True)
 
     def classify(self, paper: Paper) -> dict:
         try:
@@ -138,5 +162,10 @@ class DeepSeekClassifier:
         except ClassificationError as exc:
             return self._call(paper, self.review_model, str(exc))
         if result["confidence"] < 0.75 or result["importance"] == "high":
-            return self._call(paper, self.review_model, json.dumps(result, ensure_ascii=False))
+            try:
+                return self._call(paper, self.review_model, json.dumps(result, ensure_ascii=False))
+            except (ClassificationError, requests.exceptions.RequestException) as exc:
+                # 主模型结果已经通过结构校验；复核服务暂时异常时继续处理，
+                # 否则单篇复核超时会让当天所有论文都无法推送。
+                print(f"DeepSeek 复核失败，保留主模型结果: {type(exc).__name__}")
         return result
