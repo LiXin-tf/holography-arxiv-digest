@@ -2992,6 +2992,28 @@
       "version_months": {
         "2": "2026-09"
       }
+    },
+    "2604.02405": {
+      "latest_version": 3,
+      "versions": [
+        3
+      ],
+      "sent_versions": [],
+      "version_months": {
+        "3": "2026-09"
+      }
+    },
+    "2609.00173": {
+      "latest_version": 1,
+      "versions": [
+        1
+      ],
+      "sent_versions": [
+        1
+      ],
+      "version_months": {
+        "1": "2026-09"
+      }
     }
   },
   "pushes": [
@@ -3200,6 +3222,14 @@
         "2609.01261v1",
         "2609.00172v1",
         "2609.01227v1"
+      ]
+    },
+    {
+      "at": "2026-09-02T14:51:40.978838+00:00",
+      "status": "accepted_pending_verification",
+      "shortCode": "7f6e2a3930064480b63e07901bbc8ad0",
+      "paper_ids": [
+        "2609.00173v1"
       ]
     }
   ]

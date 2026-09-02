@@ -1200,6 +1200,62 @@
       }
     },
     {
+      "arxiv_id": "2609.00173",
+      "version": 1,
+      "title": "Equation of state and neutron star properties with new mass-radius constraints from PSR~J1614--2230, PSR~J2124--3358, and 47~Tuc~X7",
+      "abstract": "We study the impact of new mass-radius information from PSR J1614-2230, PSR J2124-3358, and 47 Tuc X7 in a combined equation of state inference based on chiral effective field theory constraints at nuclear densities and using different high-density extensions, including perturbative QCD constraints. The largest impact stems from the heavy-mass PSR J1614-2230 star, which shifts heavy neutron stars to smaller radii by around 0.4 km. Moreover, the combined astrophysical NICER, LIGO/Virgo, and X-ray information drives the radius posterior to a more data-driven distribution, which is less sensitive to the high-density extension. For the equation of state, the new mass-radius information significantly tightens the pressure and speed-of-sound posterior distributions, especially around three times saturation density. Finally, we make predictions for the poorly constrained masses of PSR J2124-3358 and 47 Tuc X7 based on the combined equation of state analysis and the other astrophysical sources.",
+      "authors": [
+        "Melissa Mendes",
+        "Isak Svensson",
+        "Hannah Gottling",
+        "Kai Hebeler",
+        "Achim Schwenk",
+        "Nathan Rutherford",
+        "Lucien Mauviard",
+        "Christine Kazantsev",
+        "Yves Kini",
+        "Denis Gonzalez-Caniulef",
+        "Sebastien Guillot",
+        "Anna Watts"
+      ],
+      "categories": [
+        "astro-ph.HE",
+        "nucl-ex",
+        "nucl-th"
+      ],
+      "updated": "2026-09-02T04:00:48.874181+00:00",
+      "published": "2026-09-02T00:00:00-04:00",
+      "source_category": "nucl-th",
+      "abs_url": "https://arxiv.org/abs/2609.00173v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.00173v1",
+      "classification": {
+        "is_theoretical_holography": false,
+        "is_classical_gravity": true,
+        "confidence": 0.95,
+        "primary_topic": "经典引力/广义相对论",
+        "secondary_topics": [],
+        "title_zh": "状态方程与中子星性质：来自PSR J1614-2230、PSR J2124-3358和47 Tuc X7的新质量-半径约束",
+        "abstract_zh": "我们研究了来自PSR J1614-2230、PSR J2124-3358和47 Tuc X7的新质量-半径信息对联合状态方程推断的影响，该推断基于核密度下的手征有效场论约束，并采用不同的高密度扩展，包括微扰QCD约束。最大的影响来自重质量PSR J1614-2230星，它使重中子星的半径减小约0.4公里。此外，结合NICER、LIGO/Virgo和X射线的天体物理信息，使半径后验分布更趋于数据驱动，并对高密度扩展的敏感性降低。对于状态方程而言，新的质量-半径信息显著收紧了压强和声速的后验分布，尤其是在约三倍饱和密度处。最后，我们基于联合状态方程分析和其它天体物理源，对约束较差的PSR J2124-3358和47 Tuc X7的质量进行了预测。",
+        "one_liner": "利用来自脉冲星的新质量-半径观测与核物理约束，得到更紧致的中子星状态方程推论。",
+        "keywords": [
+          "equation of state",
+          "neutron star",
+          "mass-radius constraints",
+          "PSR J1614-2230",
+          "chiral effective field theory",
+          "NICER",
+          "LIGO/Virgo",
+          "speed of sound"
+        ],
+        "importance": "normal",
+        "relevance": "medium",
+        "relevance_reason": "该论文主要研究中子星物态方程与质量-半径关系，属于经典引力背景下致密天体物理应用，而非广义相对论基本理论或全息研究；与重点标签中的经典引力有一定交集。",
+        "focus_tags": [
+          "经典引力/广义相对论"
+        ]
+      }
+    },
+    {
       "arxiv_id": "2511.02236",
       "version": 2,
       "title": "Magnetic-type Love number differentiating quark stars from neutron stars",
@@ -2045,6 +2101,54 @@
         "importance": "normal",
         "relevance": "medium",
         "relevance_reason": "论文聚焦经典/修改引力下的黑洞与虫洞热力学和辐射，不涉及AdS/CFT等全息方向；仅匹配经典引力/广义相对论支线，故为中等相关。",
+        "focus_tags": [
+          "经典引力/广义相对论"
+        ]
+      }
+    },
+    {
+      "arxiv_id": "2604.02405",
+      "version": 3,
+      "title": "Site selection for the Laser Interferometer Lunar Antenna (LILA)",
+      "abstract": "The Earth's Moon presents a uniquely advantageous environment for detecting astrophysical gravitational waves (GWs), particularly in the decihertz regime. The Laser Interferometer Lunar Antenna (LILA) project plans to perform GW measurements on the lunar surface, using the Moon's seismic quietness to access this band. Two mission concepts are considered: the proof-of-concept 1 km initial LILA (iLILA) and the full LILA Observatory, whose equilateral arms are at least 40 km long. The Moon's changing orientation and orbital motion provide the time-dependent source modulation needed for sky localization, so the detector response does not impose a unique lunar region. Practical considerations, most critically line of sight (LOS), nevertheless constrain deployment. A coarse-to-fine search of existing lunar datasets identifies and ranks candidate grid locations. Of 4,050 global grid seeds, 434 iLILA seeds and 71 Observatory circumcenters pass both search stages. These results demonstrate that sites suitable for GW detection naturally exist in large numbers on the lunar surface.",
+      "authors": [
+        "James Trippe",
+        "Ronald Polidan",
+        "Teviet Creighton",
+        "Philippe Lognonn\\'e",
+        "Mark Panning",
+        "Volker Quetschke",
+        "Kris Izquierdo",
+        "Brett Shapiro",
+        "Karan Jani"
+      ],
+      "categories": [
+        "astro-ph.IM",
+        "gr-qc"
+      ],
+      "updated": "2026-09-02T04:00:48.820545+00:00",
+      "published": "2026-09-02T00:00:00-04:00",
+      "source_category": "gr-qc",
+      "abs_url": "https://arxiv.org/abs/2604.02405v3",
+      "pdf_url": "https://arxiv.org/pdf/2604.02405v3",
+      "classification": {
+        "is_theoretical_holography": false,
+        "is_classical_gravity": true,
+        "confidence": 0.9,
+        "primary_topic": "经典引力/广义相对论",
+        "secondary_topics": [],
+        "title_zh": "月球激光干涉仪天线（LILA）选址研究",
+        "abstract_zh": "地球的月球为探测天体物理引力波，特别是分赫兹频段的引力波，提供了独特而有利的环境。激光干涉仪月球天线（LILA）项目计划利用月球的低地震噪声在月球表面进行引力波测量。研究考虑两种任务概念：1公里长度的概念验证型初始LILA（iLILA）和臂长至少40公里的完整LILA天文台。月球的朝向变化与轨道运动提供了源定位所需的时间相关调制，因此探测器响应并不限定唯一月面区域。然而，实际因素（尤其是视线条件）限制了部署位置。通过从粗到细的现有月球数据集搜索，识别并排序了候选网格位置。在4050个全球网格种子中，有434个iLILA种子和71个天文台外心通过了两阶段搜索。结果表明，适合引力波探测的月面地点自然大量存在。",
+        "one_liner": "评估月球引力波探测器LILA的候选选址，发现月球表面存在大量适合探测的地点。",
+        "keywords": [
+          "引力波",
+          "月球探测器",
+          "LILA",
+          "选址"
+        ],
+        "importance": "normal",
+        "relevance": "low",
+        "relevance_reason": "论文属于引力波探测实验选址研究，与理论全息或量子引力无关，仅与经典引力/广义相对论中的引力波方向有间接关联。",
         "focus_tags": [
           "经典引力/广义相对论"
         ]
