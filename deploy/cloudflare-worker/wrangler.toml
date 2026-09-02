@@ -1,0 +1,13 @@
+name = "holo-arxiv-scheduler"
+main = "worker.js"
+compatibility_date = "2026-09-01"
+
+# Cloudflare Cron 使用 UTC。06:45 UTC = 北京时间 14:45。
+# 设置三个触发点是为了冗余：流水线本身幂等（已处理论文不会重复分类，
+# 已推送论文不会重复发送），多次触发不会产生重复推送。
+[triggers]
+crons = [
+  "45 6 * * 1-5",
+  "45 8 * * 1-5",
+  "45 10 * * 1-5",
+]
