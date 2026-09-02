@@ -72,7 +72,7 @@ class StateStore:
         if self.path.exists():
             self.data = json.loads(self.path.read_text(encoding="utf-8"))
         else:
-            self.data = {"schema_version": SCHEMA_VERSION, "papers": {}, "pushes": []}
+            self.data = {"schema_version": SCHEMA_VERSION, "papers": {}, "pushes": [], "last_push_date": None}
         if self.data.get("schema_version", 1) < SCHEMA_VERSION or self._has_embedded_papers():
             self._migrate_legacy_state()
 
@@ -182,6 +182,7 @@ class StateStore:
         papers: list[Paper],
         short_code: str | None = None,
         status: str = "accepted_pending_verification",
+        push_date: str | None = None,
     ) -> None:
         for paper in papers:
             record = self.data["papers"][paper.arxiv_id]
@@ -196,7 +197,12 @@ class StateStore:
                 "paper_ids": [paper.versioned_id for paper in papers],
             }
         )
+        if push_date:
+            self.data["last_push_date"] = push_date
         self.save()
+
+    def pushed_on(self, date_str: str) -> bool:
+        return self.data.get("last_push_date") == date_str
 
     def all_papers(self) -> list[Paper]:
         papers: dict[str, Paper] = {}
