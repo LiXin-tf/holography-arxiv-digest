@@ -19,6 +19,16 @@ def test_payload_contains_counts_recommendations_site_and_optional_topic_callbac
     assert len(payload["content"]) < 12000
 
 
+def test_payload_lists_papers_when_no_featured_recommendations():
+    papers = [make_paper()]
+    papers[0].classification["importance"] = "normal"
+    papers[0].classification["relevance"] = "medium"
+    payload = build_payload(papers, "token")
+    assert "今日收录" in payload["content"]
+    assert "中文标题" in payload["content"]
+    assert "arxiv.org/abs/2608.01234v1" in payload["content"]
+
+
 def test_code_200_is_accepted_pending_verification_and_short_code_saved():
     def post(url, **kwargs):
         assert url == "https://www.pushplus.plus/send"
