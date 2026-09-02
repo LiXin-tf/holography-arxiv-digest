@@ -110,6 +110,10 @@ def run_pipeline(*, dry_run: bool = False, fixture: Path | None = None,
     if not dry_run and not scan_time_gate():
         raise RuntimeError("arXiv 尚未到达北京时间 14:00 的更新时段，拒绝扫描和推送")
     target_date = target_date or scan_push_date()
+    store = StateStore(Path(state_path))
+    if not dry_run and store.pushed_on(target_date):
+        print(f"今天 {target_date} 已推送过，跳过本次运行（当天只推送一次）")
+        return {"fetched": 0, "candidates": 0, "in_scope": 0, "pushable_v1": 0, "sent": False}
     papers: list[Paper] = []
     if dry_run:
         if fixture is None:
@@ -124,7 +128,6 @@ def run_pipeline(*, dry_run: bool = False, fixture: Path | None = None,
     papers = dedupe_papers(papers)
     if not dry_run:
         ensure_current_batch(papers, target_date)
-    store = StateStore(Path(state_path))
     candidates = [paper for paper in papers if is_candidate(paper) and not store.is_known(paper)]
     if dry_run:
         for paper in candidates:
@@ -175,7 +178,7 @@ def run_pipeline(*, dry_run: bool = False, fixture: Path | None = None,
             result["status"] = "sent"
         else:
             print(f"PushPlus 已接单但未验证最终投递，shortCode={short_code}")
-        store.mark_sent(pushable, short_code, result["status"])
+        store.mark_sent(pushable, short_code, result["status"], push_date=target_date)
         sent = True
     return {
         "fetched": len(papers), "candidates": len(candidates), "in_scope": len(in_scope),
