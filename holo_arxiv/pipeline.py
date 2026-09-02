@@ -1,10 +1,11 @@
 from __future__ import annotations
 
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 import json
 import os
 from pathlib import Path
 from typing import Callable, Mapping
+from zoneinfo import ZoneInfo
 
 import requests
 
@@ -19,6 +20,40 @@ CATEGORIES = [
     "hep-th", "gr-qc", "hep-ph", "hep-lat", "nucl-th", "math-ph", "quant-ph",
     "cond-mat.str-el", "cond-mat.supr-con", "cond-mat.quant-gas", "cond-mat.stat-mech",
 ]
+SCAN_ZONE = ZoneInfo("Asia/Shanghai")
+SCAN_AFTER_HOUR = 14
+
+
+def scan_push_date(now: datetime | None = None) -> str:
+    """Return the China-local date of the arXiv batch this run is allowed to push."""
+    current = (now or datetime.now(timezone.utc)).astimezone(SCAN_ZONE)
+    batch_date = current.date()
+    if current.hour < SCAN_AFTER_HOUR:
+        batch_date -= timedelta(days=1)
+    return batch_date.isoformat()
+
+
+def scan_time_gate(now: datetime | None = None) -> bool:
+    """Do not scan before arXiv has announced the China-local daily batch."""
+    current = (now or datetime.now(timezone.utc)).astimezone(SCAN_ZONE)
+    return current.hour >= SCAN_AFTER_HOUR
+
+
+def _batch_dates(papers: list[Paper]) -> set[str]:
+    return {(paper.updated or paper.published or "")[:10] for paper in papers}
+
+
+def ensure_current_batch(papers: list[Paper], target_date: str) -> None:
+    """Fail closed instead of pushing an older announcement batch as today's digest."""
+    dates = _batch_dates(papers)
+    if not papers:
+        raise RuntimeError(f"没有抓取到目标批次 {target_date} 的论文")
+    stale = sorted(date for date in dates if date and date < target_date)
+    if stale:
+        raise RuntimeError(f"arXiv 批次仍是旧日期 {stale[0]}，目标批次为 {target_date}")
+    missing = sorted(date for date in dates if date and date > target_date)
+    if missing:
+        raise RuntimeError(f"arXiv 批次已进入新日期 {missing[0]}，但本次目标批次为 {target_date}")
 
 
 def filter_announcements(papers: list[Paper], target_date: str | None) -> list[Paper]:
@@ -72,6 +107,9 @@ def run_pipeline(*, dry_run: bool = False, fixture: Path | None = None,
                  preview_path: Path = Path("pushplus-preview.json"),
                  network_get: Callable = requests.get, network_post: Callable | None = None,
                  target_date: str | None = None) -> dict:
+    if not dry_run and not scan_time_gate():
+        raise RuntimeError("arXiv 尚未到达北京时间 14:00 的更新时段，拒绝扫描和推送")
+    target_date = target_date or scan_push_date()
     papers: list[Paper] = []
     if dry_run:
         if fixture is None:
@@ -84,6 +122,8 @@ def run_pipeline(*, dry_run: bool = False, fixture: Path | None = None,
             fetched = parse_atom(_response_bytes(response), category)
             papers.extend(filter_announcements(fetched, target_date))
     papers = dedupe_papers(papers)
+    if not dry_run:
+        ensure_current_batch(papers, target_date)
     store = StateStore(Path(state_path))
     candidates = [paper for paper in papers if is_candidate(paper) and not store.is_known(paper)]
     if dry_run:
