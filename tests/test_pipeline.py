@@ -13,6 +13,7 @@ from holo_arxiv.pipeline import (
     scan_push_date,
     scan_time_gate,
 )
+from holo_arxiv.state import StateStore
 
 FIXTURE = Path(__file__).parent / "fixtures" / "sample_atom.xml"
 
@@ -57,6 +58,14 @@ def test_pushplus_requires_explicit_true_switch():
     assert pushplus_is_enabled({}) is False
     assert pushplus_is_enabled({"PUSHPLUS_ENABLED": "false"}) is False
     assert pushplus_is_enabled({"PUSHPLUS_ENABLED": "TRUE"}) is True
+
+
+def test_pushed_on_guards_repeat_push_same_day(tmp_path):
+    store = StateStore(tmp_path / "state.json")
+    assert store.pushed_on("2026-09-02") is False
+    store.mark_sent([], push_date="2026-09-02")
+    assert store.pushed_on("2026-09-02") is True
+    assert store.pushed_on("2026-09-03") is False
 
 
 def test_dry_run_skips_already_recorded_versions_before_model_calls(tmp_path):
