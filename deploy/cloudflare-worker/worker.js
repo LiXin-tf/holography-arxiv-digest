@@ -55,14 +55,19 @@ export default {
 
   // 手动测试入口：部署后访问 Worker 的 URL 即可触发一次
   async fetch(request, env) {
+    // 诊断信息：只显示令牌的长度、前缀和是否有首尾空白，绝不输出完整令牌。
+    const token = env.GITHUB_TOKEN;
+    const tokenDebug = token
+      ? `token: present, length=${token.length}, prefix="${token.slice(0, 8)}", hasWhitespace=${token !== token.trim()}`
+      : "token: UNDEFINED";
     if (env.MANUAL_KEY) {
       const key = new URL(request.url).searchParams.get("key");
       if (key !== env.MANUAL_KEY) {
-        return new Response("Forbidden: wrong or missing ?key=", { status: 403 });
+        return new Response(tokenDebug + "\nForbidden: wrong or missing ?key=\n", { status: 403 });
       }
     }
     const result = await dispatch(env);
     const message = logResult("manual", result);
-    return new Response(message + "\n", { status: result.ok ? 200 : 502 });
+    return new Response(tokenDebug + "\n" + message + "\n", { status: result.ok ? 200 : 502 });
   },
 };
