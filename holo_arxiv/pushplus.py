@@ -16,11 +16,15 @@ def build_payload(papers: list[Paper], token: str, topic: str = "", site_base_ur
     counts = Counter(p.classification.get("primary_topic", "未分类") for p in papers)
     lines = [f"<p>今日候选共 {len(papers)} 篇。</p>", "<h3>主题目录</h3><ul>"]
     lines.extend(f"<li>{escape(name)}：{count} 篇</li>" for name, count in counts.most_common())
-    lines.append("</ul><h3>重点推荐</h3>")
+    lines.append("</ul>")
     featured = [p for p in papers if p.classification.get("importance") == "high" or p.classification.get("relevance") == "high"]
-    if not featured:
-        lines.append("<p>今日无重点推荐，请浏览完整目录。</p>")
-    for paper in featured[:12]:
+    if featured:
+        lines.append("<h3>重点推荐</h3>")
+        display = featured[:12]
+    else:
+        lines.append("<h3>今日收录</h3>")
+        display = papers[:8]
+    for paper in display:
         c = paper.classification
         lines.append(
             f'<p><strong>{escape(c.get("title_zh", paper.title))}</strong><br>'
