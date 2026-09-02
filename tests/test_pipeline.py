@@ -1,8 +1,18 @@
+from datetime import datetime, timezone
 import json
 from pathlib import Path
+import pytest
 
 from holo_arxiv.feed import parse_atom
-from holo_arxiv.pipeline import CATEGORIES, filter_announcements, pushplus_is_enabled, run_pipeline
+from holo_arxiv.pipeline import (
+    CATEGORIES,
+    ensure_current_batch,
+    filter_announcements,
+    pushplus_is_enabled,
+    run_pipeline,
+    scan_push_date,
+    scan_time_gate,
+)
 
 FIXTURE = Path(__file__).parent / "fixtures" / "sample_atom.xml"
 
@@ -21,6 +31,26 @@ def test_default_feed_processing_keeps_all_announced_items_but_manual_date_filte
         "2608.01234v1", "hep-th/9901001v3"
     ]
     assert filter_announcements(papers, "2026-08-23") == []
+
+
+def test_scan_push_date_uses_beijing_14_hour_batch_boundary():
+    before_update = datetime(2026, 9, 2, 5, 0, tzinfo=timezone.utc)   # 13:00 北京
+    after_update = datetime(2026, 9, 2, 6, 0, tzinfo=timezone.utc)    # 14:00 北京
+    assert scan_push_date(before_update) == "2026-09-01"
+    assert scan_push_date(after_update) == "2026-09-02"
+    assert scan_time_gate(before_update) is False
+    assert scan_time_gate(after_update) is True
+
+
+def test_current_batch_guard_rejects_empty_stale_or_newer_batches():
+    papers = parse_atom(FIXTURE.read_bytes(), "hep-th")
+    with pytest.raises(RuntimeError, match="旧日期"):
+        ensure_current_batch(papers, "2026-08-25")
+    with pytest.raises(RuntimeError, match="新日期"):
+        ensure_current_batch(papers, "2026-08-23")
+    with pytest.raises(RuntimeError, match="没有抓取"):
+        ensure_current_batch([], "2026-08-24")
+    ensure_current_batch(papers, "2026-08-24")
 
 
 def test_pushplus_requires_explicit_true_switch():
