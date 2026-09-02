@@ -39,6 +39,8 @@ jobs:
       SITE_BASE_URL: ${{ vars.SITE_BASE_URL }}
     steps:
       - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v6
         with:
           python-version: '3.11'
@@ -62,7 +64,22 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add docs data
-          git diff --cached --quiet || (git commit -m "chore: update daily arXiv digest" && git push)
+          if git diff --cached --quiet; then
+            echo "无内容变化，跳过提交"
+            exit 0
+          fi
+          git commit -m "chore: update daily arXiv digest"
+          for attempt in 1 2 3 4 5; do
+            git fetch origin main --quiet
+            if git rebase -X ours origin/main && git push; then
+              echo "推送成功"
+              exit 0
+            fi
+            echo "第 $attempt 次推送失败，3 秒后重试"
+            sleep 3
+          done
+          echo "推送最终失败" >&2
+          exit 1
       - uses: actions/upload-pages-artifact@v3
         with:
           path: docs
