@@ -68,6 +68,30 @@ def test_pushed_on_guards_repeat_push_same_day(tmp_path):
     assert store.pushed_on("2026-09-03") is False
 
 
+def test_no_announcement_day_skips_gracefully(tmp_path, monkeypatch):
+    monkeypatch.setattr("holo_arxiv.pipeline.scan_time_gate", lambda now=None: True)
+
+    class _Resp:
+        def __init__(self, data):
+            self.content = data
+
+        def raise_for_status(self):
+            pass
+
+    def fake_get(url, **kwargs):
+        return _Resp(FIXTURE.read_bytes())
+
+    result = run_pipeline(
+        dry_run=False,
+        state_path=tmp_path / "state.json",
+        docs_dir=tmp_path / "docs",
+        preview_path=tmp_path / "preview.json",
+        network_get=fake_get,
+        target_date="2026-09-08",
+    )
+    assert result == {"fetched": 0, "candidates": 0, "in_scope": 0, "pushable_v1": 0, "sent": False}
+
+
 def test_dry_run_skips_already_recorded_versions_before_model_calls(tmp_path):
     def forbidden_network(*args, **kwargs):
         raise AssertionError("dry-run 不得访问网络")
