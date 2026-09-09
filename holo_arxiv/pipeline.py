@@ -115,6 +115,7 @@ def run_pipeline(*, dry_run: bool = False, fixture: Path | None = None,
         print(f"今天 {target_date} 已推送过，跳过本次运行（当天只推送一次）")
         return {"fetched": 0, "candidates": 0, "in_scope": 0, "pushable_v1": 0, "sent": False}
     papers: list[Paper] = []
+    raw_total = 0
     if dry_run:
         if fixture is None:
             raise ValueError("dry-run 必须指定 fixture")
@@ -124,9 +125,15 @@ def run_pipeline(*, dry_run: bool = False, fixture: Path | None = None,
         for category in CATEGORIES:
             response = network_get(f"https://rss.arxiv.org/atom/{category}", timeout=30)
             fetched = parse_atom(_response_bytes(response), category)
+            raw_total += len(fetched)
             papers.extend(filter_announcements(fetched, target_date))
     papers = dedupe_papers(papers)
     if not dry_run:
+        if not papers:
+            if raw_total == 0:
+                raise RuntimeError("所有分类的 arXiv feed 均为空，抓取可能失败")
+            print(f"今天 {target_date} arXiv 没有新公告（feed 共 {raw_total} 篇均为旧日期，可能节假日），跳过本次推送")
+            return {"fetched": 0, "candidates": 0, "in_scope": 0, "pushable_v1": 0, "sent": False}
         ensure_current_batch(papers, target_date)
     candidates = [paper for paper in papers if is_candidate(paper) and not store.is_known(paper)]
     if dry_run:
