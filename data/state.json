@@ -5972,15 +5972,17 @@
       }
     },
     "2609.13036": {
-      "latest_version": 1,
+      "latest_version": 2,
       "versions": [
-        1
+        1,
+        2
       ],
       "sent_versions": [
         1
       ],
       "version_months": {
-        "1": "2026-09"
+        "1": "2026-09",
+        "2": "2026-09"
       }
     },
     "2609.13067": {
@@ -6594,15 +6596,17 @@
       }
     },
     "2609.15929": {
-      "latest_version": 1,
+      "latest_version": 2,
       "versions": [
-        1
+        1,
+        2
       ],
       "sent_versions": [
         1
       ],
       "version_months": {
-        "1": "2026-09"
+        "1": "2026-09",
+        "2": "2026-09"
       }
     },
     "2609.13638": {
@@ -7496,15 +7500,17 @@
       }
     },
     "2609.16238": {
-      "latest_version": 1,
+      "latest_version": 2,
       "versions": [
-        1
+        1,
+        2
       ],
       "sent_versions": [
         1
       ],
       "version_months": {
-        "1": "2026-09"
+        "1": "2026-09",
+        "2": "2026-09"
       }
     },
     "2609.16463": {
@@ -7802,15 +7808,17 @@
       }
     },
     "2609.18295": {
-      "latest_version": 1,
+      "latest_version": 2,
       "versions": [
-        1
+        1,
+        2
       ],
       "sent_versions": [
         1
       ],
       "version_months": {
-        "1": "2026-09"
+        "1": "2026-09",
+        "2": "2026-09"
       }
     },
     "2609.18528": {
@@ -7946,15 +7954,17 @@
       }
     },
     "2609.18143": {
-      "latest_version": 1,
+      "latest_version": 2,
       "versions": [
-        1
+        1,
+        2
       ],
       "sent_versions": [
         1
       ],
       "version_months": {
-        "1": "2026-09"
+        "1": "2026-09",
+        "2": "2026-09"
       }
     },
     "2609.18606": {
@@ -8315,6 +8325,488 @@
       "sent_versions": [],
       "version_months": {
         "2": "2026-09"
+      }
+    },
+    "2609.19247": {
+      "latest_version": 1,
+      "versions": [
+        1
+      ],
+      "sent_versions": [
+        1
+      ],
+      "version_months": {
+        "1": "2026-09"
+      }
+    },
+    "2609.19252": {
+      "latest_version": 1,
+      "versions": [
+        1
+      ],
+      "sent_versions": [
+        1
+      ],
+      "version_months": {
+        "1": "2026-09"
+      }
+    },
+    "2609.19255": {
+      "latest_version": 1,
+      "versions": [
+        1
+      ],
+      "sent_versions": [
+        1
+      ],
+      "version_months": {
+        "1": "2026-09"
+      }
+    },
+    "2609.19261": {
+      "latest_version": 1,
+      "versions": [
+        1
+      ],
+      "sent_versions": [
+        1
+      ],
+      "version_months": {
+        "1": "2026-09"
+      }
+    },
+    "2609.19266": {
+      "latest_version": 1,
+      "versions": [
+        1
+      ],
+      "sent_versions": [
+        1
+      ],
+      "version_months": {
+        "1": "2026-09"
+      }
+    },
+    "2609.19267": {
+      "latest_version": 1,
+      "versions": [
+        1
+      ],
+      "sent_versions": [
+        1
+      ],
+      "version_months": {
+        "1": "2026-09"
+      }
+    },
+    "2609.19297": {
+      "latest_version": 1,
+      "versions": [
+        1
+      ],
+      "sent_versions": [
+        1
+      ],
+      "version_months": {
+        "1": "2026-09"
+      }
+    },
+    "2609.19454": {
+      "latest_version": 1,
+      "versions": [
+        1
+      ],
+      "sent_versions": [
+        1
+      ],
+      "version_months": {
+        "1": "2026-09"
+      }
+    },
+    "2609.20112": {
+      "latest_version": 1,
+      "versions": [
+        1
+      ],
+      "sent_versions": [
+        1
+      ],
+      "version_months": {
+        "1": "2026-09"
+      }
+    },
+    "2609.20164": {
+      "latest_version": 1,
+      "versions": [
+        1
+      ],
+      "sent_versions": [
+        1
+      ],
+      "version_months": {
+        "1": "2026-09"
+      }
+    },
+    "2609.20210": {
+      "latest_version": 1,
+      "versions": [
+        1
+      ],
+      "sent_versions": [
+        1
+      ],
+      "version_months": {
+        "1": "2026-09"
+      }
+    },
+    "2609.20456": {
+      "latest_version": 1,
+      "versions": [
+        1
+      ],
+      "sent_versions": [
+        1
+      ],
+      "version_months": {
+        "1": "2026-09"
+      }
+    },
+    "2609.20493": {
+      "latest_version": 1,
+      "versions": [
+        1
+      ],
+      "sent_versions": [
+        1
+      ],
+      "version_months": {
+        "1": "2026-09"
+      }
+    },
+    "2609.20534": {
+      "latest_version": 1,
+      "versions": [
+        1
+      ],
+      "sent_versions": [
+        1
+      ],
+      "version_months": {
+        "1": "2026-09"
+      }
+    },
+    "2609.20697": {
+      "latest_version": 1,
+      "versions": [
+        1
+      ],
+      "sent_versions": [
+        1
+      ],
+      "version_months": {
+        "1": "2026-09"
+      }
+    },
+    "2609.20742": {
+      "latest_version": 1,
+      "versions": [
+        1
+      ],
+      "sent_versions": [
+        1
+      ],
+      "version_months": {
+        "1": "2026-09"
+      }
+    },
+    "2609.20806": {
+      "latest_version": 1,
+      "versions": [
+        1
+      ],
+      "sent_versions": [
+        1
+      ],
+      "version_months": {
+        "1": "2026-09"
+      }
+    },
+    "2609.19273": {
+      "latest_version": 1,
+      "versions": [
+        1
+      ],
+      "sent_versions": [
+        1
+      ],
+      "version_months": {
+        "1": "2026-09"
+      }
+    },
+    "2609.20168": {
+      "latest_version": 1,
+      "versions": [
+        1
+      ],
+      "sent_versions": [
+        1
+      ],
+      "version_months": {
+        "1": "2026-09"
+      }
+    },
+    "2609.20619": {
+      "latest_version": 1,
+      "versions": [
+        1
+      ],
+      "sent_versions": [
+        1
+      ],
+      "version_months": {
+        "1": "2026-09"
+      }
+    },
+    "2609.20626": {
+      "latest_version": 1,
+      "versions": [
+        1
+      ],
+      "sent_versions": [
+        1
+      ],
+      "version_months": {
+        "1": "2026-09"
+      }
+    },
+    "2609.20736": {
+      "latest_version": 1,
+      "versions": [
+        1
+      ],
+      "sent_versions": [
+        1
+      ],
+      "version_months": {
+        "1": "2026-09"
+      }
+    },
+    "2604.07432": {
+      "latest_version": 2,
+      "versions": [
+        2
+      ],
+      "sent_versions": [],
+      "version_months": {
+        "2": "2026-09"
+      }
+    },
+    "2605.18403": {
+      "latest_version": 3,
+      "versions": [
+        3
+      ],
+      "sent_versions": [],
+      "version_months": {
+        "3": "2026-09"
+      }
+    },
+    "2604.03628": {
+      "latest_version": 2,
+      "versions": [
+        2
+      ],
+      "sent_versions": [],
+      "version_months": {
+        "2": "2026-09"
+      }
+    },
+    "2605.25417": {
+      "latest_version": 3,
+      "versions": [
+        3
+      ],
+      "sent_versions": [],
+      "version_months": {
+        "3": "2026-09"
+      }
+    },
+    "2605.27600": {
+      "latest_version": 3,
+      "versions": [
+        3
+      ],
+      "sent_versions": [],
+      "version_months": {
+        "3": "2026-09"
+      }
+    },
+    "2609.19171": {
+      "latest_version": 1,
+      "versions": [
+        1
+      ],
+      "sent_versions": [
+        1
+      ],
+      "version_months": {
+        "1": "2026-09"
+      }
+    },
+    "2609.19416": {
+      "latest_version": 1,
+      "versions": [
+        1
+      ],
+      "sent_versions": [
+        1
+      ],
+      "version_months": {
+        "1": "2026-09"
+      }
+    },
+    "2609.19462": {
+      "latest_version": 1,
+      "versions": [
+        1
+      ],
+      "sent_versions": [
+        1
+      ],
+      "version_months": {
+        "1": "2026-09"
+      }
+    },
+    "2609.19500": {
+      "latest_version": 1,
+      "versions": [
+        1
+      ],
+      "sent_versions": [
+        1
+      ],
+      "version_months": {
+        "1": "2026-09"
+      }
+    },
+    "2609.19975": {
+      "latest_version": 1,
+      "versions": [
+        1
+      ],
+      "sent_versions": [
+        1
+      ],
+      "version_months": {
+        "1": "2026-09"
+      }
+    },
+    "2609.20382": {
+      "latest_version": 1,
+      "versions": [
+        1
+      ],
+      "sent_versions": [
+        1
+      ],
+      "version_months": {
+        "1": "2026-09"
+      }
+    },
+    "2609.19270": {
+      "latest_version": 1,
+      "versions": [
+        1
+      ],
+      "sent_versions": [
+        1
+      ],
+      "version_months": {
+        "1": "2026-09"
+      }
+    },
+    "2609.20280": {
+      "latest_version": 1,
+      "versions": [
+        1
+      ],
+      "sent_versions": [
+        1
+      ],
+      "version_months": {
+        "1": "2026-09"
+      }
+    },
+    "2609.20809": {
+      "latest_version": 1,
+      "versions": [
+        1
+      ],
+      "sent_versions": [
+        1
+      ],
+      "version_months": {
+        "1": "2026-09"
+      }
+    },
+    "2504.11275": {
+      "latest_version": 4,
+      "versions": [
+        4
+      ],
+      "sent_versions": [],
+      "version_months": {
+        "4": "2026-09"
+      }
+    },
+    "2508.18079": {
+      "latest_version": 4,
+      "versions": [
+        4
+      ],
+      "sent_versions": [],
+      "version_months": {
+        "4": "2026-09"
+      }
+    },
+    "2605.23090": {
+      "latest_version": 2,
+      "versions": [
+        2
+      ],
+      "sent_versions": [],
+      "version_months": {
+        "2": "2026-09"
+      }
+    },
+    "2510.22290": {
+      "latest_version": 2,
+      "versions": [
+        2
+      ],
+      "sent_versions": [],
+      "version_months": {
+        "2": "2026-09"
+      }
+    },
+    "2606.02496": {
+      "latest_version": 2,
+      "versions": [
+        2
+      ],
+      "sent_versions": [],
+      "version_months": {
+        "2": "2026-09"
+      }
+    },
+    "2603.11263": {
+      "latest_version": 3,
+      "versions": [
+        3
+      ],
+      "sent_versions": [],
+      "version_months": {
+        "3": "2026-09"
       }
     }
   },
@@ -8870,7 +9362,45 @@
         "2609.18664v1",
         "2609.18202v1"
       ]
+    },
+    {
+      "at": "2026-09-18T07:11:51.680669+00:00",
+      "status": "accepted_pending_verification",
+      "shortCode": "002a92c5c27f4789963f69fa12b1f37d",
+      "paper_ids": [
+        "2609.19247v1",
+        "2609.19252v1",
+        "2609.19255v1",
+        "2609.19261v1",
+        "2609.19266v1",
+        "2609.19267v1",
+        "2609.19297v1",
+        "2609.19454v1",
+        "2609.20112v1",
+        "2609.20164v1",
+        "2609.20210v1",
+        "2609.20456v1",
+        "2609.20493v1",
+        "2609.20534v1",
+        "2609.20697v1",
+        "2609.20742v1",
+        "2609.20806v1",
+        "2609.19273v1",
+        "2609.20168v1",
+        "2609.20619v1",
+        "2609.20626v1",
+        "2609.20736v1",
+        "2609.19171v1",
+        "2609.19416v1",
+        "2609.19462v1",
+        "2609.19500v1",
+        "2609.19975v1",
+        "2609.20382v1",
+        "2609.19270v1",
+        "2609.20280v1",
+        "2609.20809v1"
+      ]
     }
   ],
-  "last_push_date": "2026-09-17"
+  "last_push_date": "2026-09-18"
 }
