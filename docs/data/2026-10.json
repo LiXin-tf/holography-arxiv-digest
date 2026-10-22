@@ -1,6 +1,1919 @@
 {
   "papers": [
     {
+      "arxiv_id": "2505.05581",
+      "version": 2,
+      "title": "On electrostatic manifolds with boundary",
+      "abstract": "Static manifolds with boundary were recently introduced in the context of the problem of prescribing both the scalar curvature of a Riemannian manifold and the mean curvature of its boundary. These manifolds are also of interest from the perspective of general relativity. In this article, we introduce electrostatic manifolds with boundary as a natural generalization of static manifolds with boundary in the presence of a nonzero electric field. We also introduce Robin electrostatic quadruples, extending the notion of Robin static triples previously introduced by the second author. We establish several uniqueness theorems for suitable regions of the Reissner-Nordstr\\\"om manifold. Finally, we characterize the criticality of the first eigenvalue of an associated mixed Robin-Dirichlet Schr\\\"odinger operator under admissible volume-preserving variations in terms of the equality of the surface gravities along the Dirichlet boundary components.",
+      "authors": [
+        "Stanislav Demurov",
+        "Vladimir Medvedev"
+      ],
+      "categories": [
+        "math.DG",
+        "math-ph",
+        "math.MP"
+      ],
+      "updated": "2026-10-22T04:00:46.346658+00:00",
+      "published": "2026-10-22T00:00:00-04:00",
+      "source_category": "math-ph",
+      "abs_url": "https://arxiv.org/abs/2505.05581v2",
+      "pdf_url": "https://arxiv.org/pdf/2505.05581v2",
+      "classification": {
+        "is_theoretical_holography": false,
+        "is_classical_gravity": true,
+        "confidence": 0.97,
+        "primary_topic": "经典引力/广义相对论",
+        "secondary_topics": [],
+        "title_zh": "论带边界的静电流形",
+        "abstract_zh": "本文在带边界静态流形的基础上引入带边界静电流形，作为存在非零电场时的自然推广；并引入 Robin 静电四元组，推广此前提出的 Robin 静态三元组。文章对 Reissner-Nordström 流形的适当区域证明若干唯一性定理，并通过 Dirichlet 边界分支上表面引力的相等性，刻画相关混合 Robin-Dirichlet Schrödinger 算子第一特征值在可容许保体积变分下的临界性。",
+        "one_liner": "把带边界静态流形推广到非零电场情形，并在 Reissner-Nordström 区域给出唯一性与特征值临界性结果。",
+        "keywords": [
+          "electrostatic manifolds with boundary",
+          "static manifolds",
+          "Reissner-Nordström",
+          "uniqueness theorems",
+          "Robin boundary conditions",
+          "surface gravity",
+          "Schrödinger operator",
+          "general relativity"
+        ],
+        "importance": "normal",
+        "relevance": "medium",
+        "relevance_reason": "论文属于数学广义相对论，研究带边界静电流形、Reissner-Nordström 流形上的唯一性及特征值临界性；与经典引力支线相关，但不涉及全息对偶。",
+        "focus_tags": [
+          "经典引力/广义相对论"
+        ]
+      }
+    },
+    {
+      "arxiv_id": "2610.27048",
+      "version": 2,
+      "title": "Nonlinear Response of Schwarzschild Black Holes at Arbitrary Perturbative Order",
+      "abstract": "We establish recursive integration-by-parts identities that symbolically reduce the inhomogeneous solutions of the Regge-Wheeler-Zerilli equation to a small set of master integrals, yielding the nonlinear response kernels of Schwarzschild black holes at arbitrary perturbative order. We further derive a closed ODE system that enables rapid, accurate, and stable numerical evaluation of these master integrals. To demonstrate our result, we compute quadratic, cubic, and quartic quasinormal-mode coupling coefficients as special cases of the response kernels.",
+      "authors": [
+        "Jiaqi Chen",
+        "Yu-Cun Xie"
+      ],
+      "categories": [
+        "gr-qc",
+        "hep-ph",
+        "hep-th"
+      ],
+      "updated": "2026-10-22T04:00:46.332167+00:00",
+      "published": "2026-10-22T00:00:00-04:00",
+      "source_category": "hep-th",
+      "abs_url": "https://arxiv.org/abs/2610.27048v2",
+      "pdf_url": "https://arxiv.org/pdf/2610.27048v2",
+      "classification": {
+        "is_theoretical_holography": false,
+        "is_classical_gravity": true,
+        "confidence": 0.97,
+        "primary_topic": "经典引力/广义相对论",
+        "secondary_topics": [
+          "非平衡/热化/输运/混沌/QNM"
+        ],
+        "title_zh": "Schwarzschild 黑洞在任意微扰阶的非线性响应",
+        "abstract_zh": "我们建立递归的分部积分恒等式，以符号方式将 Regge-Wheeler-Zerilli 方程的非齐次解约化为少量主积分，从而得到 Schwarzschild 黑洞在任意微扰阶的非线性响应核。我们进一步推导出一个闭合的常微分方程系统，使得这些主积分能够被快速、准确且稳定地数值计算。为展示该结果，我们计算了二次、三次和四次准正规模耦合系数，作为响应核的特殊情形。",
+        "one_liner": "该工作给出 Schwarzschild 黑洞任意微扰阶非线性响应核的符号约化与稳定数值计算方法，并计算高阶准正规模耦合系数。",
+        "keywords": [
+          "Schwarzschild 黑洞",
+          "Regge-Wheeler-Zerilli 方程",
+          "非线性响应",
+          "准正规模",
+          "分部积分",
+          "微扰论"
+        ],
+        "importance": "normal",
+        "relevance": "high",
+        "relevance_reason": "论文直接研究 Schwarzschild 黑洞微扰与准正规模的非线性耦合，属于经典引力，并直接对应重点标签“QNM与非线性演化”和“经典引力/广义相对论”。",
+        "focus_tags": [
+          "QNM与非线性演化",
+          "经典引力/广义相对论"
+        ]
+      }
+    },
+    {
+      "arxiv_id": "2610.24303",
+      "version": 2,
+      "title": "Linearised gravitational radiation in de Sitter spacetime at all multipole orders",
+      "abstract": "We derive the linearised gravitational waves generated by a localised matter source in the Poincare patch of de Sitter spacetime at arbitrary multipole order. The linearised de Sitter problem is mapped exactly to an auxiliary flat-space problem in harmonic gauge, with a conserved source built from the physical stress tensor. This allows us to use the multipole expansion of Damour and Iyer verbatim, and yields the exterior metric at all orders in terms of two families of radiative multipole moments given as explicit integrals of the physical stress tensor. The de Sitter tail is absorbed entirely into the auxiliary stress tensor, so that neither the moments nor the canonical exterior metric carry an integral over the past history of the source. As a check, we recover the known quadrupolar metric: in the quadrupolar truncation it is our canonical field up to a residual gauge transformation, which we construct explicitly.",
+      "authors": [
+        "Harsh",
+        "Omkar Shetye",
+        "Amitabh Virmani"
+      ],
+      "categories": [
+        "gr-qc",
+        "hep-th"
+      ],
+      "updated": "2026-10-22T04:00:46.332105+00:00",
+      "published": "2026-10-22T00:00:00-04:00",
+      "source_category": "hep-th",
+      "abs_url": "https://arxiv.org/abs/2610.24303v2",
+      "pdf_url": "https://arxiv.org/pdf/2610.24303v2",
+      "classification": {
+        "is_theoretical_holography": false,
+        "is_classical_gravity": true,
+        "confidence": 0.97,
+        "primary_topic": "经典引力/广义相对论",
+        "secondary_topics": [
+          "dS/天球/平直时空/BMS-Carroll"
+        ],
+        "title_zh": "de Sitter 时空中任意多极阶的线性引力辐射",
+        "abstract_zh": "我们推导了在 de Sitter 时空 Poincaré 片中由局域物质源产生的线性引力波，给出任意多极阶结果。将线性化 de Sitter 问题精确映射为谐和规范下的辅助平直时空问题，源为由物理应力张量构造的守恒源；从而可直接使用 Damour-Iyer 多极展开，并以物理应力张量的显式积分给出两类辐射多极矩及任意阶外部度规。de Sitter 尾项完全吸收进辅助应力张量，使多极矩和正则外部度规均不含源过去历史的积分。作为检验，我们恢复了已知四极阶度规：在四极截断下，它等于我们的正则场至残余规范变换，并显式构造该变换。",
+        "one_liner": "将 de Sitter 中线性引力辐射精确映射为辅助平直时空问题，并给出任意多极阶的辐射多极矩与外部度规。",
+        "keywords": [
+          "线性化引力波",
+          "de Sitter 时空",
+          "多极展开",
+          "引力辐射",
+          "规范变换",
+          "Damour-Iyer 多极矩"
+        ],
+        "importance": "normal",
+        "relevance": "high",
+        "relevance_reason": "论文直接研究 de Sitter 背景下的线性引力辐射与多极展开，属于经典广义相对论支线；不涉及全息对偶。",
+        "focus_tags": [
+          "经典引力/广义相对论"
+        ]
+      }
+    },
+    {
+      "arxiv_id": "2606.01699",
+      "version": 2,
+      "title": "Ellis-Bronnikov Wormhole Shadows with Spherically Symmetric Accretion Flow",
+      "abstract": "We investigate the observational differences between the Ellis--Bronnikov (EB) wormhole and the Schwarzschild black hole (BH) by performing general relativistic radiative transfer (GRRT) simulations. We consider a spherically symmetric steady-state accretion flow and perform GRRT simulations incorporating synchrotron emission. For both the EB wormhole and the Schwarzschild BH, the simulated images consist of a central shadow region and a bright photon ring. We find that both the shadow region and the photon ring of the EB wormhole are brighter than those of the Schwarzschild BH. These differences arise from the absence of an event horizon in the EB wormhole, allowing the emission from the accreting matter around and beyond the throat to contribute to the intensity. We also compare the simulated images with the Event Horizon Telescope (EHT) observations of M87*. Although the total flux and the ring diameter are comparable with the EHT results, our models with the spherically symmetric accretion flow cannot reproduce the deep central brightness depression observed by the EHT, for both the EB wormhole and the Schwarzschild BH. This indicates that a non-spherical accretion flow is required for a detailed comparison with the EHT image.",
+      "authors": [
+        "Mikiya M. Takahashi",
+        "Keisuke Nakashi"
+      ],
+      "categories": [
+        "gr-qc",
+        "astro-ph.HE",
+        "hep-th"
+      ],
+      "updated": "2026-10-22T04:00:46.331845+00:00",
+      "published": "2026-10-22T00:00:00-04:00",
+      "source_category": "hep-th",
+      "abs_url": "https://arxiv.org/abs/2606.01699v2",
+      "pdf_url": "https://arxiv.org/pdf/2606.01699v2",
+      "classification": {
+        "is_theoretical_holography": false,
+        "is_classical_gravity": true,
+        "confidence": 0.98,
+        "primary_topic": "经典引力/广义相对论",
+        "secondary_topics": [],
+        "title_zh": "球对称吸积流下的 Ellis-Bronnikov 虫洞阴影",
+        "abstract_zh": "我们通过广义相对论辐射转移（GRRT）模拟研究 Ellis-Bronnikov（EB）虫洞与 Schwarzschild 黑洞的观测差异。我们考虑球对称稳态吸积流，并进行包含同步辐射的 GRRT 模拟。对于 EB 虫洞和 Schwarzschild 黑洞，模拟图像均由中心阴影区和明亮光子环组成。我们发现 EB 虫洞的阴影区和光子环均比 Schwarzschild 黑洞更亮。这些差异源于 EB 虫洞没有事件视界，使喉部周围及之外吸积物质的发射对强度有贡献。我们还将模拟图像与事件视界望远镜（EHT）对 M87* 的观测进行比较。虽然总通量和环直径与 EHT 结果相当，但我们的球对称吸积流模型（对 EB 虫洞和 Schwarzschild 黑洞）均无法复现 EHT 观测到的中心亮度深凹陷。这表明需要非球对称吸积流才能与 EHT 图像进行详细比较。",
+        "one_liner": "通过 GRRT 模拟比较 EB 虫洞与 Schwarzschild 黑洞在球对称吸积流下的图像，发现虫洞阴影和光子环更亮，但两者均无法复现 EHT 的中心亮度凹陷。",
+        "keywords": [
+          "Ellis-Bronnikov wormhole",
+          "black hole shadow",
+          "GRRT",
+          "accretion flow",
+          "photon ring",
+          "EHT M87*"
+        ],
+        "importance": "normal",
+        "relevance": "high",
+        "relevance_reason": "论文主要研究经典虫洞/黑洞时空与吸积流辐射成像，直接属于用户重点标签中的“经典引力/广义相对论”支线；不涉及全息、量子信息或凝聚态全息。",
+        "focus_tags": [
+          "经典引力/广义相对论"
+        ]
+      }
+    },
+    {
+      "arxiv_id": "2610.21592",
+      "version": 2,
+      "title": "Fortuitous BMN Cohomology at Every $N$",
+      "abstract": "Finite-$N$ trace relations can produce $Q$-cohomology classes with no stable large-$N$ ancestor. The brane-fused construction at $SU(3)$ suggests that such states can retain an $SU(2)$ nonabelian core accompanied by scalar hair. We develop this idea into a general construction for every $SU(N)$, $N\\geq3$. Starting from the $SU(2)$ threshold operator $O_{24}$, we select pairs of eigenvalues of one scalar and construct corrected two-colour letters whose $Q$-transformations obey the $SU(2)$ rules exactly. Substitution into $O_{24}$ gives a closed rational operator for each pair. Multiplying by eigenvalue-separation factors removes the denominators, and summing over all pairs produces a gauge-invariant polynomial. An exact block-restriction identity recovers a nonzero multiple of $O_{24}$. The restriction maps every stable class to a stable $SU(2)$ class, proving that the resulting operator is non-exact and fortuitous, even when non-Coulombic stable classes are included. This proves the existence of fortuitous BMN cohomology at every $N\\geq3$. The construction is an exact algebraic realization of a nonabelian core with scalar dressing.",
+      "authors": [
+        "Robert de Mello Koch",
+        "Minkyoo Kim",
+        "Sinong Liu"
+      ],
+      "categories": [
+        "hep-th"
+      ],
+      "updated": "2026-10-22T04:00:46.331352+00:00",
+      "published": "2026-10-22T00:00:00-04:00",
+      "source_category": "hep-th",
+      "abs_url": "https://arxiv.org/abs/2610.21592v2",
+      "pdf_url": "https://arxiv.org/pdf/2610.21592v2",
+      "classification": {
+        "is_theoretical_holography": true,
+        "is_classical_gravity": false,
+        "confidence": 0.82,
+        "primary_topic": "AdS/CFT 基础与字典",
+        "secondary_topics": [],
+        "title_zh": "任意 $N$ 下的偶然 BMN 上同调",
+        "abstract_zh": "有限 $N$ 的迹关系可以产生没有稳定大 $N$ 祖先的 $Q$-上同调类。$SU(3)$ 处的膜融合构造表明，这类态可以保留一个伴随标量毛的 $SU(2)$ 非阿贝尔核心。我们将这一想法发展为适用于每个 $SU(N)$、$N\\geq3$ 的一般构造。从 $SU(2)$ 阈值算符 $O_{24}$ 出发，我们选取一个标量的本征值对，并构造修正的双色字母，使其 $Q$-变换精确满足 $SU(2)$ 规则。代入 $O_{24}$ 后，对每个本征值对给出一个封闭的有理算符。乘以本征值间隔因子消去分母，并对所有对求和，得到一个规范不变多项式。一个精确的块限制恒等式可恢复 $O_{24}$ 的非零倍数。该限制将每个稳定类映射到稳定的 $SU(2)$ 类，从而证明所得算符是非恰当的且是偶然的，即使包含非库仑稳定的类时也是如此。这证明了在每个 $N\\geq3$ 都存在偶然 BMN 上同调。该构造是非阿贝尔核心加标量修饰的精确代数实现。",
+        "one_liner": "构造并证明了对每个 $N\\geq3$ 都存在无稳定大 $N$ 祖先的偶然 BMN $Q$-上同调类，给出非阿贝尔核心加标量毛的精确代数实现。",
+        "keywords": [
+          "BMN cohomology",
+          "finite-N trace relations",
+          "Q-cohomology",
+          "SU(N) gauge theory",
+          "nonabelian core",
+          "scalar hair"
+        ],
+        "importance": "normal",
+        "relevance": "low",
+        "relevance_reason": "论文属于 AdS/CFT/BMN 形式结构中的有限 $N$ 迹关系与上同调构造，但未涉及用户列出的全息凝聚态、探针膜、QNM、经典引力等具体研究支线；与重点标签仅有间接的形式联系。",
+        "focus_tags": []
+      }
+    },
+    {
+      "arxiv_id": "2609.31309",
+      "version": 2,
+      "title": "Fate of Bouncing Singularities at Finite $G_N$",
+      "abstract": "The gravity approximation to a thermal two-point function can develop a complex-time singularity associated with a trajectory that reaches the black-hole singularity. We show that the corresponding singularity is absent at finite $G_N$. This is done by extending Conformal Field Theory analyticity properties to the second sheet (and to the universal cover). We also put two different upper bounds on the amplitude of the correlator at the would-be singularity, by certain finite partial sums, and by a certain partition function on a manifold with nontrivial topology, where two thermal geometries are glued. We discuss the possible implications for the black hole singularity.",
+      "authors": [
+        "Zohar Komargodski"
+      ],
+      "categories": [
+        "hep-th"
+      ],
+      "updated": "2026-10-22T04:00:46.331227+00:00",
+      "published": "2026-10-22T00:00:00-04:00",
+      "source_category": "hep-th",
+      "abs_url": "https://arxiv.org/abs/2609.31309v2",
+      "pdf_url": "https://arxiv.org/pdf/2609.31309v2",
+      "classification": {
+        "is_theoretical_holography": true,
+        "is_classical_gravity": false,
+        "confidence": 0.9,
+        "primary_topic": "黑洞/量子引力/信息",
+        "secondary_topics": [
+          "AdS/CFT 基础与字典",
+          "非平衡/热化/输运/混沌/QNM"
+        ],
+        "title_zh": "有限 $G_N$ 下反弹奇点的命运",
+        "abstract_zh": "热两点函数的引力近似可能出现与到达黑洞奇点的轨迹相关的复时间奇点。我们证明在有限 $G_N$ 下相应奇点不存在。方法是将共形场论的解析性质延拓到第二叶（以及万有覆盖）。我们还用有限部分和以及一种在非平凡拓扑流形（粘合两个热几何）上的配分函数，对假定奇点处关联子振幅给出两个上界。讨论了其对黑洞奇点的可能含义。",
+        "one_liner": "在有限牛顿常数下，热两点函数中与黑洞奇点轨迹相关的复时间奇点消失，并给出关联子振幅上界。",
+        "keywords": [
+          "有限 $G_N$",
+          "热两点函数",
+          "复时间奇点",
+          "黑洞奇点",
+          "CFT 解析性",
+          "全息"
+        ],
+        "importance": "normal",
+        "relevance": "medium",
+        "relevance_reason": "论文讨论全息热两点函数、有限 $G_N$ 修正与黑洞奇点，属于黑洞/量子引力与 AdS/CFT 基础方向；但未直接涉及用户列出的超流、畴壁、探针膜等具体支线。",
+        "focus_tags": []
+      }
+    },
+    {
+      "arxiv_id": "2609.19266",
+      "version": 2,
+      "title": "Strong coupling spectrum of $\\mathrm{AdS}_3\\times \\mathrm{S}^3$ from string field theory",
+      "abstract": "We consider type IIB string theory on $\\mathrm{AdS}_3\\times \\mathrm{S}^3\\times \\mathbb{T}^4$ in a large AdS radius expansion at arbitrary values of the relative RR and NS-NS fluxes. We develop a method for computing scaling dimensions in the dual CFT in this limit by combining a string field theory calculation, valid at finite quantized NS-NS flux but perturbative in RR flux, with a finite mixed-flux ansatz, which is constrained by worldsheet parity and motivated by classical string solutions. We apply the method to three families of states. In the pure-RR limit, our results agree both with a family of states computed using the worldsheet bootstrap and with another family computed using integrability.",
+      "authors": [
+        "Luis F. Alday",
+        "Shai M. Chester",
+        "Kiarash Naderi",
+        "De-liang Zhong"
+      ],
+      "categories": [
+        "hep-th"
+      ],
+      "updated": "2026-10-22T04:00:46.331111+00:00",
+      "published": "2026-10-22T00:00:00-04:00",
+      "source_category": "hep-th",
+      "abs_url": "https://arxiv.org/abs/2609.19266v2",
+      "pdf_url": "https://arxiv.org/pdf/2609.19266v2",
+      "classification": {
+        "is_theoretical_holography": true,
+        "is_classical_gravity": false,
+        "confidence": 0.9,
+        "primary_topic": "AdS/CFT 基础与字典",
+        "secondary_topics": [],
+        "title_zh": "从弦场论看 AdS3×S3 的强耦合谱",
+        "abstract_zh": "我们考虑 type IIB 弦论在 AdS3×S3×T4 上、在大 AdS 半径展开中、相对 RR 与 NS-NS 通量取任意值的情形。我们发展了一种计算该极限下对偶 CFT 中标度维度的方法：把在有限量子化 NS-NS 通量下有效、对 RR 通量微扰的弦场论计算，与一个受世界面宇称约束、并由经典弦解启发的有限混合通量拟设结合起来。我们将该方法应用于三族态。在纯 RR 极限下，我们的结果既与用世界面 bootstrap 计算的一族态一致，也与用可积性计算的另一族态一致。",
+        "one_liner": "结合弦场论与混合通量拟设计算 AdS3×S3 强耦合谱，并在纯 RR 极限与 bootstrap/可积性结果吻合。",
+        "keywords": [
+          "AdS3/CFT2",
+          "string field theory",
+          "mixed flux",
+          "scaling dimensions",
+          "integrability",
+          "worldsheet bootstrap"
+        ],
+        "importance": "normal",
+        "relevance": "low",
+        "relevance_reason": "论文计算 AdS3/CFT2 强耦合谱，属于全息基础与弦论谱学，但不直接对应用户列出的全息超流超导、p波/多分量序参量、畴壁/孤子、multi-trace、气泡成核、QNM 或 D3-D7 探针膜等重点支线。",
+        "focus_tags": []
+      }
+    },
+    {
+      "arxiv_id": "2604.25100",
+      "version": 2,
+      "title": "Thermodynamic Phase Transitions in Einstein-Maxwell-Scalar-Gauss-Bonnet Gravity",
+      "abstract": "Although asymptotically flat black holes generically lack thermodynamic phase transitions, we show that curvature-induced scalarization of electrically charged black holes in Einstein-Maxwell-scalar-Gauss-Bonnet theory provides a natural setting for nontrivial thermodynamic behavior, without invoking external confining mechanisms or an extended thermodynamic formalism. Working within the canonical ensemble and employing the Euclidean approach, we identify the coexistence of locally stable scalarized and Reissner-Nordstr\\\"{o}m thermal states, which promotes free-energy crossings to bona fide phase transitions between equilibrium phases. For weak coupling, a second-order phase transition coincides with the second bifurcation point, at which the scalarized branch reconnects with the Reissner-Nordstr\\\"{o}m branch and scalar hair is spontaneously shed. As the coupling strength increases, this transition becomes zeroth order, the scalarized branch shrinks, and a fish-like structure develops in its Helmholtz free energy, rendering locally stable thermal states partially metastable, and yielding up to three phase transitions. In the strong-coupling limit, the scalarized branch reduces to a Schwarzschild-like solution, and the Reissner-Nordstr\\\"{o}m phase ultimately emerges as the sole thermodynamically preferred configuration.",
+      "authors": [
+        "Cristi\\'an Erices",
+        "Stella Kiorpelidi"
+      ],
+      "categories": [
+        "hep-th",
+        "gr-qc"
+      ],
+      "updated": "2026-10-22T04:00:46.330930+00:00",
+      "published": "2026-10-22T00:00:00-04:00",
+      "source_category": "hep-th",
+      "abs_url": "https://arxiv.org/abs/2604.25100v2",
+      "pdf_url": "https://arxiv.org/pdf/2604.25100v2",
+      "classification": {
+        "is_theoretical_holography": false,
+        "is_classical_gravity": true,
+        "confidence": 0.94,
+        "primary_topic": "相变/气泡成核/引力热力学",
+        "secondary_topics": [
+          "经典引力/广义相对论",
+          "黑洞/量子引力/信息"
+        ],
+        "title_zh": "Einstein-Maxwell-Scalar-Gauss-Bonnet 引力中的热力学相变",
+        "abstract_zh": "尽管渐近平直黑洞通常缺乏热力学相变，本文表明在 Einstein-Maxwell-scalar-Gauss-Bonnet 理论中，电中性黑洞的曲率诱导标量化可自然产生非平凡热力学行为，而无需外部束缚机制或扩展热力学形式。作者在正则系综中采用欧几里得方法，识别出局部稳定的标量化态与 Reissner-Nordström 热态共存，使自由能交叉成为真正的平衡相之间相变。弱耦合时，二级相变与第二个分叉点重合，标量化支与 Reissner-Nordström 支重新连接并自发脱去标量毛。随耦合增强，该相变变为零级，标量化支收缩，其 Helmholtz 自由能出现鱼状结构，使局部稳定热态部分变为亚稳，并可产生最多三次相变。强耦合极限下，标量化支退化为类 Schwarzschild 解，Reissner-Nordström 相最终成为唯一热力学偏好构型。",
+        "one_liner": "曲率诱导标量化使渐近平直带电黑洞在 Einstein-Maxwell-scalar-Gauss-Bonnet 理论中产生可共存、可交叉的自由能及多级热力学相变。",
+        "keywords": [
+          "Einstein-Maxwell-Scalar-Gauss-Bonnet",
+          "标量化",
+          "黑洞热力学",
+          "相变",
+          "Helmholtz 自由能",
+          "Reissner-Nordström"
+        ],
+        "importance": "normal",
+        "relevance": "medium",
+        "relevance_reason": "论文直接研究经典修改引力中的黑洞热力学相变，契合“相变与气泡成核”和“经典引力/广义相对论”重点；但不涉及 AdS/CFT 全息字典或全息凝聚态。",
+        "focus_tags": [
+          "相变与气泡成核",
+          "经典引力/广义相对论"
+        ]
+      }
+    },
+    {
+      "arxiv_id": "2505.04573",
+      "version": 3,
+      "title": "Local uniqueness of the Black String with small circle size",
+      "abstract": "In this article we study uniqueness of the Black String, i.e. the product of 4-dimensional Schwarzschild space with a circle of length L. In arXiv:2410.20967, this was reduced to a non-linear elliptic PDE, and we use this setup to show that for small L the Black String is infinitesimally rigid as a Ricci-flat metric. Using a fixed point theorem, we prove that this implies local uniqueness, i.e. there exist no other Ricci-flat metrics near the Black String, and we give bounds for the size of the neighborhood in which the Black String is unique. We compare this with the toy problem of a scalar field satisfying an elliptic equation that was already solved in arXiv:2410.20967 using different methods. In this case we can use the fixed point theorem method to prove not just a local but a global statement.",
+      "authors": [
+        "Emma Albertini",
+        "Daniel Platt"
+      ],
+      "categories": [
+        "hep-th",
+        "gr-qc"
+      ],
+      "updated": "2026-10-22T04:00:46.330735+00:00",
+      "published": "2026-10-22T00:00:00-04:00",
+      "source_category": "hep-th",
+      "abs_url": "https://arxiv.org/abs/2505.04573v3",
+      "pdf_url": "https://arxiv.org/pdf/2505.04573v3",
+      "classification": {
+        "is_theoretical_holography": false,
+        "is_classical_gravity": true,
+        "confidence": 0.96,
+        "primary_topic": "经典引力/广义相对论",
+        "secondary_topics": [],
+        "title_zh": "小圆周尺寸下 Black String 的局部唯一性",
+        "abstract_zh": "本文研究 Black String（即四维 Schwarzschild 空间与长度为 L 的圆的乘积）的唯一性。此前 arXiv:2410.20967 将该问题约化为一个非线性椭圆 PDE；我们利用这一框架证明，对于小 L，Black String 作为 Ricci-flat 度规是无穷小刚性的。利用不动点定理，我们证明这推出局部唯一性，即在 Black String 附近不存在其他 Ricci-flat 度规，并给出 Black String 唯一性邻域大小的界。我们将其与一个标量场满足椭圆方程的玩具问题进行比较；该问题已在 arXiv:2410.20967 中用不同方法解决。在此情形下，我们可以用不动点定理方法证明不仅是局部陈述，而且是全局陈述。",
+        "one_liner": "证明小圆周 Black String 在 Ricci-flat 度规空间中局部唯一，并给出唯一性邻域大小的界。",
+        "keywords": [
+          "Black String",
+          "唯一性",
+          "Ricci-flat 度规",
+          "非线性椭圆 PDE",
+          "不动点定理",
+          "Schwarzschild 时空"
+        ],
+        "importance": "normal",
+        "relevance": "medium",
+        "relevance_reason": "论文属于经典广义相对论与数学引力，研究 Black String 的 Ricci-flat 度规局部唯一性；它不涉及全息、AdS/CFT 或用户列出的全息支线，但直接契合“经典引力/广义相对论”重点标签。",
+        "focus_tags": [
+          "经典引力/广义相对论"
+        ]
+      }
+    },
+    {
+      "arxiv_id": "2610.29990",
+      "version": 1,
+      "title": "Local tests of Schwarzschild-Bertotti-Robinson spacetime",
+      "abstract": "We study weak field local tests of Schwarzschild-Bertotti-Robinson spacetime, which describes a static black hole embedded in an external magnetic field. Perihelion precession, deflection of light rays and time delay of radar echoes are the phenomena considered in this work to understand the possible effects of this external magnetic field on these observationally important tests. We not only derive weak field analytical results by employing appropriate methods, but also consider an exact approach to directly integrate the relevant geodesic equations, to both confirm those weak field analytical results and to obtain results beyond the weak field approximation.",
+      "authors": [
+        "Fatma Kutlu",
+        "Livanur \\c{C}elik",
+        "\\\"Ozg\\\"ur Delice"
+      ],
+      "categories": [
+        "gr-qc",
+        "astro-ph.HE",
+        "hep-th"
+      ],
+      "updated": "2026-10-22T04:00:46.330201+00:00",
+      "published": "2026-10-22T00:00:00-04:00",
+      "source_category": "hep-th",
+      "abs_url": "https://arxiv.org/abs/2610.29990v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.29990v1",
+      "classification": {
+        "is_theoretical_holography": false,
+        "is_classical_gravity": true,
+        "confidence": 0.97,
+        "primary_topic": "经典引力/广义相对论",
+        "secondary_topics": [
+          "黑洞/量子引力/信息"
+        ],
+        "title_zh": "Schwarzschild-Bertotti-Robinson 时空的局部检验",
+        "abstract_zh": "研究 Schwarzschild-Bertotti-Robinson 时空的弱场局部检验，该时空描述嵌入外部磁场的静态黑洞。考虑近日点进动、光线偏折和雷达回波时间延迟，以理解外部磁场对这些观测重要检验的可能影响。既用适当方法推导弱场解析结果，也采用精确方法直接积分相关测地线方程，以确认弱场解析结果并获得超出弱场近似的结果。",
+        "one_liner": "用近日点进动、光线偏折和雷达回波延迟检验嵌入外磁场静态黑洞的弱场与精确测地线效应。",
+        "keywords": [
+          "Schwarzschild-Bertotti-Robinson spacetime",
+          "black hole in external magnetic field",
+          "perihelion precession",
+          "light deflection",
+          "radar echo time delay",
+          "geodesic equations",
+          "weak-field tests"
+        ],
+        "importance": "normal",
+        "relevance": "high",
+        "relevance_reason": "论文主要研究经典引力时空的观测检验，直接匹配“经典引力/广义相对论”重点标签；不涉及全息或量子引力。",
+        "focus_tags": [
+          "经典引力/广义相对论"
+        ]
+      }
+    },
+    {
+      "arxiv_id": "2610.29857",
+      "version": 1,
+      "title": "Semiclassical effects on ultramassive spacetimes",
+      "abstract": "A recent work [Senovilla, Port. Math. 80 (2023)] has shown that accretion of matter by a Schwarzschild-de Sitter black hole can take this object beyond a critical limit where the event and cosmological horizons coalesce, transforming it into a collapsing universe resembling a Kantowski-Sachs cosmology. In these configurations, dubbed ``ultramassive spacetimes'', future asymptotic infinity and the event horizon associated with the black hole cease to exist. In this work, we take the first steps toward exploring semiclassical gravity effects on such geometries. In particular, we examine the fate of Hawking radiation in these backgrounds and analyze the behavior of the renormalized stress-energy tensor within the Polyakov approximation. We also explore the effect of semiclassical backreaction on the evolution of the horizons, focusing on cases in the vicinity of the extremal limit, and on the subsequent universal collapse.",
+      "authors": [
+        "Valentin Boyanov",
+        "Luis J. Garay",
+        "Alberto Garc\\'ia Mart\\'in-Caro",
+        "Gerardo Garc\\'ia-Moreno"
+      ],
+      "categories": [
+        "gr-qc",
+        "hep-th"
+      ],
+      "updated": "2026-10-22T04:00:46.330002+00:00",
+      "published": "2026-10-22T00:00:00-04:00",
+      "source_category": "hep-th",
+      "abs_url": "https://arxiv.org/abs/2610.29857v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.29857v1",
+      "classification": {
+        "is_theoretical_holography": false,
+        "is_classical_gravity": true,
+        "confidence": 0.82,
+        "primary_topic": "黑洞/量子引力/信息",
+        "secondary_topics": [
+          "经典引力/广义相对论"
+        ],
+        "title_zh": "超质量时空的半经典效应",
+        "abstract_zh": "近期工作表明，Schwarzschild-de Sitter黑洞吸积物质可超过临界极限，使事件视界与宇宙学视界合并，转变为类似Kantowski-Sachs宇宙的坍缩宇宙，这类构型被称为“超质量时空”；其中未来渐近无穷和黑洞事件视界不再存在。本文迈出探索此类几何半经典引力效应的第一步，考察这些背景中Hawking辐射的命运，并在Polyakov近似下分析重整化应力能量张量的行为。作者还探讨半经典反作用对视界演化的影响，重点关注极端极限附近的情形以及随后的普适坍缩。",
+        "one_liner": "研究超质量Schwarzschild-de Sitter时空中Hawking辐射、Polyakov近似应力张量及半经典反作用对视界演化和坍缩的影响。",
+        "keywords": [
+          "Schwarzschild-de Sitter",
+          "超质量时空",
+          "Hawking辐射",
+          "Polyakov近似",
+          "半经典反作用",
+          "视界演化"
+        ],
+        "importance": "normal",
+        "relevance": "medium",
+        "relevance_reason": "论文涉及黑洞时空、视界演化和半经典引力，符合“经典引力/广义相对论”重点标签；但不涉及全息、超流超导、探针膜、QNM或冷原子等用户其他重点方向。",
+        "focus_tags": [
+          "经典引力/广义相对论"
+        ]
+      }
+    },
+    {
+      "arxiv_id": "2610.28684",
+      "version": 1,
+      "title": "Learning Parameters of dRGT Black Holes in Nonlinear Electrodynamics with Neural Network Scenarios",
+      "abstract": "Using machine learning methods, we present constraining parameter scenarios of AdS black holes in dRGT-like massive gravity coupled to nonlinear electrodynamics. We first approach the photon sphere, the black hole shadow, and the energy emission rate with the help of high performance parallel computations. To corroborate such optical results, we develop a numerical framework to constrain the electric charge and the nonlinear electrodynamic parameter, for certain gravity regimes, via the shadow observations reported by the Even Horizon Telescope collaboration. Employing neural networks, we then examine the parameter regions of the black holes based on their consistency with EHT observations of M87$^*$, SgrA$^*_{\\mathrm{VLTI}}$, and SgrA$^*_{\\mathrm{Keck}}$, within the $1-\\sigma$ and $2-\\sigma$ confidence intervals. As a result, we find that the obtained constraints are consistent with the $SgrA^*_{\\mathrm{VLTI}}$ empirical data.",
+      "authors": [
+        "Adil Belhaj",
+        "Salah Eddine Ennadifi",
+        "Maryem Jemri"
+      ],
+      "categories": [
+        "gr-qc",
+        "hep-th"
+      ],
+      "updated": "2026-10-22T04:00:46.323436+00:00",
+      "published": "2026-10-22T00:00:00-04:00",
+      "source_category": "hep-th",
+      "abs_url": "https://arxiv.org/abs/2610.28684v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.28684v1",
+      "classification": {
+        "is_theoretical_holography": false,
+        "is_classical_gravity": true,
+        "confidence": 0.9,
+        "primary_topic": "经典引力/广义相对论",
+        "secondary_topics": [
+          "黑洞/量子引力/信息"
+        ],
+        "title_zh": "利用神经网络情景学习非线性电动力学中dRGT黑洞的参数",
+        "abstract_zh": "使用机器学习方法，本文给出dRGT类大质量引力耦合非线性电动力学的AdS黑洞参数限制情景。作者先借助高性能并行计算研究光子球、黑洞阴影和能量发射率，并建立数值框架，利用事件视界望远镜（EHT）的阴影观测来限制电荷与非线性电动力学参数。随后用神经网络，根据M87*、SgrA*_VLTI和SgrA*_Keck的EHT观测在1σ和2σ置信区间内考察黑洞参数区域；结果发现所得限制与SgrA*_VLTI的经验数据一致。",
+        "one_liner": "用神经网络与EHT阴影观测限制dRGT大质量引力加非线性电动力学AdS黑洞的电荷和电动力学参数。",
+        "keywords": [
+          "dRGT大质量引力",
+          "非线性电动力学",
+          "黑洞阴影",
+          "光子球",
+          "事件视界望远镜",
+          "神经网络",
+          "参数限制"
+        ],
+        "importance": "normal",
+        "relevance": "medium",
+        "relevance_reason": "论文属于经典/修改引力下的黑洞阴影与观测限制研究，符合用户“经典引力/广义相对论”支线；虽涉及AdS黑洞，但未涉及AdS/CFT字典或全息方法，因此与全息主线关系有限。",
+        "focus_tags": [
+          "经典引力/广义相对论"
+        ]
+      }
+    },
+    {
+      "arxiv_id": "2610.30134",
+      "version": 1,
+      "title": "A signature of the timelike singularity in holography",
+      "abstract": "In the context of the AdS/CFT correspondence, we provide a simple observable, the imaginary part of the retarded Green's function, which captures the timelike singularity of a charged black brane. Solving wave equations of bulk fields with different spins outside the black brane, we calculate exponentially small contributions to retarded Green's functions in the dual CFT at large real frequency. These contributions admit an interpretation in terms of paths in an analytically continued classical black brane interior via a WKB approximation: they provide the complex time elapsed along null geodesics that reflect off the singularity, and incorporate the corresponding reflection coefficients.",
+      "authors": [
+        "Joydeep Chakravarty",
+        "Yoav Zigdon"
+      ],
+      "categories": [
+        "hep-th",
+        "gr-qc"
+      ],
+      "updated": "2026-10-22T04:00:46.323262+00:00",
+      "published": "2026-10-22T00:00:00-04:00",
+      "source_category": "hep-th",
+      "abs_url": "https://arxiv.org/abs/2610.30134v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.30134v1",
+      "classification": {
+        "is_theoretical_holography": true,
+        "is_classical_gravity": true,
+        "confidence": 0.9,
+        "primary_topic": "AdS/CFT 基础与字典",
+        "secondary_topics": [
+          "黑洞/量子引力/信息",
+          "经典引力/广义相对论"
+        ],
+        "title_zh": "全息中类时奇点的一个特征信号",
+        "abstract_zh": "在 AdS/CFT 对应框架下，我们提出一个简单可观测量——推迟格林函数的虚部——来捕捉带电黑洞膜的类时奇点。通过求解黑洞膜外不同自旋体场波动方程，我们计算了大实频率下对偶 CFT 推迟格林函数的指数小贡献。这些贡献可通过 WKB 近似解释为解析延拓后经典黑洞膜内部的路径：它们给出沿从奇点反射的零测地线所经历的复时间，并包含相应反射系数。",
+        "one_liner": "利用推迟格林函数虚部在 AdS/CFT 中刻画带电黑洞膜类时奇点，并用 WKB 与反射零测地线解释其指数小贡献。",
+        "keywords": [
+          "AdS/CFT",
+          "类时奇点",
+          "推迟格林函数",
+          "带电黑洞膜",
+          "WKB 近似",
+          "零测地线"
+        ],
+        "importance": "normal",
+        "relevance": "high",
+        "relevance_reason": "该文直接属于 AdS/CFT 字典与黑洞内部几何的全息研究，涉及推迟格林函数、黑洞膜奇点和经典零测地线，与全息及经典引力支线均相关。",
+        "focus_tags": [
+          "经典引力/广义相对论"
+        ]
+      }
+    },
+    {
+      "arxiv_id": "2610.30126",
+      "version": 1,
+      "title": "Random Euclidean CFT$_2$ from Triangulated dS$_3$ Gravity",
+      "abstract": "We propose a random Euclidean CFT description of three-dimensional de Sitter gravity, with fixed central charge and primary spectrum but fluctuating operator product coefficients. Our construction starts from compact regions assembled from generalized hyperbolic tetrahedra. We analytically continue the gravitational amplitudes computed from these triangulations to de Sitter parameters and use them to infer OPE correlations. We recover matching normalized amplitudes from a complex Liouville cosmological wavefunction. A non-Gaussian fourth moment encodes the hyperbolic core volume in an oscillatory semiclassical phase. We construct the associated Lorentzian de Sitter spacetime and show that derivatives of this phase recover its boost holonomies. Its spacelike future boundary carries a positive-definite conformal metric, while the wavefunction obeys Euclidean conformal Ward identities. These relations connect the proposed OPE statistics to both the Euclidean boundary description and the Lorentzian bulk geometry. Integrating the absolute square of the cosmological wavefunction over boundary moduli gives cosmological observables. Their long-collar factorization reproduces the edge measure of the two-matrix model.",
+      "authors": [
+        "Ji-seong Chae"
+      ],
+      "categories": [
+        "hep-th"
+      ],
+      "updated": "2026-10-22T04:00:46.323208+00:00",
+      "published": "2026-10-22T00:00:00-04:00",
+      "source_category": "hep-th",
+      "abs_url": "https://arxiv.org/abs/2610.30126v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.30126v1",
+      "classification": {
+        "is_theoretical_holography": true,
+        "is_classical_gravity": false,
+        "confidence": 0.95,
+        "primary_topic": "dS/天球/平直时空/BMS-Carroll",
+        "secondary_topics": [
+          "JT/SYK/AdS2/矩阵模型",
+          "宇宙学/膜世界/其他"
+        ],
+        "title_zh": "由三角化 dS$_3$ 引力得到的随机欧几里得 CFT$_2$",
+        "abstract_zh": "我们提出一种三维 de Sitter 引力的随机欧几里得 CFT 描述：中心荷和原初谱固定，但算符乘积系数发生涨落。我们的构造从由广义双曲四面体组装成的紧致区域出发。我们将由这些三角化计算得到的引力振幅解析延拓到 de Sitter 参数，并用其推断 OPE 关联。我们从复 Liouville 宇宙学波函数恢复出匹配的归一化振幅。非高斯四阶矩在振荡半经典相位中编码双曲核心体积。我们构造相应的洛伦兹 de Sitter 时空，并表明该相位的导数恢复其 boost holonomy。其类空未来边界携带正定共形度规，而波函数满足欧几里得共形 Ward 恒等式。这些关系将所提出的 OPE 统计同时联系到欧几里得边界描述和洛伦兹体几何。对边界模积分宇宙学波函数的模平方给出宇宙学可观测量；它们的长领因子化重现双矩阵模型的边缘测度。",
+        "one_liner": "该文用三角化 dS$_3$ 引力的解析延拓构造固定谱但 OPE 系数涨落的随机欧几里得 CFT$_2$，并联系复 Liouville 波函数、洛伦兹 dS 几何与双矩阵模型边缘测度。",
+        "keywords": [
+          "dS/CFT",
+          "随机欧几里得 CFT",
+          "三角化引力",
+          "复 Liouville 波函数",
+          "双矩阵模型",
+          "OPE 统计",
+          "宇宙学波函数",
+          "de Sitter 全息"
+        ],
+        "importance": "high",
+        "relevance": "low",
+        "relevance_reason": "论文属于 dS/CFT、随机 CFT 与矩阵模型方向，不涉及用户重点标签中的全息超流超导、探针膜、QNM、经典引力等具体支线。",
+        "focus_tags": []
+      }
+    },
+    {
+      "arxiv_id": "2610.29956",
+      "version": 1,
+      "title": "Carrollian Symmetries and Dynamical Entropy",
+      "abstract": "Carrollian geometry has recently emerged as the proper language to understand the geometry of null hypersurfaces from an intrinsic perspective. In this paper, we demonstrate that the Noether charge associated with the intrinsic conformal symmetry of Carrollian manifolds yields exactly the dynamical entropy formula recently proposed by Hollands, Wald and Zhang. This result follows directly from the requirement that the gravitational phase space induced on a finite distance null hypersurface be anomaly-free, in a covariant phase space sense. We then show that a linearized perturbation of this dynamical entropy charge, sourced by an external matter perturbation falling across the hypersurface, satisfies a physical process first law. Moreover, upon imposing the classical null energy condition, a linearized second law holds for the dynamical entropy. We then turn to a semi-classical generalization of this construction, where we argue that a notion of dynamical generalized entropy follows from considering perturbations sourced by external quantum matter. By imposing the quantum null energy condition (QNEC), we find a generalized second law for a linearized perturbation of the dynamical generalized entropy. Finally, we use our results to speculate on relations to the quantum focusing conjecture.",
+      "authors": [
+        "Michael Imseis"
+      ],
+      "categories": [
+        "hep-th"
+      ],
+      "updated": "2026-10-22T04:00:46.323155+00:00",
+      "published": "2026-10-22T00:00:00-04:00",
+      "source_category": "hep-th",
+      "abs_url": "https://arxiv.org/abs/2610.29956v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.29956v1",
+      "classification": {
+        "is_theoretical_holography": false,
+        "is_classical_gravity": true,
+        "confidence": 0.86,
+        "primary_topic": "dS/天球/平直时空/BMS-Carroll",
+        "secondary_topics": [
+          "经典引力/广义相对论",
+          "黑洞/量子引力/信息",
+          "相变/气泡成核/引力热力学"
+        ],
+        "title_zh": "Carroll 对称性与动力学熵",
+        "abstract_zh": "Carroll 几何近来被视为从内禀视角理解零超曲面几何的合适语言。本文表明，Carroll 流形内禀共形对称性对应的 Noether 电荷恰好给出 Hollands、Wald 和 Zhang 最近提出的动力学熵公式。该结果直接来自在协变相空间意义下要求有限距离零超曲面上诱导的引力相空间无反常。随后作者证明，由穿过该超曲面的外部物质扰动源化的该动力学熵电荷的线性化扰动满足物理过程第一定律；并且在施加经典零能量条件时，动力学熵满足线性化第二定律。文章进一步转向半经典推广，论证通过考虑外部量子物质源化的扰动，可以得到动力学广义熵的概念；在施加量子零能量条件（QNEC）后，发现动力学广义熵的线性化扰动满足广义第二定律。最后，作者用这些结果推测其与量子聚焦猜想的联系。",
+        "one_liner": "本文用 Carroll 几何的内禀共形 Noether 电荷导出零超曲面上的动力学熵，并讨论其经典与半经典第一、第二定律。",
+        "keywords": [
+          "Carrollian geometry",
+          "dynamical entropy",
+          "Noether charge",
+          "null hypersurface",
+          "first law",
+          "second law",
+          "QNEC"
+        ],
+        "importance": "normal",
+        "relevance": "medium",
+        "relevance_reason": "论文涉及 Carrollian 零超曲面、动力学熵与经典/半经典引力热力学，与“经典引力/广义相对论”重点支线相关；但不涉及全息超流超导、p波、multi-trace、QNM 等具体支线。",
+        "focus_tags": [
+          "经典引力/广义相对论"
+        ]
+      }
+    },
+    {
+      "arxiv_id": "2610.29068",
+      "version": 1,
+      "title": "Graviphoton mixing with KK modes in the 2D effective theory of charged black holes",
+      "abstract": "We study the effects of massive Kaluza--Klein modes on the two-dimensional low-energy effective theory obtained by the $S^2$ reduction of four-dimensional Einstein--Maxwell theory on a Reissner--Nordstr\\\"om black hole background. We retain the first excited ($l=1$) Maxwell Kaluza--Klein modes in addition to the massless sector. The background electric flux mixes the Maxwell Kaluza--Klein scalars with the graviphotons, and tree-level exchange of the massive scalars generates a correction to the graviphoton kinetic term proportional to the square of the black hole charge. Within the leading local approximation, we also perturbatively evaluate the one-loop correction to the graviphoton kinetic term and find no dependence on the black hole charge. We find that near extremality, the charge-dependent tree-level correction becomes parametrically comparable to the classical graviphoton kinetic term.",
+      "authors": [
+        "Yoshihiko Abe",
+        "Tetsutaro Higaki",
+        "Yu Miyauchi"
+      ],
+      "categories": [
+        "hep-th",
+        "gr-qc"
+      ],
+      "updated": "2026-10-22T04:00:46.322888+00:00",
+      "published": "2026-10-22T00:00:00-04:00",
+      "source_category": "hep-th",
+      "abs_url": "https://arxiv.org/abs/2610.29068v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.29068v1",
+      "classification": {
+        "is_theoretical_holography": false,
+        "is_classical_gravity": true,
+        "confidence": 0.9,
+        "primary_topic": "经典引力/广义相对论",
+        "secondary_topics": [
+          "黑洞/量子引力/信息"
+        ],
+        "title_zh": "二维带电黑洞有效理论中引力光子与KK模的混合",
+        "abstract_zh": "本文研究大质量Kaluza-Klein模对四维Einstein-Maxwell理论在Reissner-Nordström黑洞背景上经S^2约化所得二维低能有效理论的影响。除无质量部分外，还保留第一激发（l=1）Maxwell Kaluza-Klein模。背景电场通量使Maxwell Kaluza-Klein标量与引力光子发生混合，大质量标量的树级交换产生正比于黑洞电荷平方的引力光子动能项修正。在领先局域近似下，还微扰计算了引力光子动能项的一圈修正，发现其不依赖于黑洞电荷。作者发现，在近极端情形下，依赖电荷的树级修正与经典引力光子动能项在参数上可比。",
+        "one_liner": "该文在带电黑洞的二维约化有效理论中计算KK模与引力光子混合对引力光子动能项的树级和一圈修正，并指出近极端时树级电荷修正可与经典项相当。",
+        "keywords": [
+          "graviphoton",
+          "Kaluza-Klein modes",
+          "charged black holes",
+          "Einstein-Maxwell theory",
+          "two-dimensional effective theory",
+          "near-extremal black holes"
+        ],
+        "importance": "normal",
+        "relevance": "medium",
+        "relevance_reason": "论文属于经典引力/广义相对论与带电黑洞有效理论方向，符合用户“经典引力/广义相对论”重点标签；但不涉及全息超流、p波、multi-trace等全息凝聚态主线。",
+        "focus_tags": [
+          "经典引力/广义相对论"
+        ]
+      }
+    },
+    {
+      "arxiv_id": "2610.29040",
+      "version": 1,
+      "title": "Extended Local Infrared Cutoff for the Holographic Density",
+      "abstract": "We propose an extended local infrared cutoff for the holographic density that leads to linear cosmological equations and gives exact analytical solutions. The model allows to remove the residual matter and radiation-like terms of the local construction based on $H$ and $\\dot{H}$, resulting in a clear separation between the standard cosmological fluids and the holographic sector. The homogeneous solution generates characteristic modes that give rise to different cosmological behaviors. The extension includes derivatives up to third order, where two of the characteristic modes can modify the pre-recombination expansion and reduce the sound horizon while remaining subdominant at BBN. A slightly phantom mode provides an additional late-time geometrical freedom that can further increase the CMB-compatible value of $H_0$. Optimizations using BAO constraints yield values of $H_0$ in the approximate range $70.5-72.4\\ {\\rm km\\;s^{-1}\\;Mpc^{-1}}$.",
+      "authors": [
+        "L. N. Granda"
+      ],
+      "categories": [
+        "hep-th",
+        "gr-qc"
+      ],
+      "updated": "2026-10-22T04:00:46.322831+00:00",
+      "published": "2026-10-22T00:00:00-04:00",
+      "source_category": "hep-th",
+      "abs_url": "https://arxiv.org/abs/2610.29040v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.29040v1",
+      "classification": {
+        "is_theoretical_holography": false,
+        "is_classical_gravity": true,
+        "confidence": 0.86,
+        "primary_topic": "宇宙学/膜世界/其他",
+        "secondary_topics": [
+          "经典引力/广义相对论"
+        ],
+        "title_zh": "全息密度的扩展局域红外截断",
+        "abstract_zh": "本文为全息密度提出一种扩展的局域红外截断，使宇宙学方程线性化并给出精确解析解。该模型可移除基于 H 和 \\dot H 的局域构造中残余的类物质和类辐射项，从而清晰分离标准宇宙学流体与全息部分。齐次解产生特征模式，导致不同宇宙学行为；扩展包含至三阶导数，其中两个模式可修改复合前膨胀并减小声视界，同时在 BBN 时期保持次主导。一个轻微 phantom 模式提供额外的晚期几何自由度，可进一步提高 CMB 兼容的 H0 值。利用 BAO 约束优化得到 H0 约 70.5–72.4 km/s/Mpc。",
+        "one_liner": "提出扩展局域红外截断的全息暗能量模型，以线性宇宙学方程和精确解缓解 H0 张力。",
+        "keywords": [
+          "全息暗能量",
+          "红外截断",
+          "宇宙学",
+          "H0张力",
+          "BAO",
+          "声视界",
+          "phantom"
+        ],
+        "importance": "normal",
+        "relevance": "low",
+        "relevance_reason": "属于全息暗能量宇宙学模型，不涉及 AdS/CFT 字典、全息超导/超流、探针膜、QNM、纠缠或复杂度等用户重点支线。",
+        "focus_tags": [
+          "经典引力/广义相对论"
+        ]
+      }
+    },
+    {
+      "arxiv_id": "2610.28725",
+      "version": 1,
+      "title": "Orientifold and Integrability: $\\mathcal{N}=4$ Super-Yang-Mills on $\\mathbb{RP}^4$",
+      "abstract": "We study planar $\\mathcal{N}=4$ super Yang-Mills theory (SYM) on the real projective space $\\mathbb{RP}^4$ using integrability, holography and supersymmetric localization, and discuss its relation to orientifolds in string theory. We show that the integrability of $\\mathcal{N}=4$ SYM is preserved when combining the $\\mathbb{Z}_2$ involution defining $\\mathbb{RP}^4$ with the action of the charge conjugation of the SU$(N)$ gauge group. We demonstrate this by calculating one-point functions of non-BPS single-trace operators in various subsectors at weak coupling, which can be mapped to overlaps between energy eigenstates and crosscap states in integrable spin chains. The results exhibit a parity selection rule, a hallmark of integrability, and are given in terms of a ratio of determinants. Building on these results, we conjecture a closed formula for general single-trace operators. We further provide evidence that this construction is holographically dual to a probe orientifold O1-plane in $\\text{AdS}_5\\times \\text{S}^5$ by constructing the corresponding worldsheet crosscap states in the pp-wave limit. Finally, we use supersymmetric localization to compute one-point functions of half-BPS operators exactly at finite $g_{\\rm YM}$ and $N$. The computation reduces to two-dimensional Yang-Mills theory on $\\mathbb{RP}^2$ twisted by charge conjugation and leads to a matrix integral of a Wishart-Laguerre type. In the planar limit, the exact result interpolates between the weak-coupling gauge-theory result, the strong-coupling supergravity prediction for the orientifold, and the worldsheet crosscap in the pp-wave limit.",
+      "authors": [
+        "Joao Caetano",
+        "Shota Komatsu",
+        "Paolo Soresina",
+        "Anders Wallberg"
+      ],
+      "categories": [
+        "hep-th"
+      ],
+      "updated": "2026-10-22T04:00:46.322364+00:00",
+      "published": "2026-10-22T00:00:00-04:00",
+      "source_category": "hep-th",
+      "abs_url": "https://arxiv.org/abs/2610.28725v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.28725v1",
+      "classification": {
+        "is_theoretical_holography": true,
+        "is_classical_gravity": false,
+        "confidence": 0.96,
+        "primary_topic": "AdS/CFT 基础与字典",
+        "secondary_topics": [],
+        "title_zh": "Orientifold 与可积性：RP^4 上的 N=4 超 Yang-Mills 理论",
+        "abstract_zh": "我们利用可积性、全息与超对称局域化研究实射影空间 RP^4 上的平面 N=4 超 Yang-Mills 理论，并讨论其与弦论中 orientifold 的关系。我们证明，将定义 RP^4 的 Z2 对合与 SU(N) 规范群的电荷共轭作用结合时，N=4 SYM 的可积性仍得以保持。我们通过在弱耦合下计算各子扇区中非 BPS 单迹算符的单点函数来证明这一点；这些单点函数可映射为可积自旋链中能量本征态与 crosscap 态的重叠。结果表现出宇称选择定则（可积性的一个标志），并以行列式之比给出。基于这些结果，我们猜测一般单迹算符的闭式公式。我们进一步通过在 pp-wave 极限下构造相应的世界面 crosscap 态，提供证据表明该构造全息对偶于 AdS5×S5 中的探针 orientifold O1-膜。最后，我们使用超对称局域化在有限 g_YM 和 N 下精确计算半 BPS 算符的单点函数。该计算约化为 RP^2 上由电荷共轭扭曲的二维 Yang-Mills 理论，并导出一个 Wishart-Laguerre 型矩阵积分。在平面极限下，精确结果在弱耦合规范理论结果、orientifold 的强耦合超引力预言以及 pp-wave 极限下的世界面 crosscap 之间插值。",
+        "one_liner": "利用可积性、全息与超对称局域化研究 RP^4 上 N=4 SYM 的单点函数及其 orientifold O1 对偶。",
+        "keywords": [
+          "N=4 super Yang-Mills",
+          "RP4",
+          "orientifold",
+          "integrability",
+          "crosscap state",
+          "AdS/CFT",
+          "supersymmetric localization",
+          "one-point function"
+        ],
+        "importance": "high",
+        "relevance": "low",
+        "relevance_reason": "论文属于全息 AdS/CFT、可积性与 orientifold，不涉及用户重点标签覆盖的凝聚态超流/冷原子/探针膜/QNM/经典引力等方向。",
+        "focus_tags": []
+      }
+    },
+    {
+      "arxiv_id": "2610.28722",
+      "version": 1,
+      "title": "Twisted Correlators from Harmonic Superspace",
+      "abstract": "We establish a harmonic superspace formulation for $\\mathcal N=2$ orbifolds of $\\mathcal N=4$ super-Yang-Mills (SYM) theory. We account for the orbifold projection by introducing topological defect lines to the planar supergraphs of $\\mathcal N=4$ SYM. These twist lines are sourced by twisted sector operators, transparent to vector multiplets but generate orbifold phases when crossed by bifundamental hypermultiplet fields. This formalism establishes a refinement of the orbifold inheritance principle at supergraph level. As a direct application, we compute leading twist-dependent corrections to BPS two- and three-point functions, finding agreement with localisation results in extremal cases and generating new data for non-extremal correlators. We further map these corrections to finite-size effects in the twisted hexagon formalism. This opens a path towards an all-order integrability prescription of orbifold structure constants.",
+      "authors": [
+        "Dennis le Plat",
+        "Torben Skrzypek"
+      ],
+      "categories": [
+        "hep-th"
+      ],
+      "updated": "2026-10-22T04:00:46.322248+00:00",
+      "published": "2026-10-22T00:00:00-04:00",
+      "source_category": "hep-th",
+      "abs_url": "https://arxiv.org/abs/2610.28722v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.28722v1",
+      "classification": {
+        "is_theoretical_holography": true,
+        "is_classical_gravity": false,
+        "confidence": 0.72,
+        "primary_topic": "AdS/CFT 基础与字典",
+        "secondary_topics": [],
+        "title_zh": "来自调和超空间的扭曲关联函数",
+        "abstract_zh": "我们为 N=4 超杨-米尔斯理论的 N=2 orbifold 建立了调和超空间表述。我们通过在 N=4 SYM 的平面超图中引入拓扑缺陷线来计入 orbifold 投影。这些扭曲线由扭曲扇区算符提供源，对矢量多重态透明，但当双基本超多重态场穿过时会产生 orbifold 相位。该形式在超图层面给出了 orbifold 继承原理的一种细化。作为直接应用，我们计算了对 BPS 两点和三点关联函数的领头扭曲相关修正，在极端情形下与局域化结果一致，并为非极端关联函数产生新数据。我们进一步将这些修正映射到扭曲六边形形式中的有限尺寸效应。这为 orbifold 结构常数的全阶可积性方案开辟了道路。",
+        "one_liner": "在调和超空间中用拓扑扭曲线研究 N=2 orbifold N=4 SYM 的 BPS 关联函数修正，并联系六边形可积性。",
+        "keywords": [
+          "N=2 orbifold",
+          "N=4 super-Yang-Mills",
+          "harmonic superspace",
+          "twisted correlators",
+          "topological defect lines",
+          "hexagon formalism",
+          "integrability",
+          "BPS correlators"
+        ],
+        "importance": "normal",
+        "relevance": "low",
+        "relevance_reason": "主题为 N=4 SYM orbifold 的超空间与可积性关联函数，未直接涉及用户列出的全息超导、p波、畴壁、multi-trace、气泡成核、QNM、探针膜或经典引力等支线。",
+        "focus_tags": []
+      }
+    },
+    {
+      "arxiv_id": "2610.28721",
+      "version": 1,
+      "title": "Quasinormal-mode stability bounds in gravitational EFT: resolvability, predictivity, and positivity",
+      "abstract": "It has been proposed that consistency limits how slowly black holes can ring down in extensions of General Relativity: effective-field-theory (EFT) corrections may lengthen the decay time of a quasinormal mode by at most about one oscillation period, $\\Re[\\omega_{\\rm GR}]\\,\\delta\\tau\\lesssim1$. We argue that, under standard power counting, this condition yields no new, model-independent constraint on gravitational EFTs. First, its motivation does not extend straightforwardly to black holes: the inverse oscillation frequency is not a universal, detector-independent uncertainty in the damping time of a classical waveform. Our main argument, however, rests on eikonal power counting alone. The decay-time shift grows with the angular momentum $\\ell$ of the mode, but so does the weight of higher-derivative operators. When curvature and derivatives are controlled by a single scale $\\Lambda$, as in every known ultraviolet completion, the EFT around a black hole of radius $r_s$ remains predictive up to $\\ell\\sim(r_s\\Lambda)^2$, and the shift becomes of order one only there, where an infinite tower of operators contributes at the same order. A resolvable shift within the predictive regime requires either large numerical coefficients or a two-scale power counting, which has no known ultraviolet completion. In both cases the quartic-curvature operators dominate, and the condition coincides parametrically with the positivity bounds that flat-space graviton amplitudes impose under standard assumptions on the ultraviolet completion. Only in scalar--tensor theories could the two-scale window probe beyond positivity, and then at most one family of dimension-ten operators. The axial sector of Einstein--dilaton--Gauss--Bonnet gravity and Einstein--Maxwell theory illustrate these results.",
+      "authors": [
+        "Leonardo Juliano",
+        "Enrico Trincherini"
+      ],
+      "categories": [
+        "hep-th"
+      ],
+      "updated": "2026-10-22T04:00:46.322181+00:00",
+      "published": "2026-10-22T00:00:00-04:00",
+      "source_category": "hep-th",
+      "abs_url": "https://arxiv.org/abs/2610.28721v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.28721v1",
+      "classification": {
+        "is_theoretical_holography": false,
+        "is_classical_gravity": true,
+        "confidence": 0.92,
+        "primary_topic": "非平衡/热化/输运/混沌/QNM",
+        "secondary_topics": [
+          "经典引力/广义相对论"
+        ],
+        "title_zh": "引力 EFT 中的准正规模稳定性界限：可分辨性、可预测性与正定性",
+        "abstract_zh": "该文讨论一个曾被提出的观点：在广义相对论推广中，一致性会限制黑洞铃宕的最慢衰减，EFT 修正至多把准正规模衰减时间延长约一个振荡周期，即 Re[ω_GR] δτ ≲ 1。作者论证，在标准幂次计数下，这个条件并不给出新的、模型无关的引力 EFT 约束。首先，其动机不能直接推广到黑洞：振荡频率的倒数并不是经典波形阻尼时间中普适且与探测器无关的不确定度。主要论证仅依赖 eikonal 幂次计数：衰减时间移动随模式角动量 ℓ 增长，但高阶导数算符的权重也同样增长；当曲率和导数由单一能标 Λ 控制时（已知紫外完成均如此），半径为 r_s 的黑洞周围 EFT 可预测到 ℓ ∼ (r_s Λ)^2，而移动在此处才变为一阶，此时无限多个算符同阶贡献。若要在可预测范围内得到可分辨的移动，需要大数值系数或双尺度幂次计数，而后者没有已知紫外完成。两种情形下四阶曲率算符都占主导，该条件在参数上与平直空间引力子振幅在标准紫外假设下给出的正定性界限重合。只有在标量-张量理论中，双尺度窗口才可能探测正定性之外，且至多涉及一族十维算符。Einstein-dilaton-Gauss-Bonnet 引力的轴向扇区和 Einstein-Maxwell 理论被用来说明这些结果。",
+        "one_liner": "作者用 eikonal 幂次计数表明，标准单尺度引力 EFT 下 QNM 衰减时间的“稳定性界限”不能给出新的模型无关约束，通常与四阶曲率正定性界限参数上重合。",
+        "keywords": [
+          "quasinormal modes",
+          "gravitational effective field theory",
+          "black hole ringdown",
+          "positivity bounds",
+          "eikonal power counting",
+          "higher-derivative gravity"
+        ],
+        "importance": "normal",
+        "relevance": "medium",
+        "relevance_reason": "主题集中在引力 EFT 与 QNM/黑洞铃宕及正定性界限，属于经典引力与 QNM 支线；未涉及全息对偶或 AdS/CFT，因此对全息研究为中等相关。",
+        "focus_tags": [
+          "QNM与非线性演化",
+          "经典引力/广义相对论"
+        ]
+      }
+    },
+    {
+      "arxiv_id": "2610.29243",
+      "version": 1,
+      "title": "Hybrid Stars with a Crossover Equation of State",
+      "abstract": "The possible occurrence of a phase transition in superdense nuclear matter remains an open problem in nuclear physics. In particular, the transition from purely hadronic matter to the hypothesized deconfined quark matter is a subject of considerable interest. Beyond its fundamental significance, this transition has important implications for the physics of compact objects, including neutron stars, quark stars, and hybrid stars. The conventional approaches to this problem involve the Maxwell and Gibbs constructions, both of which have been extensively studied and applied. In the present study, we focus on a third, alternative approach based on a smooth transition from hadronic to quark matter through the so-called switching function. More specifically, the present work focuses on two main objectives. The first is to systematically investigate the influence of the symmetry energy on the transition densities and chemical potentials associated with the transition to quark matter. Subsequently, we attempt to physically constrain and parametrize the two parameters characterizing the switching function, ensuring that the transition from hadronic to quark matter is not merely continuous but also consistent with relevant physical requirements. The main conclusion is that, with an appropriate choice of the aforementioned parameters, the phenomenological model becomes more physically motivated and can serve as a useful tool for investigating the structure and properties of hybrid compact objects. Moreover, this approach offers the flexibility to predict the properties of compact objects that lie beyond the scope of standard neutron-star theory, such as objects characterized by relatively low masses and small radii, which have recently attracted considerable attention in observational studies.",
+      "authors": [
+        "G. A. Tsalis",
+        "Ch. C. Moustakidis"
+      ],
+      "categories": [
+        "nucl-th",
+        "astro-ph.SR"
+      ],
+      "updated": "2026-10-22T04:00:45.019828+00:00",
+      "published": "2026-10-22T00:00:00-04:00",
+      "source_category": "nucl-th",
+      "abs_url": "https://arxiv.org/abs/2610.29243v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.29243v1",
+      "classification": {
+        "is_theoretical_holography": false,
+        "is_classical_gravity": true,
+        "confidence": 0.82,
+        "primary_topic": "经典引力/广义相对论",
+        "secondary_topics": [
+          "相变/气泡成核/引力热力学"
+        ],
+        "title_zh": "具有交叉物态的混合星",
+        "abstract_zh": "超致密核物质中是否发生相变仍是核物理的开放问题，尤其是从纯强子物质到假定退禁闭夸克物质的转变备受关注。除基础意义外，该转变对致密天体物理（包括中子星、夸克星和混合星）有重要影响。传统方法采用 Maxwell 和 Gibbs 构造，二者已被广泛研究和应用。本工作关注第三种替代方案，即通过所谓切换函数实现从强子物质到夸克物质的平滑过渡。具体而言，本文有两个主要目标：第一，系统研究对称能对与向夸克物质转变相关的转变密度和化学势的影响；第二，尝试对刻画切换函数的两个参数进行物理约束和参数化，使强子到夸克物质的转变不仅是连续的，而且符合相关物理要求。主要结论是，在适当选择上述参数时，该唯象模型更具物理动机，可作为研究混合致密天体结构与性质的有用工具。此外，该方法能够灵活预测超出标准中子星理论范围的致密天体性质，例如近来在观测研究中受到关注的相对低质量和小半径天体。",
+        "one_liner": "用切换函数实现强子到夸克物质平滑过渡的交叉物态，并研究对称能影响与混合星性质。",
+        "keywords": [
+          "混合星",
+          "交叉物态",
+          "夸克物质",
+          "中子星",
+          "对称能",
+          "切换函数"
+        ],
+        "importance": "normal",
+        "relevance": "low",
+        "relevance_reason": "非全息研究；主要内容是致密核物质物态与混合星，仅通过致密天体/经典引力分支与用户重点间接相关。",
+        "focus_tags": [
+          "经典引力/广义相对论"
+        ]
+      }
+    },
+    {
+      "arxiv_id": "2607.03629",
+      "version": 2,
+      "title": "A conformal reduction for the X-ADM mass",
+      "abstract": "The X-ADM mass is a generalisation of the ADM mass for asymptotically flat manifolds, recently introduced by Mantegazza and Oronzio [arXiv:2602.11372], who proved a positive mass theorem for this quantity in dimension $3$ under a certain topological condition. In this article, we prove the X-positive mass theorem with rigidity in all dimensions $n\\geq3$ without any topological restrictions. To this end, we first prove that the scalar curvature condition appearing in the X-positive mass theorem implies the metric is of positive Yamabe type. We then show that the X-ADM mass of the given metric is equal to the ADM mass of a scalar-flat representative in its conformal class plus a term that is explicitly non-negative. From this, the X-positive mass theorem follows from the standard positive mass theorem. As a corollary, we obtain the Riemannian mass--charge inequality of general relativity in all dimensions, which was previously only known for spin manifolds. Finally, we give a version of the X-positive mass theorem for a manifold with boundary.",
+      "authors": [
+        "Stephen McCormick"
+      ],
+      "categories": [
+        "math.DG",
+        "gr-qc"
+      ],
+      "updated": "2026-10-22T04:00:44.519711+00:00",
+      "published": "2026-10-22T00:00:00-04:00",
+      "source_category": "gr-qc",
+      "abs_url": "https://arxiv.org/abs/2607.03629v2",
+      "pdf_url": "https://arxiv.org/pdf/2607.03629v2",
+      "classification": {
+        "is_theoretical_holography": false,
+        "is_classical_gravity": true,
+        "confidence": 0.97,
+        "primary_topic": "经典引力/广义相对论",
+        "secondary_topics": [],
+        "title_zh": "X-ADM 质量的共形约化",
+        "abstract_zh": "X-ADM 质量是 Mantegazza 与 Oronzio 最近为渐近平坦流形引入的 ADM 质量推广，他们在三维且满足某拓扑条件下证明了该量的正质量定理。本文在所有维度 n≥3 且无拓扑限制下证明带刚性的 X-正质量定理。为此，先证明 X-正质量定理中出现的标量曲率条件蕴含度量为正 Yamabe 型；随后证明给定度量的 X-ADM 质量等于其共形类中标量平坦代表度量的 ADM 质量加上一个显式非负项。由此，X-正质量定理可由标准正质量定理推出。作为推论，得到所有维度中广义相对论的黎曼质量-电荷不等式，而此前仅对自旋流形成立。最后，给出带边界流形的 X-正质量定理版本。",
+        "one_liner": "通过共形约化在所有维度且无拓扑限制下证明带刚性的 X-正质量定理，并得到黎曼质量-电荷不等式。",
+        "keywords": [
+          "X-ADM 质量",
+          "正质量定理",
+          "共形约化",
+          "标量曲率",
+          "Yamabe 型",
+          "质量-电荷不等式",
+          "刚性",
+          "带边界流形"
+        ],
+        "importance": "high",
+        "relevance": "high",
+        "relevance_reason": "论文属于数学广义相对论中的正质量定理与共形几何，直接对应经典引力/广义相对论支线；不涉及全息或量子引力。",
+        "focus_tags": [
+          "经典引力/广义相对论"
+        ]
+      }
+    },
+    {
+      "arxiv_id": "2607.09077",
+      "version": 2,
+      "title": "Testing Black Holes with Interstellar Missions: II. Flyby Probes",
+      "abstract": "Recently, we demonstrated that while an interstellar mission to the nearest black hole remains highly speculative and extraordinarily challenging, it is not entirely implausible within the coming decades. Given that such a mission would likely take about a hundred years and require substantial financial and human investment, it is essential to assess whether it could investigate black holes and test General Relativity to a degree that cannot be achieved by Solar System observatories for the foreseeable future. In Paper I, we assumed the capability to decelerate the spacecraft and presented a preliminary study of how orbiting probes could test the nature of the compact object. In this second paper, we study how the black hole can be tested without decelerating the spacecraft, using flyby probes.",
+      "authors": [
+        "Yi Fan",
+        "Cosimo Bambi",
+        "Leda Gao",
+        "Abdurakhmon Nosirov",
+        "Andrea Santangelo"
+      ],
+      "categories": [
+        "gr-qc"
+      ],
+      "updated": "2026-10-22T04:00:44.519054+00:00",
+      "published": "2026-10-22T00:00:00-04:00",
+      "source_category": "gr-qc",
+      "abs_url": "https://arxiv.org/abs/2607.09077v2",
+      "pdf_url": "https://arxiv.org/pdf/2607.09077v2",
+      "classification": {
+        "is_theoretical_holography": false,
+        "is_classical_gravity": true,
+        "confidence": 0.96,
+        "primary_topic": "经典引力/广义相对论",
+        "secondary_topics": [],
+        "title_zh": "用星际任务检验黑洞：II. 飞掠探测器",
+        "abstract_zh": "近期研究表明，尽管前往最近黑洞的星际任务仍高度推测性且极具挑战，但在未来数十年内并非完全不可行。鉴于此类任务可能耗时约一百年并需要大量财力和人力投入，必须评估它能否以可预见的未来太阳系观测站无法达到的程度研究黑洞并检验广义相对论。在第一篇论文中，作者假设具备航天器减速能力，并初步研究了轨道探测器如何检验该致密天体的性质。在这第二篇论文中，作者研究如何在不减速航天器的情况下，利用飞掠探测器检验黑洞。",
+        "one_liner": "研究不减速航天器、以飞掠探测器检验黑洞并检验广义相对论的可行性。",
+        "keywords": [
+          "黑洞",
+          "广义相对论检验",
+          "星际任务",
+          "飞掠探测器",
+          "经典引力"
+        ],
+        "importance": "normal",
+        "relevance": "medium",
+        "relevance_reason": "论文直接讨论黑洞与广义相对论检验，属于经典引力/广义相对论支线；不涉及全息或量子引力理论。",
+        "focus_tags": [
+          "经典引力/广义相对论"
+        ]
+      }
+    },
+    {
+      "arxiv_id": "2605.19176",
+      "version": 2,
+      "title": "Testing Black Holes with Interstellar Missions: I. Orbiting Probes",
+      "abstract": "Recently, we showed that the possibility of an interstellar mission to the closest black hole, while highly speculative and extremely challenging, is not completely unrealistic within the next few decades. Since such a mission might last around a century and require significant financial and human resources, it is crucial to assess whether it can truly study black holes and test General Relativity at levels unattainable by observational facilities in the Solar System for many years. In this manuscript, we assume the capability to decelerate the spacecraft and present a preliminary study of how probes orbiting a black hole could test the nature of the compact object.",
+      "authors": [
+        "Leda Gao",
+        "Cosimo Bambi",
+        "Yi Fan",
+        "Temurbek Mirzaev",
+        "Abdurakhmon Nosirov",
+        "Andrea Santangelo"
+      ],
+      "categories": [
+        "gr-qc"
+      ],
+      "updated": "2026-10-22T04:00:44.518872+00:00",
+      "published": "2026-10-22T00:00:00-04:00",
+      "source_category": "gr-qc",
+      "abs_url": "https://arxiv.org/abs/2605.19176v2",
+      "pdf_url": "https://arxiv.org/pdf/2605.19176v2",
+      "classification": {
+        "is_theoretical_holography": false,
+        "is_classical_gravity": true,
+        "confidence": 0.95,
+        "primary_topic": "经典引力/广义相对论",
+        "secondary_topics": [],
+        "title_zh": "用星际任务检验黑洞：I. 轨道探测器",
+        "abstract_zh": "最近我们表明，前往最近黑洞的星际任务虽然高度推测性且极具挑战，但在未来几十年内并非完全不可能。由于此类任务可能持续约一个世纪并需要大量财力和人力资源，关键是要评估它是否真能以太阳系观测设施多年内无法达到的水平研究黑洞并检验广义相对论。本文假设具备使航天器减速的能力，并对环绕黑洞的探测器如何检验该致密天体的性质进行初步研究。",
+        "one_liner": "评估星际任务中环绕黑洞的探测器能否检验致密天体性质与广义相对论。",
+        "keywords": [
+          "黑洞",
+          "广义相对论检验",
+          "星际任务",
+          "轨道探测器",
+          "致密天体"
+        ],
+        "importance": "normal",
+        "relevance": "high",
+        "relevance_reason": "直接属于经典引力/广义相对论支线，讨论黑洞时空与广义相对论检验；不涉及全息或量子引力。",
+        "focus_tags": [
+          "经典引力/广义相对论"
+        ]
+      }
+    },
+    {
+      "arxiv_id": "2603.09386",
+      "version": 3,
+      "title": "Deep Learning Search for Gravitational Waves from Compact Binary Coalescence",
+      "abstract": "Gravitational-wave searches rely on a combination of methods, including matched filtering, coherent analyses, and more recent machine-learning-based pipelines. For compact binary coalescences --- where signals originate from the relativistic dynamics of compact objects --- matched filtering remains a central element, but its computational cost will increase substantially with the data volumes and parameter-space coverage required by next-generation interferometers such as the Einstein Telescope. Developing complementary strategies that reduce computational load while preserving detection performance is therefore essential. We investigate a hybrid approach that combines matched-filtering concepts with Convolutional Neural Networks, enabling efficient signal searches without relying on the usual $\\chi^2$ rejection test. Using simulated data sets that include injected signals in Gaussian noise, transient noise, and physical effects not represented in the template bank --- such as eccentricity, precession and higher-order modes --- we show that the method achieves a detection efficiency comparable to or better than a standard matched-filtering search while offering a more resource-efficient pipeline in all the cases where the physics included in the signals were not represented in the template bank or when glitches were affecting the data. Conversely, the analysis also reveals some loss of detection capability for standard BNS/BBH searches in pure Gaussian noise. These results indicate that deep-learning-assisted searches can support sustainable gravitational-wave data analysis in future detector eras.",
+      "authors": [
+        "Lorenzo Mobilia",
+        "Tito Dal Canton",
+        "Gianluca Maria Guidi"
+      ],
+      "categories": [
+        "gr-qc",
+        "astro-ph.IM"
+      ],
+      "updated": "2026-10-22T04:00:44.518811+00:00",
+      "published": "2026-10-22T00:00:00-04:00",
+      "source_category": "gr-qc",
+      "abs_url": "https://arxiv.org/abs/2603.09386v3",
+      "pdf_url": "https://arxiv.org/pdf/2603.09386v3",
+      "classification": {
+        "is_theoretical_holography": false,
+        "is_classical_gravity": true,
+        "confidence": 0.9,
+        "primary_topic": "经典引力/广义相对论",
+        "secondary_topics": [],
+        "title_zh": "面向致密双星并合引力波的深度学习搜索",
+        "abstract_zh": "引力波搜索依赖于匹配滤波、相干分析以及近年来基于机器学习的流程等多种方法。对于致密双星并合——其信号来源于致密天体的相对论动力学——匹配滤波仍是核心要素，但随着下一代干涉仪（如爱因斯坦望远镜）所需的数据量和参数空间覆盖范围增加，其计算成本将大幅上升。因此，发展能够在保持探测性能的同时降低计算负担的补充策略十分必要。我们研究了一种将匹配滤波思想与卷积神经网络相结合的混合方法，从而在不依赖通常的χ²剔除检验的情况下实现高效信号搜索。利用包含注入信号的高斯噪声、瞬态噪声以及模板库未涵盖的物理效应（如偏心率、进动和高阶模式）的模拟数据集，我们表明：在信号所含物理未在模板库中体现或数据受到毛刺影响的所有情形下，该方法达到与标准匹配滤波搜索相当或更好的探测效率，同时提供更节省资源的流程。反之，分析也揭示出，在纯高斯噪声中对标准BNS/BBH搜索存在一定的探测能力损失。这些结果表明，深度学习辅助搜索可以支撑未来探测器时代的可持续引力波数据分析。",
+        "one_liner": "该文提出匹配滤波与卷积神经网络结合的混合搜索方法，以更低计算成本探测致密双星并合引力波，并在非模板物理与毛刺场景中保持或提升效率。",
+        "keywords": [
+          "引力波",
+          "致密双星并合",
+          "匹配滤波",
+          "卷积神经网络",
+          "爱因斯坦望远镜"
+        ],
+        "importance": "normal",
+        "relevance": "medium",
+        "relevance_reason": "论文属于经典引力/引力波探测与数据分析方法，涉及致密双星并合的引力波搜索，但不涉及全息对偶或量子引力理论。",
+        "focus_tags": [
+          "经典引力/广义相对论"
+        ]
+      }
+    },
+    {
+      "arxiv_id": "2610.29376",
+      "version": 1,
+      "title": "Lasting mEMRIs: Signatures of Multiple Black Hole Extreme Mass Ratio Inspirals from AGN discs",
+      "abstract": "Encounters of stellar-mass black holes (sBH) in active galactic nuclei discs naturally form mean-motion resonances of sBH pairs. These mean-motion resonances can be broken close to the central supermassive black hole when gravitational-wave emission dominates over gas torques. We derive a simple condition that depends only on the sBH mass ratio and the resonance index for which a pair of sBH in a mean-motion resonance will remain intact and can be detectable as a multiple Extreme-Mass-Ratio-Inspirals (mEMRIs) in the LISA band. We present for the first time the gravitational-wave strain signatures of a pair of co-migrating sBH in mean-motion resonance, including additional gravitational-wave harmonics associated with orbital conjunctions of the individual EMRIs. The frequency evolution and the associated chirp mass is degenerate with isolated EMRIs of different masses. However, the mEMRI mass ratio is quantised by the resonance order and is larger than the true mass ratio. The degeneracy can be broken if the true sBH mass ratio can be inferred from individual strain amplitudes. We argue that mEMRIs should be common if disc driven EMRIs are to be detected by LISA, with $\\sim 10$ mEMRIs per year in the local universe ($z \\lesssim 0.2$), highlighting the need to model mEMRI systems in future LISA data analysis.",
+      "authors": [
+        "Jordan W. N. Moncrieff",
+        "Evgeni Grishin",
+        "Fiona H. Panther",
+        "Alessandro A. Trani"
+      ],
+      "categories": [
+        "astro-ph.HE",
+        "astro-ph.GA",
+        "gr-qc"
+      ],
+      "updated": "2026-10-22T04:00:44.518500+00:00",
+      "published": "2026-10-22T00:00:00-04:00",
+      "source_category": "gr-qc",
+      "abs_url": "https://arxiv.org/abs/2610.29376v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.29376v1",
+      "classification": {
+        "is_theoretical_holography": false,
+        "is_classical_gravity": true,
+        "confidence": 0.98,
+        "primary_topic": "经典引力/广义相对论",
+        "secondary_topics": [],
+        "title_zh": "持久的mEMRIs：活动星系核盘中多个黑洞极端质量比旋近的信号",
+        "abstract_zh": "活动星系核盘中的恒星级黑洞相遇会自然形成黑洞对的平均运动共振。当引力波辐射超过气体力矩时，这些平均运动共振可在靠近中心超大质量黑洞处被破坏。我们推导出一个仅依赖恒星级黑洞质量比和共振指数的简单条件，用来判断一对处于平均运动共振的恒星级黑洞能否保持完整，并作为多重极端质量比旋近（mEMRIs）在LISA波段被探测到。我们首次给出处于平均运动共振、共同迁移的一对恒星级黑洞的引力波应变信号，包括与单个EMRI轨道会合相关的额外引力波谐波。其频率演化和相应啁啾质量与不同质量的孤立EMRI存在简并。然而，mEMRI的质量比被共振阶数量子化，并大于真实质量比；若能从单个应变振幅推断真实恒星级黑洞质量比，则可打破该简并。我们认为，若盘驱动的EMRI能被LISA探测到，mEMRIs应当常见，在本地宇宙（z≲0.2）中约为每年10个，这凸显了未来LISA数据分析中建模mEMRI系统的必要性。",
+        "one_liner": "研究活动星系核盘中成对恒星级黑洞的平均运动共振如何产生LISA可探测的多重极端质量比旋近引力波信号。",
+        "keywords": [
+          "EMRI",
+          "mEMRI",
+          "活动星系核盘",
+          "平均运动共振",
+          "LISA",
+          "引力波",
+          "恒星级黑洞"
+        ],
+        "importance": "normal",
+        "relevance": "low",
+        "relevance_reason": "该文属于引力波天体物理与经典黑洞动力学，不涉及AdS/CFT、全息对偶或量子信息；仅与经典引力/广义相对论支线相关。",
+        "focus_tags": [
+          "经典引力/广义相对论"
+        ]
+      }
+    },
+    {
+      "arxiv_id": "2610.29259",
+      "version": 1,
+      "title": "General Relativistic Simulations of the Nonlinear Evolution of r-modes in Rapidly Rotating Neutron Stars",
+      "abstract": "The r-modes in rotating neutron stars are a promising source of continuous gravitational waves, and may grow or be excited to amplitudes $\\alpha\\lesssim1$. We perform general relativistic simulations of nonlinear $l=|m|=2$ r-modes in a rapidly rotating neutron star with spin frequency $f_{spin}\\approx792$ Hz, relaxing the Cowling and small-$\\alpha$ approximations. The star is idealised as an unmagnetised, one-component, perfect fluid with a polytropic equation of state. The r-mode frequency is measured to be $f_{r-mode}=1014$ Hz for initial amplitude $\\alpha_0=0.2$. The dimensionless frequency $\\kappa\\approx0.7197$ agrees with an estimate from linear perturbation theory to within 1.7%. $f_{r-mode}$ increases quadratically with amplitude, and $\\kappa$ decreases by 3.4% across simulations where $\\alpha_0$ is varied through the range $0.2\\leq\\alpha_0\\leq1.2$. The gravitational wave strain calculated from the Newman-Penrose scalar implies $h_{r-mode}\\approx9.7\\times10^{-22}$ at $10$ kpc for $\\alpha_0=0.2$, which agrees with Einstein's quadrupole formula to within 35%. We also report on nonlinear phenomena observed in our simulations, e.g. differential rotation, amplitude decay, and signatures of nonlinear mode coupling in the spacetime oscillations.",
+      "authors": [
+        "Justin K. Yu",
+        "Andrew Melatos"
+      ],
+      "categories": [
+        "astro-ph.HE",
+        "gr-qc"
+      ],
+      "updated": "2026-10-22T04:00:44.518379+00:00",
+      "published": "2026-10-22T00:00:00-04:00",
+      "source_category": "gr-qc",
+      "abs_url": "https://arxiv.org/abs/2610.29259v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.29259v1",
+      "classification": {
+        "is_theoretical_holography": false,
+        "is_classical_gravity": true,
+        "confidence": 0.98,
+        "primary_topic": "经典引力/广义相对论",
+        "secondary_topics": [],
+        "title_zh": "快速旋转中子星中r模非线性演化的广义相对论模拟",
+        "abstract_zh": "旋转中子星中的r模是连续引力波的一个有希望来源，并可能增长或被激发到振幅 α≲1。我们对自转频率约 792 Hz 的快速旋转中子星中非线性 l=|m|=2 r模进行了广义相对论模拟，放松了 Cowling 近似和小 α 近似。恒星被理想化为无磁场、单组分、完美流体，并采用多方物态方程。对于初始振幅 α0=0.2，测得 r模频率为 1014 Hz；无量纲频率 κ≈0.7197 与线性微扰理论估计在 1.7% 以内一致。f_r-mode 随振幅二次增加，而在 0.2≤α0≤1.2 范围内改变 α0 的模拟中 κ 下降 3.4%。由 Newman-Penrose 标量计算出的引力波应变给出：当 α0=0.2 时，在 10 kpc 处 h_r-mode≈9.7×10^-22，与爱因斯坦四极矩公式在 35% 以内一致。我们还报告了模拟中观察到的非线性现象，例如较差自转、振幅衰减以及时空振荡中非线性模式耦合的迹象。",
+        "one_liner": "用广义相对论数值模拟研究快速旋转中子星中非线性r模的频率、引力波应变与非线性耦合现象。",
+        "keywords": [
+          "r模",
+          "中子星",
+          "引力波",
+          "数值相对论",
+          "非线性模式耦合",
+          "广义相对论"
+        ],
+        "importance": "normal",
+        "relevance": "medium",
+        "relevance_reason": "该文属于经典引力/广义相对论数值模拟，与用户列出的经典引力支线直接相关；但不涉及全息对偶，故与全息主线关联有限。",
+        "focus_tags": [
+          "经典引力/广义相对论"
+        ]
+      }
+    },
+    {
+      "arxiv_id": "2610.29182",
+      "version": 1,
+      "title": "Parity-odd CMB Correlations induced by a Chiral Gravitational Wave Background",
+      "abstract": "We investigate weak lensing effects of a chiral gravitational wave background (GWB) as a new mechanism for generating parity-odd correlations in the cosmic microwave background (CMB). Accounting for both photon deflection and polarization rotation, we derive the resulting parity-odd EB and TB angular power spectra. For representative GWB energy density spectra, we find parameter choices that provide good fits to existing measurements. This mechanism provides a potential observational probe of chiral GWB, which can arise in a wide range of theoretical scenarios.",
+      "authors": [
+        "Baoyu Xu",
+        "Yun-Long Zhang"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "gr-qc"
+      ],
+      "updated": "2026-10-22T04:00:44.518321+00:00",
+      "published": "2026-10-22T00:00:00-04:00",
+      "source_category": "gr-qc",
+      "abs_url": "https://arxiv.org/abs/2610.29182v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.29182v1",
+      "classification": {
+        "is_theoretical_holography": false,
+        "is_classical_gravity": true,
+        "confidence": 0.92,
+        "primary_topic": "宇宙学/膜世界/其他",
+        "secondary_topics": [
+          "经典引力/广义相对论"
+        ],
+        "title_zh": "由手征引力波背景诱导的宇称奇 CMB 关联",
+        "abstract_zh": "本文研究手征引力波背景（GWB）的弱透镜效应，作为在宇宙微波背景中产生宇称奇关联的新机制。考虑光子偏折和偏振旋转，推导出相应的宇称奇 EB 和 TB 角功率谱。对代表性 GWB 能量密度谱，找到能很好拟合现有测量的参数选择。该机制为手征 GWB 提供潜在观测探针，而手征 GWB 可出现在广泛理论情景中。",
+        "one_liner": "手征引力波背景通过弱透镜和偏振旋转在 CMB 中产生宇称奇 EB/TB 关联，并可拟合现有测量。",
+        "keywords": [
+          "手征引力波背景",
+          "CMB",
+          "宇称破缺",
+          "弱透镜",
+          "偏振旋转",
+          "EB/TB关联"
+        ],
+        "importance": "normal",
+        "relevance": "medium",
+        "relevance_reason": "论文涉及经典引力波背景、CMB 弱透镜与偏振旋转，属于经典引力/宇宙学范畴；但与全息及其他专门重点支线无直接关联。",
+        "focus_tags": [
+          "经典引力/广义相对论"
+        ]
+      }
+    },
+    {
+      "arxiv_id": "2610.28739",
+      "version": 1,
+      "title": "Prior volume effect inflates the gravitational-wave background in pulsar timing arrays",
+      "abstract": "Pulsar timing arrays (PTAs) have found evidence for a nanohertz gravitational-wave background (GWB) whose amplitude exceeds most predictions based on supermassive black hole binaries (SMBHBs). Using NANOGrav 15-year data, we show that a substantial part of this excess arises from a prior volume effect. The GWB amplitude is constrained mainly by the pulsars' auto-correlations, where the GWB is degenerate with each pulsar's intrinsic red noise. By decomposing the GWB posterior, we find that marginalizing over the standard log-uniform red-noise priors introduces a prior volume term that favors a stronger GWB, pulling the inferred amplitude more than $2\\sigma$ above the maximum-likelihood estimate. The Hellings-Downs (HD) cross-correlations, which measure the GWB alone, are not strong enough to counter the volume term. The profile likelihood, a cross-correlation-only estimator, and priors that are uniform in power or informed by the pulsar population all avoid or reduce this effect and lower the amplitude into agreement with SMBHBs. The revised priors also yield a steeper GWB spectrum closer to the SMBHB predictions, strengthen the evidence for HD correlations, and weaken the preference for new-physics sources over SMBHBs.",
+      "authors": [
+        "Biwei Dai",
+        "Matias Zaldarriaga",
+        "Yacine Ali-Ha\\\"{\\i}moud"
+      ],
+      "categories": [
+        "astro-ph.HE",
+        "astro-ph.CO",
+        "astro-ph.IM",
+        "gr-qc"
+      ],
+      "updated": "2026-10-22T04:00:44.517996+00:00",
+      "published": "2026-10-22T00:00:00-04:00",
+      "source_category": "gr-qc",
+      "abs_url": "https://arxiv.org/abs/2610.28739v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.28739v1",
+      "classification": {
+        "is_theoretical_holography": false,
+        "is_classical_gravity": true,
+        "confidence": 0.9,
+        "primary_topic": "经典引力/广义相对论",
+        "secondary_topics": [],
+        "title_zh": "先验体积效应抬高脉冲星计时阵列中的引力波背景",
+        "abstract_zh": "脉冲星计时阵列（PTA）已发现纳赫兹引力波背景（GWB）的证据，其振幅超过基于超大质量黑洞双星（SMBHB）的大多数预言。利用 NANOGrav 15 年数据，我们表明这一超出部分的相当大比例来自先验体积效应。GWB 振幅主要受脉冲星自相关约束，其中 GWB 与每颗脉冲星的内禀红噪声简并。通过分解 GWB 后验，我们发现对标准对数均匀红噪声先验进行边缘化会引入一个偏爱更强 GWB 的先验体积项，将推断振幅拉高到最大似然估计以上超过 2σ。仅测量 GWB 的 Hellings-Downs（HD）交叉相关不足以抵消该体积项。轮廓似然、仅交叉相关估计量，以及对功率均匀或由脉冲星族群信息给出的先验，都能避免或减弱这一效应，并将振幅降低到与 SMBHB 一致。修正后的先验还给出更接近 SMBHB 预言的更陡 GWB 谱，增强 HD 相关的证据，并削弱对新物理源优于 SMBHB 的偏好。",
+        "one_liner": "利用 NANOGrav 15 年数据表明，GWB 振幅相对 SMBHB 预言的超出部分主要源于红噪声先验体积效应；修正先验后振幅回到与 SMBHB 一致的范围。",
+        "keywords": [
+          "脉冲星计时阵列",
+          "引力波背景",
+          "先验体积效应",
+          "贝叶斯推断",
+          "红噪声",
+          "Hellings-Downs 相关",
+          "超大质量黑洞双星"
+        ],
+        "importance": "high",
+        "relevance": "low",
+        "relevance_reason": "论文属于脉冲星计时阵列引力波背景的贝叶斯数据分析，讨论红噪声先验与 GWB 参数推断，与全息、AdS/CFT、量子信息等主题无关；仅涉及经典引力波观测。",
+        "focus_tags": [
+          "经典引力/广义相对论"
+        ]
+      }
+    },
+    {
+      "arxiv_id": "2610.30064",
+      "version": 1,
+      "title": "Post-adiabatic effective-one-body waveforms for coalescing compact binaries",
+      "abstract": "I apply and extend the formalism of osculating orbits of Damour et al. (2004) and Lynch et al. (2026) to eccentric effective one body (EOB) models, in order to obtain an efficient yet accurate description of the inspiral-to-plunge dynamics of tidal, spinning compact binaries, including precessing ones by twisting the otherwise planar motion. The method is recast in terms of equinoctial orbital elements, to circumvent singularities associated with the zero-eccentricity limit. While the formalism is general and can be applied to any EOB model, I focus here on the TEOBResumS-Dal\\'i family and demonstrate how this technique speeds up waveform generation without significantly compromising the accuracy of the model. Over $10^4$ binary neutron stars (BNSs) and as many binary black holes (BBHs) with initial eccentricities up to $0.6$ at $20$ Hz, the median speedup against an optimized version of the model is $\\sim 2.6$ for BNSs and $\\sim 1.5$ for BBHs, with mismatches against the full numerical solution always below $5 \\times 10^{-7}$. The largest speedups, up to $\\sim 7$ for individual systems, are obtained for light BBHs ($M \\lesssim 8 M_\\odot$) with low eccentricities $(e_0 \\lesssim 0.1)$. In absolute terms, the median time needed to generate a BNS waveform is $\\sim 0.5$ s, with $99.7\\%$ of the systems below one second, and for long signals the model is up to $\\sim 26$ times faster than a previous version. Applied to the calculation of initial conditions in the $e \\rightarrow 0$ limit, the inclusion of radiation-reaction effects allows the model's input eccentricity to agree with the gauge-invariant waveform eccentricity down to initial values of $\\sim 7 \\times 10^{-8}$. Beyond time-domain applications, the same construction also gives frequency-domain EOB waveforms for eccentric compact binaries via a multi-harmonic stationary phase approximation.",
+      "authors": [
+        "Rossella Gamba"
+      ],
+      "categories": [
+        "gr-qc"
+      ],
+      "updated": "2026-10-22T04:00:44.517390+00:00",
+      "published": "2026-10-22T00:00:00-04:00",
+      "source_category": "gr-qc",
+      "abs_url": "https://arxiv.org/abs/2610.30064v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.30064v1",
+      "classification": {
+        "is_theoretical_holography": false,
+        "is_classical_gravity": true,
+        "confidence": 0.96,
+        "primary_topic": "经典引力/广义相对论",
+        "secondary_topics": [],
+        "title_zh": "并合致密双星的后绝热有效单体波形",
+        "abstract_zh": "本文将 Damour 等（2004）和 Lynch 等（2026）的密切轨道形式应用并推广到偏心有效单体（EOB）模型，以高效且准确地描述潮汐、自旋致密双星从旋近到 plunging 的动力学，并通过扭转原本平面运动来包含进动情形。方法改用 equinoctial 轨道根数，以避免零偏心率极限相关的奇点。该形式具有通用性，可应用于任何 EOB 模型；本文聚焦 TEOBResumS-Dalí 家族，并展示该技术如何加速波形生成而不显著牺牲模型精度。对超过 10^4 个双中子星（BNS）和同样数量的双黑洞（BBH），初始偏心率在 20 Hz 时最高达 0.6，相对于该模型优化版本的中位加速约为 BNS 2.6 倍、BBH 1.5 倍，与完整数值解的失配始终低于 5×10^-7。单个系统的最大加速可达约 7 倍，出现在低偏心率（e0≲0.1）的轻 BBH（M≲8 M⊙）中。绝对而言，生成 BNS 波形的中位时间约为 0.5 秒，99.7% 的系统低于一秒；对于长信号，该模型比先前版本最多快约 26 倍。将该方法用于 e→0 极限下的初始条件计算时，引入辐射反作用效应可使模型输入偏心率与规范不变波形偏心率一致到初始值约 7×10^-8。除时域应用外，同一构造还通过多谐波驻相近似给出偏心致密双星的频域 EOB 波形。",
+        "one_liner": "将密切轨道方法与 equinoctial 变量用于偏心 EOB，加速致密双星旋近-并合波形生成并保持高精度。",
+        "keywords": [
+          "有效单体",
+          "引力波波形",
+          "偏心致密双星",
+          "后绝热动力学",
+          "辐射反作用",
+          "驻相近似"
+        ],
+        "importance": "normal",
+        "relevance": "low",
+        "relevance_reason": "论文属于经典引力与引力波波形建模，研究致密双星 EOB 波形的计算效率与精度；与全息 AdS/CFT、量子信息及所列全息重点标签无直接关联。",
+        "focus_tags": [
+          "经典引力/广义相对论"
+        ]
+      }
+    },
+    {
+      "arxiv_id": "2610.30031",
+      "version": 1,
+      "title": "Modeling QNMs-Filtered Gravitational Waveforms: Approximation Limits and Filtering Effects",
+      "abstract": "The waveform left after quasinormal modes filtering of binary gravitational waveforms, often called the direct wave, has recently attracted considerable debate. Analytic models of this residual waveform involve several levels of approximation, while the effects of filtering on the modeling remain unclear. These issues require further investigation. In this paper, we examine the approximation errors, limits of applicability, and role of filtering in these models. We find that the point-particle models examined here show notable discrepancies with the filtered Binary-black-holes waveforms. Analytic particle templates based on the stationary-phase approximation perform reasonably well for the \\((\\ell,m)=(2,2)\\) multipole, but exhibit substantial limitations for the \\((4,4)\\). Although the filter is all-pass, it substantially affects the modeling results. Our analytic calculations on a Schwarzschild background further show that vacuum perturbations with Gaussian initial data can also exhibit direct-wave-like waveforms after filtering, with their morphology depending on the location of the initial data relative to the light ring.",
+      "authors": [
+        "Jun-Xi Shi",
+        "Zhen-Tao He",
+        "Tingyuan Jiang",
+        "Yu Tian",
+        "Dan-Dan Yuan",
+        "Hongbao Zhang"
+      ],
+      "categories": [
+        "gr-qc"
+      ],
+      "updated": "2026-10-22T04:00:44.517248+00:00",
+      "published": "2026-10-22T00:00:00-04:00",
+      "source_category": "gr-qc",
+      "abs_url": "https://arxiv.org/abs/2610.30031v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.30031v1",
+      "classification": {
+        "is_theoretical_holography": false,
+        "is_classical_gravity": true,
+        "confidence": 0.96,
+        "primary_topic": "经典引力/广义相对论",
+        "secondary_topics": [
+          "非平衡/热化/输运/混沌/QNM"
+        ],
+        "title_zh": "QNM滤波引力波形的建模：近似极限与滤波效应",
+        "abstract_zh": "对双星引力波形做准正规模（QNM）滤波后剩余的波形常被称为直接波，近来引发了相当多讨论。该残余波形的解析模型涉及多层近似，而滤波对建模的影响仍不清楚，这些问题需要进一步研究。本文考察这些模型中的近似误差、适用极限以及滤波的作用。我们发现，所考察的点粒子模型与滤波后的双黑洞波形存在明显差异。基于稳相近似的解析粒子模板对(ℓ,m)=(2,2)多极表现尚可，但对(4,4)多极存在显著局限。尽管滤波器是全通的，它仍会显著影响建模结果。我们在Schwarzschild背景上的解析计算进一步表明，具有高斯初始数据的真空扰动在滤波后也可以呈现类似直接波的波形，其形态取决于初始数据相对于光子环的位置。",
+        "one_liner": "本文分析QNM滤波后引力波形解析模型中的近似误差、适用极限与滤波效应，并指出点粒子模板及Schwarzschild真空扰动滤波后波形的特征与局限。",
+        "keywords": [
+          "准正规模滤波",
+          "引力波波形",
+          "直接波",
+          "点粒子模型",
+          "稳相近似",
+          "Schwarzschild背景",
+          "光子环",
+          "双黑洞"
+        ],
+        "importance": "normal",
+        "relevance": "high",
+        "relevance_reason": "论文直接研究QNM滤波后的经典引力波形、点粒子近似以及Schwarzschild背景扰动，契合QNM与经典引力支线；但不涉及全息对偶。",
+        "focus_tags": [
+          "QNM与非线性演化",
+          "经典引力/广义相对论"
+        ]
+      }
+    },
+    {
+      "arxiv_id": "2610.29941",
+      "version": 1,
+      "title": "Rotation slows the instability of Ellis-Bronnikov wormholes",
+      "abstract": "We present nonlinear 3+1 evolutions of rotating Ellis-Bronnikov wormholes. We construct stationary rotating drainhole solutions with a spectral solver up to an equatorial rotation velocity of 99% of the speed of light, validate the solver against published symmetric solutions, and correct an inconsistency in a published field equation. Perturbed only by truncation error, the evolutions show that rotation slows the radial instability of the static wormhole. Near 30% of the extremal angular momentum the unperturbed throat expands instead of collapsing, rather than the instability disappearing as second-order perturbation theory suggests. From 58% upward we find no evidence of instability over the evolved times; at the fastest spin this holds at three resolutions. Collapsing rotating throats emit an axisymmetric quadrupolar gravitational-wave burst whose energy grows with spin. Second-order perturbative initial data trigger the instability through their own truncation error, so they are unsuitable for stability studies.",
+      "authors": [
+        "Nikita M. Shirokov",
+        "Ilya Nachevsky"
+      ],
+      "categories": [
+        "gr-qc",
+        "astro-ph.HE"
+      ],
+      "updated": "2026-10-22T04:00:44.517116+00:00",
+      "published": "2026-10-22T00:00:00-04:00",
+      "source_category": "gr-qc",
+      "abs_url": "https://arxiv.org/abs/2610.29941v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.29941v1",
+      "classification": {
+        "is_theoretical_holography": false,
+        "is_classical_gravity": true,
+        "confidence": 0.96,
+        "primary_topic": "经典引力/广义相对论",
+        "secondary_topics": [],
+        "title_zh": "旋转减慢 Ellis-Bronnikov 虫洞的不稳定性",
+        "abstract_zh": "我们给出旋转 Ellis-Bronnikov 虫洞的非线性 3+1 演化。我们用谱求解器构造稳态旋转 drainhole 解，直至赤道旋转速度达到光速的 99%，用已发表的对称解验证求解器，并修正已发表场方程中的一处不一致。仅由截断误差扰动的演化表明，旋转会减慢静态虫洞的径向不稳定性。在接近极值角动量的 30% 时，未受扰动的喉部会膨胀而不是坍缩，而不是像二阶微扰论所暗示的那样不稳定性消失。从 58% 往上，在演化时间内未发现不稳定性证据；在最快自旋下，这一结论在三种分辨率下成立。坍缩的旋转喉部会发出轴对称四极引力波暴，其能量随自旋增长。二阶微扰初始数据会通过其自身的截断误差触发不稳定性，因此不适合用于稳定性研究。",
+        "one_liner": "数值演化表明旋转可减缓 Ellis-Bronnikov 虫洞的径向不稳定性，并在高自旋下于演化时间内抑制坍缩，同时坍缩喉部产生四极引力波暴。",
+        "keywords": [
+          "Ellis-Bronnikov wormhole",
+          "rotating wormhole",
+          "drainhole",
+          "nonlinear evolution",
+          "radial instability",
+          "gravitational waves",
+          "numerical relativity"
+        ],
+        "importance": "normal",
+        "relevance": "medium",
+        "relevance_reason": "直接属于经典引力/广义相对论中的旋转虫洞非线性稳定性与引力波研究，匹配“经典引力/广义相对论”重点标签；但不涉及全息对偶、量子引力或量子信息。",
+        "focus_tags": [
+          "经典引力/广义相对论"
+        ]
+      }
+    },
+    {
+      "arxiv_id": "2610.29863",
+      "version": 1,
+      "title": "A Broadband Room-Temperature Design for the Einstein Telescope",
+      "abstract": "The unique underground location of the Einstein Telescope (ET) is expected to substantially suppress seismic and gravity-gradient noise, providing a favorable environment for gravitational-wave detection at low frequencies compared with surface-based observatories. The baseline ET design aims to achieve broadband sensitivity through a xylophone configuration, in which separate cryogenic and room-temperature interferometers are optimised for low- and high-frequency gravitational-wave detection. However, achieving the target low-frequency sensitivity introduces substantial technical complexity caused by vertical suspension thermal noise, vibrations of the cryocooler, and detuned optical configuration. In this paper, we demonstrate an alternative, entirely room-temperature, fully resonant, single-interferometer architecture that addresses these challenges and achieves broadband sensitivity superior to that of the conventional ET xylophone configuration. Using mature fused-silica suspension technology, recent advances in optical coatings, and novel inertial isolation, we show that 4-m-long fused-silica fibres can meet the required suspension thermal-noise performance. We further demonstrate that vibrations, optical rigidity, and quantum back-action noise can be controlled through appropriate design of the interferometer, test mass suspensions, optical seismometers, and quantum states.",
+      "authors": [
+        "Teng Zhang",
+        "Amit Singh Ubhi",
+        "Huan Yang",
+        "Alan V. Cumming",
+        "Mark Barton",
+        "Angus Bell",
+        "Fabio Bergamin",
+        "Giacomo Bruno",
+        "Katherine L. Dooley",
+        "Johannes Eichholz",
+        "Mariana Fazio",
+        "Aaron Goodwin-Jones",
+        "James Hough",
+        "Keiko Kokeyama",
+        "Haixing Miao",
+        "Xingrui Peng",
+        "Geraint Pratten",
+        "Stuart Reid",
+        "Sheila Rowan",
+        "Patricia Schmidt",
+        "Alberto Vecchio",
+        "Giles Hammond",
+        "Hartmut Grote",
+        "Denis Martynov"
+      ],
+      "categories": [
+        "gr-qc",
+        "astro-ph.IM",
+        "physics.ins-det"
+      ],
+      "updated": "2026-10-22T04:00:44.517055+00:00",
+      "published": "2026-10-22T00:00:00-04:00",
+      "source_category": "gr-qc",
+      "abs_url": "https://arxiv.org/abs/2610.29863v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.29863v1",
+      "classification": {
+        "is_theoretical_holography": false,
+        "is_classical_gravity": true,
+        "confidence": 0.9,
+        "primary_topic": "经典引力/广义相对论",
+        "secondary_topics": [],
+        "title_zh": "爱因斯坦望远镜的宽带室温设计方案",
+        "abstract_zh": "爱因斯坦望远镜（ET）的地下位置有望压低地震噪声和引力梯度噪声，从而改善低频引力波探测环境。基线ET设计采用木琴式配置，以低温干涉仪和室温干涉仪分别优化低频与高频探测，但目标低频灵敏度会带来垂向悬挂热噪声、制冷机振动和失谐光学配置等技术复杂性。本文提出一种全室温、全共振、单干涉仪的替代架构，声称可应对这些挑战并获得优于传统ET木琴式配置的宽带灵敏度。作者利用成熟的熔融石英悬挂技术、光学镀膜进展和新型惯性隔振，展示4米长熔融石英光纤可满足悬挂热噪声要求；并通过干涉仪、测试质量悬挂、光学地震仪和量子态的设计控制振动、光学刚度与量子反作用噪声。",
+        "one_liner": "提出一种全室温、全共振单干涉仪的爱因斯坦望远镜宽带设计方案，以简化低温木琴式架构并控制悬挂热噪声与量子反作用噪声。",
+        "keywords": [
+          "Einstein Telescope",
+          "gravitational-wave detector",
+          "room-temperature interferometer",
+          "suspension thermal noise",
+          "quantum back-action noise",
+          "inertial isolation"
+        ],
+        "importance": "low",
+        "relevance": "low",
+        "relevance_reason": "该文属于引力波探测器仪器设计与噪声控制，不涉及AdS/CFT、全息对偶或量子引力理论；与用户关注的全息研究支线基本无关。",
+        "focus_tags": [
+          "经典引力/广义相对论"
+        ]
+      }
+    },
+    {
+      "arxiv_id": "2610.29856",
+      "version": 1,
+      "title": "Efficient Eccentric and Quasicircular Effective-One-Body Waveforms via Near-Identity Averaging Transformations",
+      "abstract": "Next-generation gravitational-wave detectors, such as LISA, the Einstein Telescope, and Cosmic Explorer, will require accurate and efficient models of long-lived, eccentric black-hole binary signals. In previous work, we reduced the cost of evolving nonspinning eccentric effective-one-body dynamics by recasting the equations of motion in terms of osculating orbital elements and applying near-identity averaging transformations to remove the fast orbital-timescale structure during the inspiral. However, the parametrization in terms of the eccentricity and relativistic anomaly becomes singular in the circular-orbit limit, excluding quasicircular binaries and the late stages of eccentric inspirals. Moreover, the cost of generating the waveform from the averaged dynamics limited the overall speed-up to a factor of $1.5-8$. In this work, we replace the eccentricity and relativistic anomaly by the Cartesian components of the eccentricity vector, in which the averaged equations are regular for all eccentricities $0 \\leq e < 1$. We also decompose the waveform modes into radial harmonics whose coefficients are tabulated as functions of the averaged variables, so that the waveform is assembled directly on the output time grid at a fixed cost per sample. We validate the method against the full effective-one-body evolution across the parameter space of binaries observable by ground-based detectors, now including circular orbits. At second postadiabatic order, the waveforms reach median mismatches of $\\sim 10^{-8}$ with a maximum of $1.1 \\times 10^{-5}$, while achieving speed-ups of $3-100 \\times$ on a single core or up to $300 \\times$ on eight cores against the serial EOB waveform. Given the speed-ups demonstrated here, we plan to apply these techniques to state-of-the-art SEOBNR models in future work.",
+      "authors": [
+        "Philip Lynch",
+        "Alessandra Buonanno",
+        "Aldo Gamboa",
+        "Maarten van de Meent"
+      ],
+      "categories": [
+        "gr-qc"
+      ],
+      "updated": "2026-10-22T04:00:44.516932+00:00",
+      "published": "2026-10-22T00:00:00-04:00",
+      "source_category": "gr-qc",
+      "abs_url": "https://arxiv.org/abs/2610.29856v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.29856v1",
+      "classification": {
+        "is_theoretical_holography": false,
+        "is_classical_gravity": true,
+        "confidence": 0.98,
+        "primary_topic": "经典引力/广义相对论",
+        "secondary_topics": [],
+        "title_zh": "通过近恒等平均变换实现高效偏心与准圆有效单体波形",
+        "abstract_zh": "下一代引力波探测器（如LISA、爱因斯坦望远镜和宇宙探索者）需要准确且高效的长时标偏心黑洞双星波形模型。作者此前通过将无自旋偏心有效单体动力学用密切轨道根数表述，并应用近恒等平均变换去除旋进阶段的快速轨道时标结构，降低了演化成本；但以偏心率和相对论近点角为参数的表述在圆轨道极限下奇异，排除了准圆双星和偏心旋进后期，且波形生成成本使总加速仅1.5-8倍。本文改用偏心率矢量的笛卡尔分量，使平均化方程在0≤e<1所有偏心率下正则；同时将波形模式分解为径向谐波，其系数作为平均变量的函数制表，从而在输出时间网格上以固定单样本成本直接组装波形。作者在陆基探测器可观测双星参数空间（现包括圆轨道）内用完整有效单体演化验证该方法：在第二后绝热阶，波形中位失配约10^{-8}，最大1.1×10^{-5}，相对串行EOB波形在单核上加速3-100倍，八核上最高约300倍。作者计划未来将该技术应用于最新SEOBNR模型。",
+        "one_liner": "用偏心率矢量笛卡尔分量和径向谐波制表改进平均化有效单体模型，实现包含圆轨道的高效偏心引力波波形。",
+        "keywords": [
+          "引力波",
+          "有效单体模型",
+          "偏心黑洞双星",
+          "近恒等平均变换",
+          "波形建模",
+          "LISA",
+          "爱因斯坦望远镜",
+          "宇宙探索者"
+        ],
+        "importance": "high",
+        "relevance": "high",
+        "relevance_reason": "论文属于经典引力/广义相对论中的引力波波形建模，与用户重点标签中的“经典引力/广义相对论”直接对应，且不涉及全息或其他量子引力方向。",
+        "focus_tags": [
+          "经典引力/广义相对论"
+        ]
+      }
+    },
+    {
+      "arxiv_id": "2610.29800",
+      "version": 1,
+      "title": "SpinOctopus: A Versatile, User-Friendly, and Extensible Public Code for General-Relativistic Ray-Tracing in axisymmetric spacetime",
+      "abstract": "Relativistic ray-tracing algorithms serve as indispensable numerical tools for investigating gravitational theories and high-energy astrophysics. In this paper, we develop and release SpinOctopus, a versatile relativistic ray-tracing code tailored for arbitrary axisymmetric spacetimes, powered by a Fortran/Python hybrid architecture and OpenMP multi-threading acceleration. This numerical toolkit is capable of simulating timelike orbits and their corresponding light curves, null geodesics, as well as black hole images illuminated by a wide array of phenomenological sources, including geometrically thin and thick accretion disks, geometrically thin tilted disks, relativistic jets, spherically symmetric accretion flows, and point sources. To execute these tasks, users are solely required to specify the covariant metric tensor of the target spacetime and the simulation parameters within a dedicated configuration file. Benefiting from our customized adaptive step-size strategy for geodesic integration, SpinOctopus achieves an impressive processing efficiency of $\\sim 800$ rays per second per thread on an Intel Core i7-14700 platform when simulating geometrically thick accretion disk images. Furthermore, the code provides transparent interfaces, allowing users to seamlessly modify the geometric and kinematic properties of the light sources. Additional capabilities, such as simulating Fe K${\\alpha}$ fluorescent line profiles and geometrically thick tilted accretion disk images, will be introduced in future releases of the framework.",
+      "authors": [
+        "Shiyang Hu",
+        "Dan Li",
+        "Chen Deng",
+        "Lina Zhang",
+        "Wenfu Cao"
+      ],
+      "categories": [
+        "gr-qc",
+        "astro-ph.HE",
+        "astro-ph.IM"
+      ],
+      "updated": "2026-10-22T04:00:44.516812+00:00",
+      "published": "2026-10-22T00:00:00-04:00",
+      "source_category": "gr-qc",
+      "abs_url": "https://arxiv.org/abs/2610.29800v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.29800v1",
+      "classification": {
+        "is_theoretical_holography": false,
+        "is_classical_gravity": true,
+        "confidence": 0.97,
+        "primary_topic": "经典引力/广义相对论",
+        "secondary_topics": [],
+        "title_zh": "SpinOctopus：一个多功能、用户友好且可扩展的轴对称时空广义相对论光线追踪公开代码",
+        "abstract_zh": "相对论光线追踪算法是研究引力理论与高能天体物理不可或缺的数值工具。本文开发并发布 SpinOctopus，一个面向任意轴对称时空的多功能相对论光线追踪代码，采用 Fortran/Python 混合架构并由 OpenMP 多线程加速。该数值工具能够模拟类时轨道及其对应光变曲线、零测地线，以及由多种唯象源照亮的黑洞图像，包括几何薄/厚吸积盘、几何薄倾斜盘、相对论喷流、球对称吸积流和点源。执行这些任务时，用户只需在专用配置文件中指定目标时空的协变度规张量和模拟参数。得益于为测地线积分定制的自适应步长策略，SpinOctopus 在模拟几何厚吸积盘图像时，于 Intel Core i7-14700 平台上达到每线程每秒约 800 条光线的处理效率。此外，代码提供透明接口，允许用户无缝修改光源的几何与运动学性质。未来版本将引入模拟 Fe Kα 荧光线轮廓和几何厚倾斜吸积盘图像等附加功能。",
+        "one_liner": "发布并介绍 SpinOctopus：面向任意轴对称时空的广义相对论光线追踪公开代码。",
+        "keywords": [
+          "相对论光线追踪",
+          "轴对称时空",
+          "黑洞成像",
+          "吸积盘",
+          "测地线",
+          "公开代码"
+        ],
+        "importance": "normal",
+        "relevance": "high",
+        "relevance_reason": "论文直接属于经典引力/广义相对论数值工具，围绕轴对称时空中的测地线与黑洞成像光线追踪，与用户经典引力支线高度匹配；未涉及全息方法。",
+        "focus_tags": [
+          "经典引力/广义相对论"
+        ]
+      }
+    },
+    {
+      "arxiv_id": "2610.29437",
+      "version": 1,
+      "title": "An end-to-end function for the photograph of a Schwarzschild black hole",
+      "abstract": "We show that the photograph of a Schwarzschild black hole can be written in closed form. The image plane is embedded as a plane tangent to a sphere centred on the black hole, and the map between a point source and its image point, which we call the photograph function, is treated as the analytic object. Explicit expressions are obtained for sources on the celestial sphere at infinity and for sources in the equatorial plane, without solving for the intermediate null geodesics. The construction is exact, and it makes the multivalued branch structure, the relation to the photon sphere and to the shadow boundary, and the self-similar higher-order images directly readable.",
+      "authors": [
+        "Ping Li",
+        "Jun Cheng",
+        "Jiang-he Yang"
+      ],
+      "categories": [
+        "gr-qc"
+      ],
+      "updated": "2026-10-22T04:00:44.516752+00:00",
+      "published": "2026-10-22T00:00:00-04:00",
+      "source_category": "gr-qc",
+      "abs_url": "https://arxiv.org/abs/2610.29437v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.29437v1",
+      "classification": {
+        "is_theoretical_holography": false,
+        "is_classical_gravity": true,
+        "confidence": 0.96,
+        "primary_topic": "经典引力/广义相对论",
+        "secondary_topics": [],
+        "title_zh": "史瓦西黑洞照片的端到端函数",
+        "abstract_zh": "我们证明史瓦西黑洞的照片可以写成闭式形式。将像平面嵌入为与以黑洞为中心的球面相切的平面，并把点源到其像点的映射称为照片函数，将其作为解析对象处理。对于无穷远天球上的源和赤道面上的源，我们在不求解中间零测地线的情况下得到了显式表达式。该构造是精确的，并使得多值分支结构、与光子球及阴影边界的关系、以及自相似的高阶像都直接可读。",
+        "one_liner": "该文给出史瓦西黑洞照片的闭式解析函数，直接刻画源到像的映射、分支结构、光子球与阴影边界及高阶像。",
+        "keywords": [
+          "史瓦西黑洞",
+          "黑洞照片",
+          "引力透镜",
+          "零测地线",
+          "光子球",
+          "阴影边界",
+          "高阶像"
+        ],
+        "importance": "normal",
+        "relevance": "medium",
+        "relevance_reason": "论文属于经典广义相对论与黑洞成像/透镜研究，符合“经典引力/广义相对论”重点标签，但不涉及全息、超流超导、探针膜或量子信息等主要全息支线。",
+        "focus_tags": [
+          "经典引力/广义相对论"
+        ]
+      }
+    },
+    {
+      "arxiv_id": "2610.29384",
+      "version": 1,
+      "title": "Orientation-dependent sensitivity of the all-sky all-frequency gravitational-wave radiometer search to continuous-wave sources",
+      "abstract": "The all-sky all-frequency (ASAF) gravitational-wave radiometer search cross-correlates the data of two detectors with equal weight on the $+$ and $\\times$ tensor polarizations. This is optimal for an unpolarized stochastic background, but not for continuous-wave (CW) sources, whose polarization depends on the inclination angle $\\iota$ and the polarization angle $\\psi$. Unless the source is seen face-on, the search measures less power than a face-on source with the same intrinsic amplitude, and underestimates its strength. The ratio of the two powers, the projection factor $\\mu^2(\\iota,\\psi)$, is known from earlier radiometer studies. We show how $\\mu^2$ enters the ASAF statistic, derive its exact dependence on $\\psi$, and prove that its average over orientations is exactly $2/5$, independent of sky position, baseline geometry, noise weighting, and frequency. We apply the formalism to four simulated pulsar signals at four sky positions, with polarization from circular to nearly linear, injected into the LIGO detectors during the second observing run (O2). A nearly edge-on injection is measured with a signal-to-noise ratio (SNR) of $5.20$, below the threshold of $6.19$, while the same signal seen face-on would have an SNR of $31.1 \\pm 6.0$. Bayesian upper limits on the strain amplitude $h_0$, marginalized over orientation and calibration uncertainty, are $2.7$ to $2.9$ times the face-on values. For the $505$ sub-threshold candidates of the first part of the fourth LIGO-Virgo-KAGRA observing run (O4a), the upper limits increase by a factor of $2.5$ to $2.9$, and a source of the same strength would reach threshold only when inclined by less than $34.7^{\\circ}$ to $50.3^{\\circ}$ from face-on. The measured SNR and the significance of every candidate are unchanged.",
+      "authors": [
+        "Stavros Venikoudis",
+        "Giacomo Bruno"
+      ],
+      "categories": [
+        "gr-qc",
+        "astro-ph.IM"
+      ],
+      "updated": "2026-10-22T04:00:44.516681+00:00",
+      "published": "2026-10-22T00:00:00-04:00",
+      "source_category": "gr-qc",
+      "abs_url": "https://arxiv.org/abs/2610.29384v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.29384v1",
+      "classification": {
+        "is_theoretical_holography": false,
+        "is_classical_gravity": true,
+        "confidence": 0.97,
+        "primary_topic": "经典引力/广义相对论",
+        "secondary_topics": [],
+        "title_zh": "全天全频引力波辐射计搜索对连续波源的取向依赖敏感性",
+        "abstract_zh": "全天全频（ASAF）引力波辐射计搜索以相同权重交叉关联两个探测器的数据，并同时使用 + 和 × 张量偏振。这对非偏振随机背景是最优的，但对连续波（CW）源并非最优，因为其偏振取决于倾角 ι 和偏振角 ψ。除非源正对观测者，否则搜索测得的功率低于同样内禀振幅的正对源，从而低估其强度。两种功率之比即投影因子 μ²(ι,ψ)，此前辐射计研究已给出。我们展示 μ² 如何进入 ASAF 统计量，推导其对 ψ 的精确依赖，并证明其对取向的平均恰为 2/5，且与天区位置、基线几何、噪声加权和频率无关。我们将该形式应用于四个模拟脉冲星信号，位于四个天区位置，偏振从圆偏振到近线偏振，注入 O2 期间的 LIGO 探测器。一个近侧向注入以信噪比 5.20 被测量，低于 6.19 的阈值，而同一信号若正对观测则信噪比为 31.1 ± 6.0。对应变振幅 h0 的贝叶斯上限在对取向和校准不确定度边缘化后，是正对情形的 2.7 至 2.9 倍。对于 O4a 的 505 个亚阈值候选，上限增加 2.5 至 2.9 倍，同样强度的源只有在偏离正对小于 34.7° 至 50.3° 时才能达到阈值。每个候选的测量信噪比和显著性不变。",
+        "one_liner": "该文量化了全天全频引力波辐射计搜索对连续波源偏振取向的投影损失，并给出取向平均因子 2/5 及对 LIGO 模拟信号和 O4a 候选上限的影响。",
+        "keywords": [
+          "引力波辐射计",
+          "连续波",
+          "偏振投影因子",
+          "LIGO",
+          "贝叶斯上限",
+          "连续引力波搜索"
+        ],
+        "importance": "normal",
+        "relevance": "medium",
+        "relevance_reason": "论文属于经典引力/引力波数据分析，使用 LIGO 观测与模拟信号讨论连续波搜索的取向依赖敏感性；不涉及全息、AdS/CFT 或量子引力，但与用户标注的经典引力/广义相对论支线直接相关。",
+        "focus_tags": [
+          "经典引力/广义相对论"
+        ]
+      }
+    },
+    {
+      "arxiv_id": "2610.29247",
+      "version": 1,
+      "title": "How general relativity stacks up: Testing gravity by coherently combining gravitational-wave observations",
+      "abstract": "A core mission of gravitational-wave astronomy is to test general relativity (GR) in the high-curvature, high-velocity regime. The field has already seen significant progress in this space, though a remaining challenge is how to combine data from a population of binary mergers. This can both boost the significance of potential GR violations, and develop a phenomenological picture of how deviations manifest in different mergers. We propose a framework to coherently combine gravitational-wave measurements to build a population-level test of physics beyond GR. We assume that deviations from GR are (i) strongest near the merger, (ii) vary smoothly with the total mass of the binary, and (iii) are most prominent in the $\\ell=|m|=2$ mode. While these assumptions do not describe every possible deviation of GR, they provide us with a plausible starting point upon which a more general framework can be built. We apply our framework to 28 high signal-to-noise ratio binary black hole mergers from LIGO-Virgo-KAGRA's Fifth Gravitational-Wave Transient Catalog, finding no evidence for deviations from GR. Our framework allows one to show how deviations could vary as a function of total mass of the system. We argue that such a reconstruction can be used to convincingly distinguish between systematic waveform errors and genuine GR violations.",
+      "authors": [
+        "Lachlan Passenger",
+        "Nir Guttman",
+        "Paul D. Lasky",
+        "Eric Thrane"
+      ],
+      "categories": [
+        "gr-qc",
+        "astro-ph.HE",
+        "astro-ph.IM"
+      ],
+      "updated": "2026-10-22T04:00:44.516558+00:00",
+      "published": "2026-10-22T00:00:00-04:00",
+      "source_category": "gr-qc",
+      "abs_url": "https://arxiv.org/abs/2610.29247v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.29247v1",
+      "classification": {
+        "is_theoretical_holography": false,
+        "is_classical_gravity": true,
+        "confidence": 0.97,
+        "primary_topic": "经典引力/广义相对论",
+        "secondary_topics": [],
+        "title_zh": "广义相对论表现如何：通过相干组合引力波观测检验引力",
+        "abstract_zh": "引力波天文学的核心任务之一是在高曲率、高速度区域检验广义相对论。本文提出一个框架，用于相干组合多个引力波测量，从而在族群层面检验超越广义相对论的物理。作者假设偏离广义相对论的效应在并合附近最强、随双星总质量平滑变化，并且在 ℓ=|m|=2 模式中最显著。将该框架应用于 LIGO-Virgo-KAGRA 第五次引力波瞬变星表中的 28 个高信噪比双黑洞并合事件，未发现偏离广义相对论的证据。该框架可展示偏离如何随系统总质量变化，并被认为有助于区分波形系统误差与真实的广义相对论违反。",
+        "one_liner": "提出一种族群层面相干组合引力波观测的框架，并用 28 个高信噪比双黑洞并合事件检验广义相对论，未发现偏离证据。",
+        "keywords": [
+          "引力波",
+          "广义相对论检验",
+          "族群推断",
+          "双黑洞并合",
+          "LIGO-Virgo-KAGRA"
+        ],
+        "importance": "normal",
+        "relevance": "high",
+        "relevance_reason": "论文直接属于经典引力/广义相对论与引力波观测检验，符合用户重点标签中的经典引力/广义相对论支线；不涉及全息或量子引力。",
+        "focus_tags": [
+          "经典引力/广义相对论"
+        ]
+      }
+    },
+    {
+      "arxiv_id": "2610.29179",
+      "version": 1,
+      "title": "Wormholes in Vegh--dRGT massive gravity: a null-energy transparency theorem, horizon obstruction, and exact isotropic solutions",
+      "abstract": "We study static, spherically symmetric wormholes in deRham--Gabadadze--Tolley massive gravity with the spatially degenerate Vegh reference metric. The effective fluid carried by the massive graviton contributes nothing to the combination of density and radial pressure that the flare-out condition constrains, so it is invisible to the null energy condition along radial light rays. This holds for the whole degenerate class of reference metrics, for all four interaction potentials, and for any static spherically symmetric geometry; the same property singles out the Vegh choice as the only consistent one. The matter alone must therefore violate the null energy condition at every throat, exactly as in general relativity. This corrects a claim repeated across the massive-gravity wormhole literature. We then determine where throats may sit. Wormholes with isotropic pressure fall into two families. One lies beyond the cosmological horizon of the theory's own vacuum and has no static exterior; it is empty in general relativity and is switched on by the graviton coupling. The other lies inside that horizon and needs a steeply falling redshift. We give exact perfect-fluid solutions for both. In the second family the graviton term can turn the tension at the throat into ordinary pressure. A thin shell closes the configuration, and its surface stresses and its exotic-matter content follow in closed form. The shells are radially unstable, and light rays near the throat trace an unstable circular orbit.",
+      "authors": [
+        "Sudan Hansraj",
+        "Ayan Banerjee"
+      ],
+      "categories": [
+        "gr-qc"
+      ],
+      "updated": "2026-10-22T04:00:44.516500+00:00",
+      "published": "2026-10-22T00:00:00-04:00",
+      "source_category": "gr-qc",
+      "abs_url": "https://arxiv.org/abs/2610.29179v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.29179v1",
+      "classification": {
+        "is_theoretical_holography": false,
+        "is_classical_gravity": true,
+        "confidence": 0.96,
+        "primary_topic": "经典引力/广义相对论",
+        "secondary_topics": [],
+        "title_zh": "Vegh–dRGT 大质量引力中的虫洞：零能量透明性定理、视界阻碍与精确各向同性解",
+        "abstract_zh": "本文研究在具有空间退化 Vegh 参考度规的 de Rham–Gabadadze–Tolley (dRGT) 大质量引力中的静态球对称虫洞。大质量引力子所携带的有效流体对 flare-out 条件所约束的密度与径向压强组合没有贡献，因此沿径向光线的零能量条件对其不可见。该结论适用于整个退化参考度规类、全部四种相互作用势以及任意静态球对称几何；同一性质也使 Vegh 选择成为唯一自洽的选择。于是物质本身必须在每个喉部违反零能量条件，与广义相对论情形完全一致；这纠正了大质量引力虫洞文献中反复出现的一个断言。随后我们确定喉部可以位于何处。各向同性压强的虫洞分为两族：一族位于该理论自身真空的宇宙学视界之外，没有静态外部，在广义相对论中为空，并由引力子耦合开启；另一族位于该视界之内，需要陡峭下降的红移。我们给出两族的精确完美流体解。在第二族中，引力子项可将喉部张力转化为普通压强。一个薄壳闭合该构型，其表面应力和奇异物质含量以闭合形式给出。这些壳层在径向不稳定，喉部附近的光线形成不稳定圆轨道。",
+        "one_liner": "证明在 Vegh–dRGT 大质量引力中引力子有效流体对径向零能量条件透明，虫洞喉部仍须由物质违反 NEC，并给出两类精确各向同性虫洞解及薄壳稳定性分析。",
+        "keywords": [
+          "dRGT massive gravity",
+          "Vegh reference metric",
+          "wormholes",
+          "null energy condition",
+          "exact solutions",
+          "thin shells",
+          "stability",
+          "horizons"
+        ],
+        "importance": "normal",
+        "relevance": "medium",
+        "relevance_reason": "研究修改引力中的经典虫洞、零能量条件、视界与薄壳稳定性；不涉及 AdS/CFT 字典或全息量子信息，但契合“经典引力/广义相对论”重点标签。",
+        "focus_tags": [
+          "经典引力/广义相对论"
+        ]
+      }
+    },
+    {
+      "arxiv_id": "2610.29089",
+      "version": 1,
+      "title": "Harmonic branches of Einstein--Maxwell--scalar field gravity: exact solutions and regularity",
+      "abstract": "We relate black-hole horizons and wormhole throats to the geometry of the harmonic branches of Einstein--Maxwell--dilaton gravity. In the unified Ernst framework, we first solve the harmonic equations prior to fixing the spatial harmonic, and then jointly reconstruct the metric, Maxwell four-potential, and scalar field. The conserved geodesic energy fixes the meridional Weyl quadrature, whereas the initial geodesic data capture the asymptotic charges. Choosing the Schwarzschild harmonic function, regular nonextremal horizons fix the normalization \\(H=1\\) along with the associated matter-field regularity requirements. This reproduces the Schwarzschild and Reissner-Nordstrom families (including the NUT extension), the Gibbons-Maeda solution, and the dyonic string and Kaluza--Klein solutions, while also preserving their more general branches. If the scalar sector is continued to the phantom sign, one obtains a complementary oblate construction: smooth continuation selects \\(H=-1\\) and produces the massive and ultrastatic Ellis-Bronnikov wormholes. By comparing with the vacuum ring geometry, we make clear the further importance of the global extension. Altogether, these findings offer a unified black-hole--wormhole geometric reading of the charge relations and regularity constraints for the reconstructed solutions.",
+      "authors": [
+        "Leonel Bixano",
+        "Tonatiuh Matos"
+      ],
+      "categories": [
+        "gr-qc"
+      ],
+      "updated": "2026-10-22T04:00:44.516441+00:00",
+      "published": "2026-10-22T00:00:00-04:00",
+      "source_category": "gr-qc",
+      "abs_url": "https://arxiv.org/abs/2610.29089v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.29089v1",
+      "classification": {
+        "is_theoretical_holography": false,
+        "is_classical_gravity": true,
+        "confidence": 0.96,
+        "primary_topic": "经典引力/广义相对论",
+        "secondary_topics": [
+          "黑洞/量子引力/信息",
+          "宇宙学/膜世界/其他"
+        ],
+        "title_zh": "Einstein--Maxwell--scalar 场引力的调和分支：精确解与正则性",
+        "abstract_zh": "本文将黑洞视界和虫洞喉与 Einstein--Maxwell--dilaton 引力的调和分支几何联系起来。在统一的 Ernst 框架中，先求解调和方程再固定空间调和函数，然后联合重构度规、Maxwell 四势和标量场。守恒测地线能量固定子午 Weyl 求积，初始测地线数据对应渐近荷。选择 Schwarzschild 调和函数时，正则非极端视界固定归一化 H=1 及相关物质场正则性要求。这重现 Schwarzschild 和 Reissner-Nordstrom 族（含 NUT 扩展）、Gibbons-Maeda 解、dyonic string 和 Kaluza-Klein 解，并保留更一般分支。若标量部分延拓到 phantom 符号，则得到互补的扁椭球构造：光滑延拓选择 H=-1 并产生有质量和超静态的 Ellis-Bronnikov 虫洞。通过与真空环几何比较，说明全局延拓的进一步重要性。这些结果给出重构解中电荷关系和正则性约束的统一黑洞--虫洞几何解读。",
+        "one_liner": "在 Ernst 框架下构造 Einstein--Maxwell--dilaton 引力的调和分支精确解，并统一描述黑洞与虫洞的正则性及电荷关系。",
+        "keywords": [
+          "Einstein-Maxwell-dilaton gravity",
+          "Ernst framework",
+          "harmonic branches",
+          "black holes",
+          "wormholes",
+          "regularity",
+          "exact solutions",
+          "Kaluza-Klein"
+        ],
+        "importance": "normal",
+        "relevance": "medium",
+        "relevance_reason": "论文属于经典引力精确解与黑洞/虫洞几何研究，与用户重点标签中的经典引力/广义相对论支线相关；但未涉及 AdS/CFT 或全息方法，因此全息相关性较低。",
+        "focus_tags": [
+          "经典引力/广义相对论"
+        ]
+      }
+    },
+    {
+      "arxiv_id": "2610.28796",
+      "version": 1,
+      "title": "Fields on accelerating and super accelerating black holes: stability, quasinormal modes, greybody factors and strong cosmic censorship",
+      "abstract": "We investigate the propagation of massless scalar, Dirac, and Maxwell fields on accelerating and super accelerating black hole spacetimes described by the C-metric. The latter regime has only recently been identified and remains largely unexplored. We study the linear and mode stability of these backgrounds and derive analytical expressions for the quasinormal mode spectra and greybody factors in various spacetime limits. We classify the quasinormal mode families, paying particular attention to new families arising in the super accelerating regime. We also investigate strong cosmic censorship through Christodoulou's $\\beta$ criterion, finding regions of parameter space where it may be violated, including in the super accelerating regime. These violations are possible for massless scalar and Maxwell fields, whereas Dirac fields preserve the conjecture.",
+      "authors": [
+        "Francisco Silva"
+      ],
+      "categories": [
+        "gr-qc"
+      ],
+      "updated": "2026-10-22T04:00:44.516379+00:00",
+      "published": "2026-10-22T00:00:00-04:00",
+      "source_category": "gr-qc",
+      "abs_url": "https://arxiv.org/abs/2610.28796v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.28796v1",
+      "classification": {
+        "is_theoretical_holography": false,
+        "is_classical_gravity": true,
+        "confidence": 0.96,
+        "primary_topic": "经典引力/广义相对论",
+        "secondary_topics": [
+          "非平衡/热化/输运/混沌/QNM",
+          "黑洞/量子引力/信息"
+        ],
+        "title_zh": "加速与超加速黑洞上的场：稳定性、准正规模、灰体因子与强宇宙监督",
+        "abstract_zh": "本文研究无质量标量场、狄拉克场和麦克斯韦场在由 C-metric 描述的加速与超加速黑洞时空中的传播。超加速区域最近才被识别，仍 largely 未被探索。作者研究这些背景的线性稳定性和模式稳定性，并在若干时空极限下给出准正规模谱与灰体因子的解析表达式，对准正规模家族进行分类，特别关注超加速区域中出现的新家族。文章还通过 Christodoulou 的 β 判据研究强宇宙监督，发现参数空间中可能存在违反该猜想的区域，包括超加速区域；这些违反可能出现在无质量标量场和麦克斯韦场情形，而狄拉克场保持该猜想。",
+        "one_liner": "研究 C-metric 加速与超加速黑洞中标量、狄拉克和麦克斯韦场的稳定性、准正规模、灰体因子及强宇宙监督。",
+        "keywords": [
+          "加速黑洞",
+          "C-metric",
+          "超加速黑洞",
+          "准正规模",
+          "灰体因子",
+          "强宇宙监督",
+          "稳定性"
+        ],
+        "importance": "normal",
+        "relevance": "high",
+        "relevance_reason": "论文直接属于经典引力与黑洞微扰/QNM 支线，并涉及强宇宙监督；不涉及全息对偶。",
+        "focus_tags": [
+          "QNM与非线性演化",
+          "经典引力/广义相对论"
+        ]
+      }
+    },
+    {
+      "arxiv_id": "2610.28670",
+      "version": 1,
+      "title": "Regular magnetic black holes with anti-de Sitter cores in scalar-tensor gravity with nonlinear electrodynamics: ghost-free construction and axial stability",
+      "abstract": "We construct static, asymptotically flat regular black holes in Einstein-frame scalar--tensor gravity, sourced by a canonical scalar coupled to magnetic nonlinear electrodynamics. Prescribing the density and scalar profiles, we reconstruct the metric, the scalar--photon coupling and the potential. Regularity requires the mass function to vanish at the centre, which fixes the ADM mass, and the central $r^2$ growth of the density to be balanced by the scalar gradient energy. The solutions have an anti-de Sitter core supported by a negative potential and a nearly Reissner--Nordstr\\\"om exterior; the no-ghost condition confines the magnetic charge to a window that closes at a finite core depth. Axial perturbations reduce to a symmetric two-channel master system whose positive-definite potential guarantees mode stability; spectral and time-domain quasinormal frequencies agree. An angular Laplacian instability near the centre can be hidden behind the inner horizon, which excludes horizonless solutions.",
+      "authors": [
+        "Rustam Ibadov",
+        "Najibullokhon Shukurullokhon"
+      ],
+      "categories": [
+        "gr-qc"
+      ],
+      "updated": "2026-10-22T04:00:44.516017+00:00",
+      "published": "2026-10-22T00:00:00-04:00",
+      "source_category": "gr-qc",
+      "abs_url": "https://arxiv.org/abs/2610.28670v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.28670v1",
+      "classification": {
+        "is_theoretical_holography": false,
+        "is_classical_gravity": true,
+        "confidence": 0.94,
+        "primary_topic": "经典引力/广义相对论",
+        "secondary_topics": [
+          "黑洞/量子引力/信息",
+          "非平衡/热化/输运/混沌/QNM"
+        ],
+        "title_zh": "标量-张量引力中具有反德西特核心的非线性电动力学规则磁黑洞：无鬼构造与轴向稳定性",
+        "abstract_zh": "我们在爱因斯坦框架的标量-张量引力中构造静态、渐近平坦的规则黑洞，其源为与磁非线性电动力学耦合的规范标量场。通过给定密度和标量剖面，我们重构度规、标量-光子耦合和势。规则性要求质量函数在中心消失，从而固定ADM质量，并要求密度的中心r^2增长由标量梯度能平衡。这些解具有由负势支持的AdS核心和近似Reissner-Nordström外部；无鬼条件将磁荷限制在一个于有限核心深度处闭合的窗口内。轴向扰动约化为对称的双通道主系统，其正定势保证模式稳定性；谱方法和时域方法得到的准正规模频率一致。中心附近的角Laplacian不稳定性可隐藏在内视界之后，这排除了无地平线解。",
+        "one_liner": "构造渐近平坦、AdS核心的规则磁黑洞，给出无鬼条件并证明轴向QNM稳定性。",
+        "keywords": [
+          "regular black holes",
+          "scalar-tensor gravity",
+          "nonlinear electrodynamics",
+          "anti-de Sitter core",
+          "ghost-free",
+          "axial perturbations",
+          "quasinormal modes",
+          "stability"
+        ],
+        "importance": "normal",
+        "relevance": "medium",
+        "relevance_reason": "不属于AdS/CFT全息，但直接涉及经典引力/黑洞解、无鬼条件和轴向QNM稳定性，匹配‘经典引力/广义相对论’与‘QNM与非线性演化’重点标签。",
+        "focus_tags": [
+          "经典引力/广义相对论",
+          "QNM与非线性演化"
+        ]
+      }
+    },
+    {
       "arxiv_id": "2610.28287",
       "version": 1,
       "title": "Holographic Calculation of Semileptonic Form Factors and the Isgur--Wise Function for $B_{(s)}\\to D_{(s)}$ Decays",
